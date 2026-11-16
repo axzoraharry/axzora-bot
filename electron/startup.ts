@@ -33,7 +33,7 @@ export class StartupLog {
       pathError = String(error);
       this.file = undefined;
       try {
-        const dir = fs.mkdtempSync(path.join(o.tempDir ?? os.tmpdir(), "anymodel-bot-startup-"));
+        const dir = fs.mkdtempSync(path.join(o.tempDir ?? os.tmpdir(), "axzora-bot-startup-"));
         this.file = path.join(dir, name);
         fs.writeFileSync(this.file, "", { mode: 0o600, flag: "wx" });
       } catch { /* Diagnostics must never prevent the application from starting. */ }

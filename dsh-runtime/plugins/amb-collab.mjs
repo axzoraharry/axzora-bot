@@ -1,4 +1,4 @@
-// anymodel bot: messaging between the user's bots (MIT, part of anymodel bot).
+// Axzora Bot: messaging between the user's bots (MIT, part of Axzora Bot).
 //
 // Registers message_bot and bot_request for chat sessions. The host (bridge /dsh/collab) checks everything:
 // the user is signed in to Modelflare and both bots use Modelflare models, the user asked for it, one bot per

@@ -1,22 +1,22 @@
 export default {
-  "title": "现成的 Bot｜AnyModelBot",
-  "description": "从公司研究、PPT 到短视频和分集短剧，AnyModelBot 的发现页提供带专属界面的现成 Bot。",
+  "title": "现成的 Bot｜Axzora Bot",
+  "description": "从公司研究、PPT 到短视频和分集短剧，Axzora Bot 的发现页提供带专属界面的现成 Bot。",
   "h1": "现成的 Bot，点开就能用",
   "lead": "官方 Bot 的界面、示例和技能随应用内置，打开无需下载 Bot 包。先看示例，发第一句话开始使用；模型调用仍需联网。",
   "tryLabel": "可以这样说",
   "howTitle": "怎么用",
   "how": [
-    "下载并打开 AnyModelBot",
+    "下载并打开 Axzora Bot",
     "在侧边栏点「发现」",
     "打开一个 Bot，发第一句话"
   ],
-  "cta": "下载 AnyModelBot",
+  "cta": "下载 Axzora Bot",
   "strip": {
     "title": "也可以直接用现成的机器人",
     "lead": "做研究、做 PPT 或短视频，在「发现」里就能选用。",
     "all": "查看全部 Bot"
   },
-  "minimumVersion": "需要 AnyModelBot {version} 及以上版本。",
+  "minimumVersion": "需要 Axzora Bot {version} 及以上版本。",
   "requirements": {
     "printfilm": "规划和编辑需要本机 Python 3.10+；素材校验与成片合成需要 FFmpeg（含 ffprobe）。AI 图片和视频需连接 Modelflare，按用量计费。"
   }

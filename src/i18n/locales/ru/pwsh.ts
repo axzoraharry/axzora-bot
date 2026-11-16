@@ -130,9 +130,9 @@ export default {
   privCantInstall: "невозможно установить на этот компьютер",
   privMkdir: "не удалось создать папку установки {dir}: {error}",
   privOtherInstalling:
-    "другой экземпляр AnyModelBot уже некоторое время устанавливает PowerShell 7; повторите позже",
+    "другой экземпляр Axzora Bot уже некоторое время устанавливает PowerShell 7; повторите позже",
   privOtherWaiting:
-    "другой экземпляр AnyModelBot устанавливает PowerShell 7; ожидаем завершения",
+    "другой экземпляр Axzora Bot устанавливает PowerShell 7; ожидаем завершения",
   privDiscarded: "загруженный файл не прошёл проверку и удалён: {error}",
   privDownloadFailed: "ошибка загрузки ({url}): {error}",
   privExtractedVersion: "распакована версия {v}, ожидалась {want}",

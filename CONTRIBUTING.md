@@ -2,7 +2,7 @@
 
 简体中文 | [English](./CONTRIBUTING_en.md) | [日本語](./CONTRIBUTING_ja.md) | [한국어](./CONTRIBUTING_ko.md) | [Русский](./CONTRIBUTING_ru.md) | [Español](./CONTRIBUTING_es.md) | [Português (Brasil)](./CONTRIBUTING_pt.md) | [Türkçe](./CONTRIBUTING_tr.md)
 
-谢谢你愿意帮 AnyModelBot 变得更好。bug 报告、修复、文档和想法都欢迎。
+谢谢你愿意帮 Axzora Bot 变得更好。bug 报告、修复、文档和想法都欢迎。
 
 ## 提问与反馈
 
@@ -25,7 +25,7 @@
 
 ```bash
 git clone https://github.com/modelflare-ai/AnyModelBot.git
-cd AnyModelBot
+cd Axzora Bot
 npm install
 npm run setup          # 拉取 vendor/magpie 子模块并编译到 build/bin/
 ```

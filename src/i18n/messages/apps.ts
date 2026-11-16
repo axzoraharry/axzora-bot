@@ -31,8 +31,8 @@ export const zh = {
   badEnv: "环境变量格式不对：名称只能用字母、数字和下划线，并且要有值。",
   badCommand: "请填写要运行的命令。",
   badMasked: "「{name}」的值需要重新填写。",
-  channelConnect: "请回到电脑上的 AnyModelBot 连接{app}。",
-  channelRepair: "请回到电脑上的 AnyModelBot 处理{app}的连接。",
+  channelConnect: "请回到电脑上的 Axzora Bot 连接{app}。",
+  channelRepair: "请回到电脑上的 Axzora Bot 处理{app}的连接。",
   oauthDone: "已连接",
 } satisfies Catalog;
 
@@ -66,7 +66,7 @@ export const en: Catalog<typeof zh> = {
   badEnv: "Environment variable format is invalid: names may only use letters, digits and underscores, and need a value.",
   badCommand: "Enter the command to run.",
   badMasked: "Enter the value for “{name}” again.",
-  channelConnect: "Open AnyModelBot on your computer to connect {app}.",
-  channelRepair: "Open AnyModelBot on your computer to fix the {app} connection.",
+  channelConnect: "Open Axzora Bot on your computer to connect {app}.",
+  channelRepair: "Open Axzora Bot on your computer to fix the {app} connection.",
   oauthDone: "Connected",
 };

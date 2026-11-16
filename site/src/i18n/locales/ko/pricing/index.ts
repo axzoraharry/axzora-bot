@@ -2,12 +2,12 @@ export default {
   "eyebrow": "요금 · 사용량 기반 결제",
   "h2mark": "구독료 없이",
   "h2rest": ", 쓴 만큼만 결제하세요.",
-  "lead": "AnyModelBot은 무료 오픈 소스입니다. 구독도, 요금제 등급도 없습니다. 모델 사용량은 Modelflare에서 토큰 단위로 과금하며 전체 가격표가 공개되어 있습니다.",
+  "lead": "Axzora Bot은 무료 오픈 소스입니다. 구독도, 요금제 등급도 없습니다. 모델 사용량은 Modelflare에서 토큰 단위로 과금하며 전체 가격표가 공개되어 있습니다.",
   "source": "가격 출처: modelflare.dev/pricing · 수집 시각 {fetchedAt}(UTC+8) · 버전 {pricingVersion}.",
   "stale": "{snapshotDate} 기준 가격입니다(새로고침 실패. 최신 기준은 modelflare.dev/pricing입니다).",
   "cards": {
     "app": {
-      "tag": "AnyModelBot",
+      "tag": "Axzora Bot",
       "price": "$0",
       "unit": "/ 영구",
       "note": "무료 오픈 소스(MIT)",
@@ -15,7 +15,7 @@ export default {
         "데스크톱, Docker, CLI 모두 무료",
         "구독이나 요금제 등급 없음",
         "원하는 만큼 봇을 만들고 각자의 역할을 직접 설정",
-        "Modelflare 신규 가입 시 Bot 크레딧 $1 증정(AnyModelBot 전용)"
+        "Modelflare 신규 가입 시 Bot 크레딧 $1 증정(Axzora Bot 전용)"
       ]
     },
     "usage": {
@@ -46,7 +46,7 @@ export default {
     "caption": "사용량 기반 결제와 등급별 구독 비교",
     "head": [
       "",
-      "사용량 기반(AnyModelBot + Modelflare)",
+      "사용량 기반(Axzora Bot + Modelflare)",
       "등급별 구독(일반적 방식)"
     ],
     "rows": [
@@ -136,7 +136,7 @@ export default {
     "official": "공식 가격 기준 약 {amount}",
     "disclaimer": "예상치입니다. 캐시 할인과 요청별 배수(예: 우선 서비스 등급)는 제외됩니다. 모델의 구간 기준을 초과하는 요청에는 상위 구간 가격이 적용되며 계산에 반영됩니다. 최종 금액은 Modelflare 청구서 기준입니다.",
     "copy": "예상 비용 복사",
-    "copyText": "AnyModelBot 예상 사용 비용: {model}({route}), 하루 메시지 {msgs}개, 각각 입력 {inTok} + 출력 {outTok}토큰 — 월 약 {amount}(30일 기준, 가격 수집 시각 {fetchedAt})",
+    "copyText": "Axzora Bot 예상 사용 비용: {model}({route}), 하루 메시지 {msgs}개, 각각 입력 {inTok} + 출력 {outTok}토큰 — 월 약 {amount}(30일 기준, 가격 수집 시각 {fetchedAt})",
     "full": "이 모델의 전체 가격 보기 ↗",
     "expandBar": "세부 정보"
   },
@@ -144,6 +144,6 @@ export default {
     "text": "이미 Modelflare 계정이 있나요? 앱에서 한 번 로그인하면 바로 시작할 수 있습니다. 사용량은 가격표에 따라 과금됩니다.",
     "cta": "Modelflare 열기 ↗"
   },
-  "pageTitle": "AnyModelBot 요금 — 사용량 기반 결제, 공개 가격표",
-  "pageDescription": "AnyModelBot은 구독 없는 무료 오픈 소스입니다. 모델 사용량은 Modelflare에서 토큰 단위로 과금합니다. 공개 가격표와 월간 비용 계산기를 확인하세요."
+  "pageTitle": "Axzora Bot 요금 — 사용량 기반 결제, 공개 가격표",
+  "pageDescription": "Axzora Bot은 구독 없는 무료 오픈 소스입니다. 모델 사용량은 Modelflare에서 토큰 단위로 과금합니다. 공개 가격표와 월간 비용 계산기를 확인하세요."
 };

@@ -1,6 +1,6 @@
 export default {
-  "title": "개인정보 — AnyModelBot",
-  "description": "AnyModelBot 웹사이트는 쿠키를 사용하지 않으며 제3자 추적기를 불러오지 않습니다.",
+  "title": "개인정보 — Axzora Bot",
+  "description": "Axzora Bot 웹사이트는 쿠키를 사용하지 않으며 제3자 추적기를 불러오지 않습니다.",
   "h1": "개인정보",
   "body": [
     "이 웹사이트는 쿠키를 사용하지 않으며 제3자 추적기를 불러오지 않습니다.",

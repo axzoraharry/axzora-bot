@@ -5,7 +5,7 @@ export default {
   tabsLabel: "キャラクターを選択",
   cost: "約 {amount} / 月",
   badge: {
-    org: "AnyModelBot",
+    org: "Axzora Bot",
     staff: "役割はあなた次第",
     no: "ID",
     persona: "性格・役割",

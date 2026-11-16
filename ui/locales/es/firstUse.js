@@ -1,6 +1,6 @@
 export default {
   "login": "Iniciar sesión / Registrarse",
-  "accountHint": "Usa tu cuenta de Modelflare para iniciar sesión en AnyModelBot",
+  "accountHint": "Usa tu cuenta de Modelflare para iniciar sesión en Axzora Bot",
   "signupHint": "¿No tienes cuenta? Regístrate en el siguiente paso.",
   "signupGift": "Las cuentas nuevas reciben $1 en créditos de Bot",
   "noKey": "¿Prefieres no configurar una clave de API?",
@@ -94,10 +94,10 @@ export default {
     "screenWhy": "Le permite ver lo que hay en la pantalla para decidir qué hacer a continuación.",
     "request": "Solicitar acceso",
     "openSettings": "Abrir Configuración del Sistema",
-    "steps": "O actívalo manualmente: abre Configuración del Sistema → Privacidad y seguridad y habilita AnyModelBot en {items}.",
+    "steps": "O actívalo manualmente: abre Configuración del Sistema → Privacidad y seguridad y habilita Axzora Bot en {items}.",
     "sep": " y ",
-    "restart": "Si ya habilitaste Grabación de pantalla en Configuración del Sistema, vuelve a abrir AnyModelBot para que surta efecto. Se conservan los chats, las tareas y los borradores sin enviar, así que después podrás continuar o volver a enviar.",
-    "relaunch": "Volver a abrir AnyModelBot",
+    "restart": "Si ya habilitaste Grabación de pantalla en Configuración del Sistema, vuelve a abrir Axzora Bot para que surta efecto. Se conservan los chats, las tareas y los borradores sin enviar, así que después podrás continuar o volver a enviar.",
+    "relaunch": "Volver a abrir Axzora Bot",
     "recheck": "Ya lo activé: verificar de nuevo",
     "retry": "Volver a enviar la tarea",
     "later": "Más tarde"

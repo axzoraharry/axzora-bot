@@ -3,9 +3,9 @@ import { describe, expect, it } from "vitest";
 import { aim, blinkLid, blinkSpan, cellSize, easeOutBack, EYE_TOKENS, hexToRgb, lens, mixHex, pickColor, pickModels, PLATE_TOKENS, rng, sampleCells, wordLines } from "../src/lib/eyefield";
 
 describe("wordLines", () => {
-  it("扁的画布（宽屏 7.4:1）排一行，接近方形（手机 1.3:1）排三行", () => {
-    expect(wordLines(1200, 194)).toEqual(["AnyModelBot"]);
-    expect(wordLines(343, 264)).toEqual(["Any", "Model", "Bot"]);
+  it("扁的画布（宽屏 7.4:1）排一行，接近方形（手机 1.3:1）排两行", () => {
+    expect(wordLines(1200, 194)).toEqual(["Axzora Bot"]);
+    expect(wordLines(343, 264)).toEqual(["Axzora", "Bot"]);
   });
 });
 

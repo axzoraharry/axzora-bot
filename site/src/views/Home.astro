@@ -26,7 +26,7 @@ const { lang, largeCard = false } = Astro.props;
 // 微信分享卡片：短文案和方图只给中文首页。<title> 和 description 带搜索关键词，不动
 // 微信按图片地址缓存，换了方图就改 ?v=，不然分享出去的还是旧图
 const wechatImage = largeCard ? {} : { ogImage: { url: `${ORIGIN}/og/wechat-home.png?v=2`, width: 600, height: 600 }, twitterCard: "summary" as const };
-const share = lang === "zh" ? { ogTitle: "AnyModelBot｜你的 AI 机器人团队，跑在自己的电脑上", ogDescription: "整理文件、跑命令、记住你的习惯，一个 Key 用上主流模型。", ...wechatImage } : {};
+const share = lang === "zh" ? { ogTitle: "Axzora Bot｜你的 AI 机器人团队，跑在自己的电脑上", ogDescription: "整理文件、跑命令、记住你的习惯，一个 Key 用上主流模型。", ...wechatImage } : {};
 ---
 <Base lang={lang} path="/" jsonLd={homeJsonLd(lang)} {...share}>
   <Hero lang={lang} />

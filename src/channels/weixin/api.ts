@@ -86,7 +86,7 @@ export function hasDownloadableMedia(item: MessageItem | undefined): boolean {
 }
 export const SESSION_EXPIRED_ERRCODE = -14;
 const CHANNEL_VERSION = "0.1.0";
-const BOT_AGENT = "AnymodelBot/0.1.0";
+const BOT_AGENT = "AxzoraBot/0.1.0";
 
 export function buildClientVersion(version: string): number {
   const parts = version.split(".").map((p) => parseInt(p, 10));

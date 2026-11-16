@@ -413,7 +413,7 @@ function WinApp({ screen = "chat", open: initial = false }) {
     <aside class="side">
       ${settings
         ? html`<div class="side-top start"><button type="button" class="side-back"><${Icon} name="arrowLeft" size="md" />返回应用</button></div>`
-        : html`<div class="side-top"><${IconButton} icon="sidebar" iconSize="md" class="side-toggle" label="收起侧栏" /><span class="side-brand"><img src="/amb/static/assets/favicon-64.png" alt="" /><span>AnyModelBot</span></span><span class="grow"></span>
+        : html`<div class="side-top"><${IconButton} icon="sidebar" iconSize="md" class="side-toggle" label="收起侧栏" /><span class="side-brand"><img src="/amb/static/assets/favicon-64.png" alt="" /><span>Axzora Bot</span></span><span class="grow"></span>
             <${IconButton} icon="search" iconSize="md" class="side-search-btn" label="搜索聊天记录" /><${IconButton} icon="plus" iconSize="md" class="side-new" label="新建机器人" /></div>`}
       ${settings && html`<label class="side-search"><${Icon} name="search" size="sm" /><input type="search" placeholder="查找设置" /></label>`}
       <nav class="side-list">
@@ -496,7 +496,7 @@ function Gallery() {
     </nav>
     <main class="gal-main">
       <header class="gal-head">
-        <span class="t-heading grow">AnyModelBot 设计库</span>
+        <span class="t-heading grow">Axzora Bot 设计库</span>
         <${Seg} label="主题" value=${mode} onChange=${setThemeMode} options=${[["system", "跟随系统"], ["light", "浅色"], ["dark", "深色"]]} />
         <${Seg} label="对照" value=${compare ? "both" : "one"} onChange=${(v) => setCompare(v === "both")} options=${[["one", "单主题"], ["both", "双主题对照"]]} />
       </header>

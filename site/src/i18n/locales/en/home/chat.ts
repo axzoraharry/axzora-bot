@@ -3,7 +3,7 @@ export default {
   "inputLabel": "Message {name}",
   "send": "Send",
   "typing": "typing…",
-  "more": "That's as far as I can go on a web page. Download AnyModelBot and let's continue on your computer.",
+  "more": "That's as far as I can go on a web page. Download Axzora Bot and let's continue on your computer.",
   "cta": {
     "title": "Want {name} to actually do it?",
     "body": "The replies here are pre-written examples. Download the app and it does the real work on your computer."

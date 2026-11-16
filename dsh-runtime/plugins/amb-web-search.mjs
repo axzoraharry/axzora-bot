@@ -1,4 +1,4 @@
-// anymodel bot web search provider (MIT, part of anymodel bot).
+// Axzora Bot web search provider (MIT, part of Axzora Bot).
 //
 // Registers the "amb" search provider in DSH's web seam (ctx.web). The patch written by the host selects it with
 // web.searchProvider, so DeepSeek's own provider (it needs a DeepSeek API key the app never has) is never picked.

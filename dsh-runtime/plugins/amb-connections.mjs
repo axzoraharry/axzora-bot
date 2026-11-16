@@ -1,4 +1,4 @@
-// anymodel bot connected-app tools (MIT, part of anymodel bot).
+// Axzora Bot connected-app tools (MIT, part of Axzora Bot).
 //
 // The user connects apps once (avatar menu > Connect apps) and, unless they narrow it down, every bot shares them.
 // AMB_CONNECTIONS (written by the host) says what to register for this bot: {"apps": true|false, "tools": [...]}.

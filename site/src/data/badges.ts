@@ -155,7 +155,7 @@ export const BADGES: Badge[] = [
     name: "Startup Fame",
     noCopy: true,
     ratio: 3.17,
-    html: `<a href="https://startupfa.me/s/anymodelbot?utm_source=anymodel.bot" target="_blank"><img src="https://startupfa.me/badges/featured-badge.webp" alt="AnyModelBot - Featured on Startup Fame" width="171" height="54" /></a>`,
+    html: `<a href="https://startupfa.me/s/anymodelbot?utm_source=anymodel.bot" target="_blank"><img src="https://startupfa.me/badges/featured-badge.webp" alt="Axzora Bot - Featured on Startup Fame" width="171" height="54" /></a>`,
   },
   {
     name: "SaaSCity",
@@ -193,7 +193,7 @@ export const BADGES: Badge[] = [
   {
     name: "Smol Launch",
     html: `<a href="https://smollaunch.com" target="_blank" rel="noopener">
-  <img src="https://smollaunch.com/badges/featured-dark.svg" alt="AnyModelBot — Featured on Smol Launch" loading="lazy" width="250" height="60" />
+  <img src="https://smollaunch.com/badges/featured-dark.svg" alt="Axzora Bot — Featured on Smol Launch" loading="lazy" width="250" height="60" />
 </a>`,
   },
   {
@@ -206,13 +206,13 @@ export const BADGES: Badge[] = [
     // 链接必须指向我们在站方的产品页，否则验证不过。站方原码是浅色款 light.svg，这里按站方的说法换成了深色款 dark.svg
     name: "Aidirs",
     html: `<a href="https://aidirs.best/item/any-model-bot" target="_blank" rel="noopener">
-  <img src="https://aidirs.best/dark.svg" alt="AnyModelBot | Aidirs" width="200" height="56" />
+  <img src="https://aidirs.best/dark.svg" alt="Axzora Bot | Aidirs" width="200" height="56" />
 </a>`,
   },
   {
     name: "StartupTrusted",
     html: `<a href="https://startuptrusted.com?ref=anymodel.bot" target="_blank" rel="noopener">
-  <img src="https://startuptrusted.com/api/badge?type=featured&style=dark" alt="AnyModelBot on StartupTrusted" width="240" height="54" />
+  <img src="https://startuptrusted.com/api/badge?type=featured&style=dark" alt="Axzora Bot on StartupTrusted" width="240" height="54" />
 </a>`,
   },
   {
@@ -244,7 +244,7 @@ export const BADGES: Badge[] = [
     // 站方要求：首页页脚、服务端输出，href 和 src 都不能改，不加 nofollow 和 utm
     name: "ScrollLaunch",
     html: `<a href="https://www.scrolllaunch.com/products/anymodelbot?ref=badge" target="_blank" rel="noopener">
-  <img src="https://www.scrolllaunch.com/api/badge/anymodelbot?variant=launched&theme=dark" alt="AnyModelBot - Featured on ScrollLaunch" width="220" height="48" />
+  <img src="https://www.scrolllaunch.com/api/badge/anymodelbot?variant=launched&theme=dark" alt="Axzora Bot - Featured on ScrollLaunch" width="220" height="48" />
 </a>`,
   },
   {

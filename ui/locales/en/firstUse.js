@@ -1,6 +1,6 @@
 export default {
   "login": "Log in / Sign up",
-  "accountHint": "Use your Modelflare account to sign in to AnyModelBot",
+  "accountHint": "Use your Modelflare account to sign in to Axzora Bot",
   "signupHint": "No account? Sign up in the next step.",
   "signupGift": "New accounts get $1 in Bot credits",
   "noKey": "Prefer not to configure an API key?",
@@ -94,10 +94,10 @@ export default {
     "screenWhy": "Lets it see what's on screen to decide what to do next.",
     "request": "Request access",
     "openSettings": "Open System Settings",
-    "steps": "Or turn it on yourself: open System Settings → Privacy & Security and enable AnyModelBot under {items}.",
+    "steps": "Or turn it on yourself: open System Settings → Privacy & Security and enable Axzora Bot under {items}.",
     "sep": " and ",
-    "restart": "If you've already enabled Screen Recording in System Settings, reopen AnyModelBot for it to take effect. Chats, tasks and unsent drafts are kept, so you can continue or send again afterwards.",
-    "relaunch": "Reopen AnyModelBot",
+    "restart": "If you've already enabled Screen Recording in System Settings, reopen Axzora Bot for it to take effect. Chats, tasks and unsent drafts are kept, so you can continue or send again afterwards.",
+    "relaunch": "Reopen Axzora Bot",
     "recheck": "I've turned it on — check again",
     "retry": "Send the task again",
     "later": "Later"

@@ -1,4 +1,4 @@
-// anymodel bot live system-prompt section (MIT, part of anymodel bot).
+// Axzora Bot live system-prompt section (MIT, part of Axzora Bot).
 //
 // The host writes this bot's section (chat rules, memory guide, the bot's name and the persona the user
 // wrote) to AMB_PROMPT_FILE whenever it changes, before each turn. DSH assembles the system prompt for every

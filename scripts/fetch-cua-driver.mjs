@@ -60,7 +60,7 @@ export async function downloadDriverBytes(asset) {
     buf = await read(BASE + asset.file);
   } catch (e) {
     console.warn(`${asset.file}: ${e.message}; retrying via GitHub release asset API`);
-    buf = await read(`https://api.github.com/repos/trycua/cua/releases/assets/${asset.id}`, { accept: "application/octet-stream", "user-agent": "AnyModelBot-build" });
+    buf = await read(`https://api.github.com/repos/trycua/cua/releases/assets/${asset.id}`, { accept: "application/octet-stream", "user-agent": "Axzora Bot-build" });
   }
   const got = crypto.createHash("sha256").update(buf).digest("hex");
   if (got !== asset.sha256) throw new Error(`SHA256 不匹配 ${asset.file}: 期望 ${asset.sha256}，实际 ${got}`);

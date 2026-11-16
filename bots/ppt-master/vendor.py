@@ -29,7 +29,7 @@ PATCH = [
     ("scripts/source_to_md/doc_to_md.py", "sudo apt install pandoc", "apt install pandoc"),
 ]
 ICON_NOTE = (
-    "> **AnyModelBot bundle**: only `tabler-filled` is included here. The other libraries listed below are not "
+    "> **Axzora Bot bundle**: only `tabler-filled` is included here. The other libraries listed below are not "
     "available; use `tabler-filled` or no icons, and ask the user for any brand logo.\n\n"
 )
 

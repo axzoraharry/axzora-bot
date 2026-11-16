@@ -134,7 +134,7 @@ export class DiscordTransport implements MessengerTransport {
           }, Number(p.d?.heartbeat_interval ?? 41_250));
           this.heartbeat.unref?.();
           if (this.session) send(6, { token: this.token, session_id: this.session.id, seq: this.seq });
-          else send(2, { token: this.token, intents: INTENT_DIRECT_MESSAGES, properties: { os: process.platform, browser: "anymodel-bot", device: "anymodel-bot" } });
+          else send(2, { token: this.token, intents: INTENT_DIRECT_MESSAGES, properties: { os: process.platform, browser: "axzora-bot", device: "axzora-bot" } });
           return;
         }
         case 11:

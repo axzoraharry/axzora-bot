@@ -29,7 +29,7 @@ export default {
   badEnv: "환경 변수 형식이 올바르지 않습니다: 이름에는 영문자, 숫자, 밑줄만 쓸 수 있고 값이 있어야 합니다.",
   badCommand: "실행할 명령을 입력하세요.",
   badMasked: "‘{name}’의 값을 다시 입력하세요.",
-  channelConnect: "컴퓨터의 AnyModelBot에서 {app}을(를) 연결하세요.",
-  channelRepair: "컴퓨터의 AnyModelBot에서 {app} 연결을 복구하세요.",
+  channelConnect: "컴퓨터의 Axzora Bot에서 {app}을(를) 연결하세요.",
+  channelRepair: "컴퓨터의 Axzora Bot에서 {app} 연결을 복구하세요.",
   oauthDone: "연결됨",
 } satisfies TranslatedCatalog["apps"];

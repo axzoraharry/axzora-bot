@@ -12,10 +12,10 @@ export default {
   topUp: "充值 ↗",
   lowBalance: "余额不多了",
   belowLine: "低于提醒线 {amount}",
-  /** Bot 额度：Modelflare 发的、只能在 AnyModelBot 里用的额度（设置中的余额概览） */
+  /** Bot 额度：Modelflare 发的、只能在 Axzora Bot 里用的额度（设置中的余额概览） */
   botQuota: "Bot 额度",
   botLeft: "剩余 {percent}%",
-  botQuotaScope: "Bot 额度只能在 AnyModelBot 里使用",
+  botQuotaScope: "Bot 额度只能在 Axzora Bot 里使用",
   quotaTip: "Bot 额度剩余 {percent}%",
   balanceTip: "余额 {amount}",
   subscribeBonus: "订阅套餐另送套餐额度 10% 的 Bot 额度",

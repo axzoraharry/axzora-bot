@@ -33,7 +33,7 @@ export const MF = {
   signIn: (lang: Lang) => mf(`https://modelflare.dev/${lang}/sign-in`),
   docs: mf("https://docs.modelflare.dev/"),
   /**
-   * 合作伙伴申请：进 Modelflare 控制台里的 AnyModelBot 合作页。
+   * 合作伙伴申请：进 Modelflare 控制台里的 Axzora Bot 合作页。
    * 控制台路径没有语言前缀（/zh/affiliate-program 是 404），要从 /<语言>/sign-in 进：它先设好界面语言再登录，已登录的人直接跳到 redirect。
    * 账号里存过语言的，进控制台后以账号语言为准；管理员账号会被 Modelflare 带去管理后台，不到合作页。
    */

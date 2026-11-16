@@ -1,6 +1,6 @@
 export default {
   "login": "登录 / 注册",
-  "accountHint": "使用 Modelflare 账号登录 AnyModelBot",
+  "accountHint": "使用 Modelflare 账号登录 Axzora Bot",
   "signupHint": "没有账号？可在下一步注册",
   "signupGift": "新用户注册即送 $1 Bot 额度",
   "noKey": "不想配置 API Key？",
@@ -94,10 +94,10 @@ export default {
     "screenWhy": "用于查看屏幕上的内容，判断下一步怎么操作。",
     "request": "请求授权",
     "openSettings": "打开系统设置",
-    "steps": "也可以手动开启：打开「系统设置 → 隐私与安全性」，在「{items}」里打开 AnyModelBot。",
+    "steps": "也可以手动开启：打开「系统设置 → 隐私与安全性」，在「{items}」里打开 Axzora Bot。",
     "sep": "、",
-    "restart": "如果已经在系统设置里开启了屏幕录制，需要重新打开 AnyModelBot 才能生效。聊天、任务和输入框里的草稿都会保留，重新打开后可以继续或重新发送。",
-    "relaunch": "重新打开 AnyModelBot",
+    "restart": "如果已经在系统设置里开启了屏幕录制，需要重新打开 Axzora Bot 才能生效。聊天、任务和输入框里的草稿都会保留，重新打开后可以继续或重新发送。",
+    "relaunch": "重新打开 Axzora Bot",
     "recheck": "我已开启，重新检测",
     "retry": "重新发送任务",
     "later": "稍后"

@@ -25,7 +25,7 @@ export default {
     "unsupported": "Esta instalación no admite actualizaciones desde la app."
   },
   "whatsNew": {
-    "title": "AnyModelBot se actualizó a {version}",
+    "title": "Axzora Bot se actualizó a {version}",
     "availableTitle": "Novedades de {version}",
     "historyTitle": "Registro de cambios",
     "earlier": "Versiones anteriores",

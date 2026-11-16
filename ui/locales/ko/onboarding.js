@@ -10,7 +10,7 @@ export default {
     "cf": "cf.modelflare.dev",
     "test": "도메인 측정",
     "testing": "측정 중…",
-    "testNote": "AnyModelBot이 실행되는 기기에서 3회 측정한 응답 시간의 중앙값과 성공 횟수를 표시합니다. API 키나 모델 호출을 사용하지 않으며 생성 속도를 측정하지 않습니다.",
+    "testNote": "Axzora Bot이 실행되는 기기에서 3회 측정한 응답 시간의 중앙값과 성공 횟수를 표시합니다. API 키나 모델 호출을 사용하지 않으며 생성 속도를 측정하지 않습니다.",
     "result": "{ms} ms · 성공 {count}/{total}",
     "timeout": "시간 초과",
     "unreachable": "연결할 수 없음"

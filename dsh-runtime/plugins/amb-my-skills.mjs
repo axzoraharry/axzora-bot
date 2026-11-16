@@ -1,4 +1,4 @@
-// anymodel bot "save as skill" tool (MIT, part of anymodel bot).
+// Axzora Bot "save as skill" tool (MIT, part of Axzora Bot).
 //
 // Registers save_skill. When the user asks to save what was just done as a skill ("存成技能", /skill), the agent
 // writes the draft (title, file name, when to use it, the steps that worked, the user's corrections, an example

@@ -1,9 +1,9 @@
 export default {
-  title: "オープンソースライセンス — AnyModelBot",
+  title: "オープンソースライセンス — Axzora Bot",
   description:
-    "AnyModelBot とこのサイトで使用しているサードパーティーのコンポーネントとライセンスです。",
+    "Axzora Bot とこのサイトで使用しているサードパーティーのコンポーネントとライセンスです。",
   h1: "オープンソースライセンス",
-  lead: "AnyModelBot は MIT ライセンスで公開しています。以下に、リポジトリの THIRD_PARTY_NOTICES.md から同期したアプリ同梱のサードパーティー通知と、このサイトで使用するコンポーネントを掲載します。",
+  lead: "Axzora Bot は MIT ライセンスで公開しています。以下に、リポジトリの THIRD_PARTY_NOTICES.md から同期したアプリ同梱のサードパーティー通知と、このサイトで使用するコンポーネントを掲載します。",
   site: "このサイトで使用するコンポーネント",
   siteItems: [
     "Geist / Geist Mono フォント（SIL Open Font License 1.1、/fonts/OFL.txt を参照）",

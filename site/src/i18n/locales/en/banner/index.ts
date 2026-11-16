@@ -13,7 +13,7 @@ export default {
   },
   "release": {
     "tag": "New v{version}",
-    "text": "AnyModelBot {version} is out",
+    "text": "Axzora Bot {version} is out",
     "cta": "Download",
     "link": "Changelog"
   }

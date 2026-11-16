@@ -12,7 +12,7 @@ export default {
   belowLine: "Abaixo do seu alerta de {amount}",
   botQuota: "Créditos de Bot",
   botLeft: "Restam {percent}%",
-  botQuotaScope: "Os créditos de Bot só podem ser usados no AnyModelBot",
+  botQuotaScope: "Os créditos de Bot só podem ser usados no Axzora Bot",
   quotaTip: "Créditos de Bot: restam {percent}%",
   balanceTip: "Saldo: {amount}",
   subscribeBonus: "As assinaturas adicionam créditos de Bot no valor de 10% do plano",

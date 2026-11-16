@@ -48,8 +48,8 @@ export default {
   retentionUrl:
     "https://docs.modelflare.dev/ru/guides/features/data-retention/?utm_source=anymodelbot&utm_campaign=amb_homepage",
   compare: {
-    caption: "AnyModelBot и типичные облачные помощники",
-    head: ["", "AnyModelBot", "Типичные облачные помощники"],
+    caption: "Axzora Bot и типичные облачные помощники",
+    head: ["", "Axzora Bot", "Типичные облачные помощники"],
     rows: [
       ["Где работают", "Ваш компьютер / ваш сервер", "Облако поставщика"],
       ["Где хранят чаты и память", "Ваш диск", "Серверы поставщика"],

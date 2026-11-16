@@ -119,7 +119,7 @@ export async function readGithubSkill(link: SkillLink, opts: ReadOptions = {}): 
   const get = async (url: string, accept: string): Promise<Response> => {
     let res: Response;
     try {
-      res = await doFetch(url, { headers: { accept, "user-agent": "AnyModelBot", "x-github-api-version": "2022-11-28" }, redirect: "follow", credentials: "omit", signal });
+      res = await doFetch(url, { headers: { accept, "user-agent": "Axzora Bot", "x-github-api-version": "2022-11-28" }, redirect: "follow", credentials: "omit", signal });
     } catch {
       throw new SkillError("network", 502);
     }

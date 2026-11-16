@@ -41,7 +41,7 @@ export function findAppRoot(start = path.dirname(fileURLToPath(import.meta.url))
     const pj = path.join(dir, "package.json");
     if (fs.existsSync(pj)) {
       try {
-        if (JSON.parse(fs.readFileSync(pj, "utf8")).name === "anymodel-bot") return dir;
+        if (JSON.parse(fs.readFileSync(pj, "utf8")).name === "axzora-bot") return dir;
       } catch {
         /* ignore */
       }
@@ -260,7 +260,7 @@ export class MagpieSupervisor {
     this.webPort ||= this.opts.webPort || (await freePort());
     if (!this.keys.gatewayKeyRegistered) {
       // 注册专用 gateway key（loopback 本可免 key，这里仍使用独立 key，便于将来开放局域网/Docker）
-      const r = await this.runCli(["gateway-key", "add", "anymodel-bot", "--key", "-"], this.keys.gatewayKey);
+      const r = await this.runCli(["gateway-key", "add", "axzora-bot", "--key", "-"], this.keys.gatewayKey);
       if (r.code === 0) {
         this.keys.gatewayKeyRegistered = true;
         this.saveKeys();

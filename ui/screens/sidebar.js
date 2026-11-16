@@ -441,7 +441,7 @@ export function Sidebar({ bots, botsError, reloadBots, selectedId, view, preview
   return html`<aside class="side" ref=${root} aria-label=${t("sidebar.bots")} inert=${collapsed || undefined}>
     <div class="side-top">
       <${SideActions} bots=${bots} view=${view} onToggleSide=${onToggleSide} onOpenSearch=${onOpenSearch} onNew=${onNew} onTemplates=${onTemplates} onNewGroup=${onNewGroup}>
-        <span class="side-brand"><img src="/amb/static/assets/favicon-64.png" alt="" /><span>AnyModelBot</span></span>
+        <span class="side-brand"><img src="/amb/static/assets/favicon-64.png" alt="" /><span>Axzora Bot</span></span>
         <span class="grow"></span>
       <//>
     </div>

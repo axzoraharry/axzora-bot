@@ -8,7 +8,7 @@ import { DesktopUpdateService } from "../src/updates/desktop.js";
 const require = createRequire(import.meta.url);
 const CancellationToken = createRequire(require.resolve("electron-updater/package.json"))("builder-util-runtime").CancellationToken as new () => Token;
 
-const info = { version: "1.1.0", releaseDate: "2026-11-09", files: [{ url: "anymodel-bot-1.1.0-mac-arm64.dmg", sha512: "fixture" }] };
+const info = { version: "1.1.0", releaseDate: "2026-11-09", files: [{ url: "axzora-bot-1.1.0-mac-arm64.dmg", sha512: "fixture" }] };
 class FakeUpdater extends EventEmitter {
   autoDownload = true;
   autoInstallOnAppQuit = true;

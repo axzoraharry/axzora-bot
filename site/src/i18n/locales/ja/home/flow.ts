@@ -48,8 +48,8 @@ export default {
   retentionUrl:
     "https://docs.modelflare.dev/ja/guides/features/data-retention/?utm_source=anymodelbot&utm_campaign=amb_homepage",
   compare: {
-    caption: "AnyModelBot と一般的なクラウド型アシスタントの比較",
-    head: ["", "AnyModelBot", "一般的なクラウド型アシスタント"],
+    caption: "Axzora Bot と一般的なクラウド型アシスタントの比較",
+    head: ["", "Axzora Bot", "一般的なクラウド型アシスタント"],
     rows: [
       ["実行する場所", "自分のパソコン / サーバー", "提供元のクラウド"],
       ["会話と記憶の保存先", "自分のディスク", "提供元のサーバー"],

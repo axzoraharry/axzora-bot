@@ -54,8 +54,8 @@ export default {
     licenseNote: "License: {license}. We only link to it here. Check the terms in the source repo.",
   },
   notice: {
-    page: "These are third-party open-source skills. AnyModelBot has no partnership or business relationship with their authors and doesn't host or distribute skill files. Open GitHub ↗ to view the source repo, or copy the install prompt and send it to a bot, which downloads the skill from the source repo after you confirm. The source repo is authoritative for content, license, and safety. Review it before you install.",
-    detail: "Third-party open-source skill. AnyModelBot has no partnership or business relationship with the author and doesn't host it. The source repo is authoritative for content and license.",
+    page: "These are third-party open-source skills. Axzora Bot has no partnership or business relationship with their authors and doesn't host or distribute skill files. Open GitHub ↗ to view the source repo, or copy the install prompt and send it to a bot, which downloads the skill from the source repo after you confirm. The source repo is authoritative for content, license, and safety. Review it before you install.",
+    detail: "Third-party open-source skill. Axzora Bot has no partnership or business relationship with the author and doesn't host it. The source repo is authoritative for content and license.",
   },
   toast: {
     copied: "Copied. Send it to any bot to install",

@@ -11,7 +11,7 @@ export default {
     "cf": "cf.modelflare.dev",
     "test": "域名测速",
     "testing": "测速中…",
-    "testNote": "从运行 AnyModelBot 的设备测量：显示三次探测的响应时间中位数和成功次数。不携带 API Key、不调用模型，不代表生成速度。",
+    "testNote": "从运行 Axzora Bot 的设备测量：显示三次探测的响应时间中位数和成功次数。不携带 API Key、不调用模型，不代表生成速度。",
     "result": "{ms} ms · 成功 {count}/{total}",
     "timeout": "超时",
     "unreachable": "无法连接"

@@ -1,4 +1,4 @@
-// anymodel bot skill install tool (MIT, part of anymodel bot).
+// Axzora Bot skill install tool (MIT, part of Axzora Bot).
 //
 // Registers install_skill. When the user asks to install a skill from a GitHub link, the agent passes the link to the
 // host over the loopback bridge (AMB_BRIDGE_URL / AMB_BRIDGE_TOKEN). The host reads the skill from GitHub, checks it

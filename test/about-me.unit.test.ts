@@ -30,7 +30,7 @@ describe("关于我：识别", () => {
     expect(sensitiveKind("Melody 住在杭州")).toBeUndefined();
     expect(sensitiveKind("称呼用户为 Melody")).toBeUndefined();
     expect(sensitiveKind("每天 9 点开会")).toBeUndefined();
-    expect(isIdOrCard("Melody 是 AnyModelBot 的产品经理")).toBe(false);
+    expect(isIdOrCard("Melody 是 Axzora Bot 的产品经理")).toBe(false);
   });
 });
 

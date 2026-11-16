@@ -1,6 +1,6 @@
-# AnyModelBot 官网（site/）
+# Axzora Bot 官网（site/）
 
-Astro 5 静态站，Preact 只用在价格表、计算器（含可搜索的模型选择框）这几个岛上；样式是原生 CSS + token（`@layer tokens, base, components, app, utilities`），品牌色与 App 的 `ui/design` 相同。规格见《AnyModelBot Landing Page · 需求与样式设计稿 v3》。
+Astro 5 静态站，Preact 只用在价格表、计算器（含可搜索的模型选择框）这几个岛上；样式是原生 CSS + token（`@layer tokens, base, components, app, utilities`），品牌色与 App 的 `ui/design` 相同。规格见《Axzora Bot Landing Page · 需求与样式设计稿 v3》。
 
 ## 页面结构
 
@@ -17,7 +17,7 @@ Astro 5 静态站，Preact 只用在价格表、计算器（含可搜索的模�
   8. 收尾横幅（和首屏呼应：静止的大卡，跟着页面主题走——顶光 + 一层星空（深色小星点 / 浅色细小闪光）+ 底边一道扁扁的地平线，六个机器人站在地平线后面探出半个头；高度收紧，不设最小高度）
 - **章节头**：`components/SectionHead.astro`——一列左对齐：细线 → 编号 / 名称 → 两段式标题（后半句次要色）→ 说明，主持机器人蹲在细线右端（规范见下文"排版规范"）。
 - **机器人互动**（`lib/eyes.ts`，台词在 i18n 的 `quips`）：戳一下回一句、连戳冒爱心 / 晕，鼠标在大头像上来回蹭会撒娇；`[data-doze]` 里的机器人 20 秒没动静会挨个打瞌睡，一动就惊醒并嘴硬；循环示意用 `data-states` / `data-shots` / `data-say-at` 驱动机器人（`scripts/tour.ts`）。
-- **页脚**（`components/Footer.astro`，每页都有）：品牌（标记 + 一句话）｜ 产品 / 资源 / 法务三栏 → **收录徽章**（“被收录于 / Featured on”，目录站要求的徽章和反链，原码在 `data/badges.ts`，写进静态 HTML，图片外链到站方并懒加载，手机上是一行横滑；删徽章可能导致下架）→ 版权行 → **眼睛田**：最下面的 AnyModelBot 大字标由几百枚迷你 Eyes 标记拼成（一格一张小机器人脸，比例和 `EyesMark.astro` 一致），画在 canvas 上（`scripts/eyefield.ts`，纯逻辑在 `lib/eyefield.ts`）。宽屏一行、手机三行（按画布比例判断，比例由 `footer.css` 定）。每个动作都对应产品本身：
+- **页脚**（`components/Footer.astro`，每页都有）：品牌（标记 + 一句话）｜ 产品 / 资源 / 法务三栏 → **收录徽章**（“被收录于 / Featured on”，目录站要求的徽章和反链，原码在 `data/badges.ts`，写进静态 HTML，图片外链到站方并懒加载，手机上是一行横滑；删徽章可能导致下架）→ 版权行 → **眼睛田**：最下面的 Axzora Bot 大字标由几百枚迷你 Eyes 标记拼成（一格一张小机器人脸，比例和 `EyesMark.astro` 一致），画在 canvas 上（`scripts/eyefield.ts`，纯逻辑在 `lib/eyefield.ts`）。宽屏一行、手机三行（按画布比例判断，比例由 `footer.css` 定）。每个动作都对应产品本身：
   - **醒过来**：第一次滚到时从左到右一张张弹出来、睁眼（内容出现）。
   - **看着你**：所有眼睛跟着指针看，鼠标附近的脸探出头、眼睛睁大，按住时一起眯眼（机器人的反应）；指针离开就自己东张西望、偶尔眨眼。
   - **发消息**：点一下（手机上点一下），从那里按远近一张张眯眼笑——"挨个收到了"（对点击的反馈；不画扩散的圈）。
@@ -25,7 +25,7 @@ Astro 5 静态站，Preact 只用在价格表、计算器（含可搜索的模�
   - **打瞌睡**：9 秒没人动，慢慢闭眼、目光耷拉；指针一动，从指针那里一圈圈醒过来（机器人的状态，同 `[data-doze]`）。睡着时不换脑。
   - 只在页脚进视口、标签页可见时跑；"减少动态效果"时画一张静止的字标；无 JS 时整块不显示。配色：深色是灰面罩 + 发光的眼睛；浅色是淡彩面罩 + 墨色眼睛——每张脸的面罩用它那个角色的辉光色调进底色、从字标顶到底由浅变深，一圈极细的边，整块像一片粉彩马赛克，"换脑"时整片换色调（不用整块墨色，也不出现白底上的荧光色）。字标盒子贴着字形（宽屏 7.4:1、手机 1.3:1），画布上下各出血 16px 给探头的脸，不额外留白。
 - **附属页**：`/pricing`（价格卡、订阅制对照、价格表、计算器）、`/download`（页头一个按系统识别的主按钮，和平台卡一起落在背景同首页 Hero 的圆角大卡片里；Windows、macOS、Linux 三张卡；Docker、CLI 两张卡；校验）、`/security`、`/changelog`、`/privacy`、`/licenses`，以及 `/partners`（合作伙伴：首屏 + 佣金示意、怎么获得佣金、适合谁、为什么好推广、申请入口。佣金比例、价格和结算规则不写，一对一谈）。
-- **合作申请**（`views/PartnersView.astro`）：官网不收表单。页面上的申请按钮都跳到 Modelflare 控制台的 AnyModelBot 合作页（`MF.partnerApply(lang)`，从 `/<语言>/sign-in` 带回跳地址进 `/affiliate-program?tab=anymodelbot`，这样界面语言跟官网一致；没登录时先登录），因为专属优惠券和佣金都挂在 Modelflare 账号上。页面上也留了邮箱 `support@anymodel.bot`。
+- **合作申请**（`views/PartnersView.astro`）：官网不收表单。页面上的申请按钮都跳到 Modelflare 控制台的 Axzora Bot 合作页（`MF.partnerApply(lang)`，从 `/<语言>/sign-in` 带回跳地址进 `/affiliate-program?tab=anymodelbot`，这样界面语言跟官网一致；没登录时先登录），因为专属优惠券和佣金都挂在 Modelflare 账号上。页面上也留了邮箱 `support@anymodel.bot`。
 - **导航**（`components/Nav.astro`）：通栏，和正文同一个容器——logo、下载按钮分别对齐内容的左右边线。只放独立页面，不放首页锚点：logo 后面紧跟产品链接 机器人（/bots）· 价格 · 文档（外链）；右侧是 合作伙伴（写给推广者，和产品链接分开）、GitHub / 语言 / 外观三个图标按钮和下载。停在顶上时透明，滚动后铺半透明底色和一根底线。一套尺寸到底：所有控件（含下载按钮）都是 32 高的胶囊，文字 14、图标 16，链接之间 2px、右侧各组之间 12px。
 - **顶部公告条**（`components/SiteBanner.astro`，内容在 `src/data/announcements.ts`）：发版条（版本取自 `releases.json`，按访客系统直接下载对应安装包，发布后显示 30 天）+ 宣传 / 公告，多条时轮播、可翻页；支持时间窗、截止倒计时、按 id 记住关闭；浏览器语言和页面不一致时附带语言切换。地址加 `?banner=preview` 可预览全部条目。埋点 `banner_view` / `banner_click` / `banner_dismiss`。
 

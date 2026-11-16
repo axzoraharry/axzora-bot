@@ -393,7 +393,7 @@ describe("带 Key 的接口", () => {
     const r = keyedRequest(cfg("keenable"), "q", 30)!;
     expect(r.url).toBe("https://api.keenable.ai/v1/search");
     expect(headers(r)["x-api-key"]).toBe("k-123456");
-    expect(headers(r)["x-keenable-title"]).toBe("AnyModelBot");
+    expect(headers(r)["x-keenable-title"]).toBe("Axzora Bot");
     expect(body(r)).toEqual({ query: "q", max_results: 20 });
     expect(r.parse({ results: [{ title: "K", url: "https://k/", description: "", snippet: "s", published_at: "2026-01-15T10:30:00Z" }, { title: "L", url: "https://l/", snippet: "s2" }, { title: "bad", url: "ftp://x" }] })).toEqual([
       { url: "https://k/", title: "K", snippet: "s", publishedAt: "2026-01-15T10:30:00Z" },

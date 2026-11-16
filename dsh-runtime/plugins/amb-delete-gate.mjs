@@ -1,4 +1,4 @@
-// anymodel bot: recursive-delete gate for the Full Access preset (MIT, part of anymodel bot).
+// Axzora Bot: recursive-delete gate for the Full Access preset (MIT, part of Axzora Bot).
 //
 // A bot on 完全权限 runs DSH's danger-full-access sandbox mode: commands run unconfined and never
 // ask to escalate. Recursive deletes are the one exception: before a shell tool runs, its command

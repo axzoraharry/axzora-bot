@@ -1,9 +1,9 @@
 {
-  "name": "anymodel-bot",
-  "productName": "anymodel bot",
-  "version": "0.1.41",
+  "name": "axzora-bot",
+  "productName": "Axzora Bot",
+  "version": "0.1.41"
   "private": true,
-  "description": "anymodel bot：任意模型的个人 AI 助手（飞书 + 微信 iLink），内置 magpie 模型网关",
+  "description": "Axzora Bot：任意模型的个人 AI 助手（飞书 + 微信 iLink），内置 magpie 模型网关",
   "license": "MIT",
   "type": "module",
   "main": "dist/electron/main.js",
@@ -68,16 +68,16 @@
     "vitest": "^5.0.5"
   },
   "author": {
-    "name": "anymodel bot",
+    "name": "Axzora Bot",
     "email": "support@anymodel.bot"
   },
   "build": {
     "appId": "dev.anymodel.bot",
-    "productName": "anymodel bot",
-    "artifactName": "anymodel-bot-${version}-${os}-${arch}.${ext}",
+    "productName": "Axzora Bot",
+    "artifactName": "axzora-bot-${version}-${os}-${arch}.${ext}",
     "protocols": [
       {
-        "name": "AnyModelBot",
+        "name": "Axzora Bot",
         "schemes": [
           "anymodelbot"
         ]
@@ -300,7 +300,7 @@
       ],
       "desktop": {
         "entry": {
-          "StartupWMClass": "anymodel bot"
+          "StartupWMClass": "Axzora Bot"
         }
       }
     }

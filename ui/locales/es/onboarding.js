@@ -11,7 +11,7 @@ export default {
     "cf": "cf.modelflare.dev",
     "test": "Probar dominios",
     "testing": "Probando…",
-    "testNote": "Las pruebas se hacen desde el dispositivo donde se ejecuta AnyModelBot: mediana del tiempo de respuesta y cuántos de 3 sondeos tuvieron éxito. No usa ninguna clave de API ni llama a modelos; no mide la velocidad de generación.",
+    "testNote": "Las pruebas se hacen desde el dispositivo donde se ejecuta Axzora Bot: mediana del tiempo de respuesta y cuántos de 3 sondeos tuvieron éxito. No usa ninguna clave de API ni llama a modelos; no mide la velocidad de generación.",
     "result": "{ms} ms · {count}/{total} exitosos",
     "timeout": "Tiempo agotado",
     "unreachable": "Inaccesible"

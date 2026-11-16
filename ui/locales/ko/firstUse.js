@@ -1,6 +1,6 @@
 export default {
   "login": "로그인 / 가입",
-  "accountHint": "Modelflare 계정으로 AnyModelBot에 로그인하세요",
+  "accountHint": "Modelflare 계정으로 Axzora Bot에 로그인하세요",
   "signupHint": "계정이 없나요? 다음 단계에서 가입할 수 있습니다",
   "signupGift": "신규 가입 시 Bot 크레딧 $1 증정",
   "noKey": "API Key를 설정하고 싶지 않으신가요?",
@@ -94,10 +94,10 @@ export default {
     "screenWhy": "화면 내용을 보고 다음 작업을 판단하는 데 사용합니다.",
     "request": "권한 요청",
     "openSettings": "시스템 설정 열기",
-    "steps": "직접 켤 수도 있습니다: '시스템 설정 → 개인정보 보호 및 보안'을 열고 '{items}'에서 AnyModelBot을 켜세요.",
+    "steps": "직접 켤 수도 있습니다: '시스템 설정 → 개인정보 보호 및 보안'을 열고 '{items}'에서 Axzora Bot을 켜세요.",
     "sep": ", ",
-    "restart": "시스템 설정에서 화면 기록을 이미 켰다면 AnyModelBot을 다시 열어야 적용됩니다. 채팅, 작업, 입력 중인 초안은 유지되며 다시 연 뒤 이어서 하거나 다시 보낼 수 있습니다.",
-    "relaunch": "AnyModelBot 다시 열기",
+    "restart": "시스템 설정에서 화면 기록을 이미 켰다면 Axzora Bot을 다시 열어야 적용됩니다. 채팅, 작업, 입력 중인 초안은 유지되며 다시 연 뒤 이어서 하거나 다시 보낼 수 있습니다.",
+    "relaunch": "Axzora Bot 다시 열기",
     "recheck": "켰습니다. 다시 확인",
     "retry": "작업 다시 보내기",
     "later": "나중에"

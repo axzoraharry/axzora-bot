@@ -9,14 +9,14 @@ let dir: string;
 beforeEach(() => { dir = fs.mkdtempSync(path.join(os.tmpdir(), "amb-startup-test-")); });
 afterEach(() => { fs.rmSync(dir, { recursive: true, force: true }); });
 const application = (overrides: Partial<StartupApp> = {}): StartupApp => ({
-  getPath: () => path.join(dir, "anymodel bot"), getName: () => "anymodel bot", getVersion: () => "0.1.33", isPackaged: true,
+  getPath: () => path.join(dir, "Axzora Bot"), getName: () => "Axzora Bot", getVersion: () => "0.1.33", isPackaged: true,
   requestSingleInstanceLock: () => true, ...overrides,
 });
 const records = (log: StartupLog) => fs.readFileSync(log.file!, "utf8").trim().split("\n").map((line) => JSON.parse(line));
 
 describe("desktop startup diagnostics", () => {
   it("records a denied lock before boot, without changing the primary app log or bypassing the lock", () => {
-    const logs = path.join(dir, "anymodel bot", "data", "logs"); fs.mkdirSync(logs, { recursive: true });
+    const logs = path.join(dir, "Axzora Bot", "data", "logs"); fs.mkdirSync(logs, { recursive: true });
     fs.writeFileSync(path.join(logs, "app.log"), "primary instance log\n");
     let startup: StartupLog;
     const request = vi.fn(() => {
@@ -26,7 +26,7 @@ describe("desktop startup diagnostics", () => {
     const app = application({ requestSingleInstanceLock: request }); startup = new StartupLog(app, { env: {} });
     expect(acquireDesktopInstance(app, startup)).toBe(false); expect(request).toHaveBeenCalledOnce();
     expect(records(startup).at(-1)).toMatchObject({ stage: "single_instance_lock_result", acquired: false });
-    expect(startup.dataDir).toBe(path.join(dir, "anymodel bot", "data"));
+    expect(startup.dataDir).toBe(path.join(dir, "Axzora Bot", "data"));
     expect(fs.readFileSync(path.join(logs, "app.log"), "utf8")).toBe("primary instance log\n");
   });
   it("preserves AMB_DATA_DIR and keeps launches in separate diagnostic files", () => {
@@ -40,7 +40,7 @@ describe("desktop startup diagnostics", () => {
   it("uses a temporary log if the data path cannot be created, without throwing", () => {
     const blocked = path.join(dir, "a-file"); fs.writeFileSync(blocked, "not a directory");
     const startup = new StartupLog(application(), { env: { AMB_DATA_DIR: blocked }, tempDir: dir });
-    expect(startup.file).toContain(path.join(dir, "anymodel-bot-startup-"));
+    expect(startup.file).toContain(path.join(dir, "axzora-bot-startup-"));
     expect(records(startup)[0].pathError).toBeTruthy();
     expect(acquireDesktopInstance(application(), startup)).toBe(true);
   });

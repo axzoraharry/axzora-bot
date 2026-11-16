@@ -142,7 +142,7 @@ export interface LoginAttempt {
    * 链接不属于这次登录时抛错，这次登录继续等，可以重新粘贴。
    */
   complete(link: string): void;
-  /** 桌面版收到了成功页唤起的 anymodelbot:// 链接：nonce 对得上时成功页才显示"已返回 AnyModelBot" */
+  /** 桌面版收到了成功页唤起的 anymodelbot:// 链接：nonce 对得上时成功页才显示"已返回 Axzora Bot" */
   markReturned(nonce: string): boolean;
 }
 
@@ -159,8 +159,8 @@ export interface LoginOptions {
    */
   finalize?: (tokens: TokenSet, signal: AbortSignal) => Promise<void>;
   /**
-   * 桌面版的应用链接（如 anymodelbot://login-complete）：成功页的"打开 AnyModelBot"按钮和加载后的一次自动唤起用它。
-   * 不传（命令行、Docker、浏览器里用）时成功页只请用户切回 AnyModelBot，不去唤起本机可能装着的另一个客户端。
+   * 桌面版的应用链接（如 anymodelbot://login-complete）：成功页的"打开 Axzora Bot"按钮和加载后的一次自动唤起用它。
+   * 不传（命令行、Docker、浏览器里用）时成功页只请用户切回 Axzora Bot，不去唤起本机可能装着的另一个客户端。
    */
   appLink?: string;
   /** 成功页上的应用图标（PNG） */
@@ -182,14 +182,14 @@ const PAGE = (l: Lang, title: string, text: string) =>
 
 /**
  * 回调页：先显示"正在完成登录"，每秒问一次本页所在的回环服务（带着同一个 state），
- * 登录真正完成后换成成功卡片（AnyModelBot 标志 + 成功图标 + 打开按钮），失败时换成失败原因。
+ * 登录真正完成后换成成功卡片（Axzora Bot 标志 + 成功图标 + 打开按钮），失败时换成失败原因。
  * 文案全部由服务端按登录时的语言填好；脚本只切换显示，不拼接用户可见的句子。
  */
 function callbackPage(l: Lang, o: { state: string; appLink?: string }): string {
   const s = (k: Parameters<typeof tl>[1]) => esc(tl(l, k));
   const data = JSON.stringify({ state: o.state, app: o.appLink || "" }).replace(/</g, "\\u003c");
   return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AnyModelBot</title><meta name="referrer" content="no-referrer">
+<title>Axzora Bot</title><meta name="referrer" content="no-referrer">
 <style>
 :root{color-scheme:light dark;--bg:#f5f5f4;--card:#fff;--fg:#1a1a1a;--muted:#6b6b6b;--line:rgba(0,0,0,.08);--ok:#1f9d55;--err:#c0392b;--btn:#161a00;--on-btn:#fff}
 @media (prefers-color-scheme:dark){:root{--bg:#111;--card:#1c1c1c;--fg:#ececec;--muted:#a0a0a0;--line:rgba(255,255,255,.1);--ok:#3ecf7a;--err:#ff7b6b;--btn:#ececec;--on-btn:#161a00}}
@@ -206,7 +206,7 @@ h1{font-size:20px;margin:0 0 6px;letter-spacing:-.01em}p{margin:0;color:var(--mu
 .btn:focus-visible{outline:2px solid var(--fg);outline-offset:2px}.small{font-size:13px}.foot{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
 [hidden]{display:none!important}
 </style></head><body><main class="card" aria-live="polite">
-<div class="brand"><img src="/callback/logo.png" alt="" onerror="this.remove()"><span>AnyModelBot</span></div>
+<div class="brand"><img src="/callback/logo.png" alt="" onerror="this.remove()"><span>Axzora Bot</span></div>
 <section id="pending"><div class="spin" aria-hidden="true"></div><h1>${s("account.page_pending_title")}</h1><p>${s("account.page_pending")}</p>
 <noscript><p>${s("account.page_noscript")}</p></noscript></section>
 <section id="done" hidden><div class="mark ok" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>

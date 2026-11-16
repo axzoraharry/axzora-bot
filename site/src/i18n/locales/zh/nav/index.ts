@@ -5,7 +5,7 @@ export default {
   "docs": "文档",
   "partners": "合作伙伴",
   "skip": "跳到主要内容",
-  "home": "AnyModelBot 首页",
+  "home": "Axzora Bot 首页",
   "menu": "菜单",
   "close": "关闭",
   "github": "GitHub",

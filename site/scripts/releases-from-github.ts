@@ -1,5 +1,5 @@
 // 从 GitHub 最新 Release 生成 src/data/releases.json：下载按钮直达 GitHub 上的安装包，官网服务器不提供下载。
-// 文件名按应用 electron-builder 的 artifactName：anymodel-bot-<版本>-<系统>-<架构>.<扩展名>
+// 文件名按应用 electron-builder 的 artifactName：axzora-bot-<版本>-<系统>-<架构>.<扩展名>
 //   win-x64 ← *-win-x64.exe（NSIS）   mac-arm64 / mac-x64 ← *-mac-<架构>.dmg   linux-x64 ← *-linux-(x64|x86_64).AppImage
 // SHA-256 取 Release 里的 SHA256SUMS；没有时用 GitHub 给每个文件算的 digest。缺平台时保留占位符（生产构建会因此失败）。
 //   GITHUB_URL     仓库地址（必填），如 https://github.com/modelflare-ai/AnyModelBot
@@ -46,7 +46,7 @@ try {
   process.exit(1);
 }
 
-const RE = /^anymodel-bot-(\d+\.\d+\.\d+)-(win|mac|linux)-(x64|arm64|x86_64)\.(exe|dmg|AppImage)$/;
+const RE = /^axzora-bot-(\d+\.\d+\.\d+)-(win|mac|linux)-(x64|arm64|x86_64)\.(exe|dmg|AppImage)$/;
 const PLATFORM: Record<string, string> = { "win-x64-exe": "win-x64", "mac-arm64-dmg": "mac-arm64", "mac-x64-dmg": "mac-x64", "linux-x64-AppImage": "linux-x64", "linux-x86_64-AppImage": "linux-x64" };
 
 // SHA256SUMS：每行 "<64 位十六进制>  <文件名>"
@@ -84,7 +84,7 @@ for (const id of ["win-x64", "mac-arm64", "mac-x64", "linux-x64"]) {
 }
 
 // 还没发布镜像（DOCKER_IMAGE 为空）时给"从源码构建"的命令，和 README 的写法一致
-const image = process.env.DOCKER_IMAGE || "anymodel-bot";
+const image = process.env.DOCKER_IMAGE || "axzora-bot";
 const runCmd = `docker run -d --name amb -p 3600:3600 -v amb-data:/data ${image}`;
 platforms.docker = {
   image,

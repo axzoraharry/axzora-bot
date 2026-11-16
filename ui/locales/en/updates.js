@@ -24,7 +24,7 @@ export default {
     "unsupported": "In-app updates are not supported for this installation."
   },
   "whatsNew": {
-    "title": "AnyModelBot is updated to {version}",
+    "title": "Axzora Bot is updated to {version}",
     "availableTitle": "What's new in {version}",
     "historyTitle": "Changelog",
     "earlier": "Earlier versions",

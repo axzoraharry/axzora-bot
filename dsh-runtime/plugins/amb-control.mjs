@@ -1,4 +1,4 @@
-// anymodel bot ⇄ DSH live control (MIT, part of anymodel bot).
+// Axzora Bot ⇄ DSH live control (MIT, part of Axzora Bot).
 //
 // The npm 0.2.1-rc.4 SDK protocol only offers initialize / session/prompt / session/resume / shutdown. This
 // plugin gives the host a command channel into the running child: it long-polls the host over the loopback

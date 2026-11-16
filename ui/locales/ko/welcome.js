@@ -106,7 +106,7 @@ export default {
   "replaceKey": "연결됨 ••••{last4}. 새 키를 연결하면 대체됩니다.",
   "keySuccess": "연결됨 · 모델 {n}개",
   "keyPrivacy": "키는 이 기기에만 저장돼요. 모델 요청은 Modelflare를 거치지 않고 {name}으로 바로 보내요.",
-  "keyPrivacyServer": "키는 AnyModelBot 실행 서버에 저장돼요. 모델 요청은 Modelflare를 거치지 않고 {name}으로 보내요.",
+  "keyPrivacyServer": "키는 Axzora Bot 실행 서버에 저장돼요. 모델 요청은 Modelflare를 거치지 않고 {name}으로 보내요.",
   "jsonKept": "JSON을 읽을 수 없어 이전 폼 내용을 유지했어요.",
   "required": "필수",
   "accountFallback": "Modelflare 계정",

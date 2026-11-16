@@ -2,7 +2,7 @@
 
 [简体中文](./THIRD_PARTY_NOTICES.md) | [English](./THIRD_PARTY_NOTICES_en.md) | [日本語](./THIRD_PARTY_NOTICES_ja.md) | [한국어](./THIRD_PARTY_NOTICES_ko.md) | Русский | [Español](./THIRD_PARTY_NOTICES_es.md) | [Português (Brasil)](./THIRD_PARTY_NOTICES_pt.md) | [Türkçe](./THIRD_PARTY_NOTICES_tr.md)
 
-Сам anymodel bot распространяется под лицензией MIT, см. LICENSE. Перечисленные ниже компоненты включены в программу или перенесены в неё; каждый сохраняет исходную лицензию.
+Сам Axzora Bot распространяется под лицензией MIT, см. LICENSE. Перечисленные ниже компоненты включены в программу или перенесены в неё; каждый сохраняет исходную лицензию.
 
 Часть кода перенесена или адаптирована из Fei2411/DS-Bot (Apache-2.0); см. раздел «DS Bot» ниже.
 

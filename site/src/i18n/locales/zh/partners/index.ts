@@ -1,10 +1,10 @@
 export default {
-  "pageTitle": "推广 AnyModelBot，拿持续佣金",
+  "pageTitle": "推广 Axzora Bot，拿持续佣金",
   "pageDescription": "跑在你电脑上的 AI 机器人团队，一个 Key 用上主流模型。推荐给朋友，持续拿佣金。",
   "footer": "合作伙伴",
   "eyebrow": "合作伙伴计划",
-  "h1": "推广 AnyModelBot，",
-  "lead": "加入合作伙伴计划，把 AnyModelBot 分享给你的学员、读者和客户。你带来的用户付费，你就能获得持续佣金。合作方式和佣金比例，我们一对一沟通。",
+  "h1": "推广 Axzora Bot，",
+  "lead": "加入合作伙伴计划，把 Axzora Bot 分享给你的学员、读者和客户。你带来的用户付费，你就能获得持续佣金。合作方式和佣金比例，我们一对一沟通。",
   "cta": "加入合作伙伴计划",
   "ctaProduct": "了解产品",
   "who": {
@@ -13,7 +13,7 @@ export default {
     "items": [
       {
         "title": "培训机构和讲师",
-        "body": "把 AnyModelBot 放进课程，带学员用起来。",
+        "body": "把 Axzora Bot 放进课程，带学员用起来。",
         "gain": "为课程多一份收入"
       },
       {
@@ -63,7 +63,7 @@ export default {
       },
       {
         "title": "分享推广",
-        "body": "我们和你确定合作方式、提供产品资料，你把 AnyModelBot 分享给学员、读者和客户。"
+        "body": "我们和你确定合作方式、提供产品资料，你把 Axzora Bot 分享给学员、读者和客户。"
       },
       {
         "title": "获得持续佣金",
@@ -81,7 +81,7 @@ export default {
       "action": "去填写申请"
     },
     "mail": {
-      "subject": "AnyModelBot 合作申请"
+      "subject": "Axzora Bot 合作申请"
     },
     "dim": "我们一对一对接。",
     "points": [
@@ -105,7 +105,7 @@ export default {
   },
   "feed": {
     "items": [
-      "新用户通过你的推荐开始使用 AnyModelBot",
+      "新用户通过你的推荐开始使用 Axzora Bot",
       "这位用户完成了付费",
       "你获得了一笔佣金"
     ],

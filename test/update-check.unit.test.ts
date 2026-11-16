@@ -9,8 +9,8 @@ import { UpdateChecker, installerSuffix, isNewer } from "../src/updates/check.js
 
 const BASE = "https://github.com/modelflare-ai/AnyModelBot/releases";
 const ALL_ASSETS = ["win-x64.exe", "win-arm64.exe", "mac-x64.dmg", "mac-arm64.dmg", "linux-x86_64.AppImage", "linux-arm64.AppImage"].map((s) => ({
-  name: `anymodel-bot-0.2.0-${s}`,
-  browser_download_url: `${BASE}/download/v0.2.0/anymodel-bot-0.2.0-${s}`,
+  name: `axzora-bot-0.2.0-${s}`,
+  browser_download_url: `${BASE}/download/v0.2.0/axzora-bot-0.2.0-${s}`,
 }));
 const release = (over: Record<string, unknown> = {}) => ({ tag_name: "v0.2.0", html_url: `${BASE}/tag/v0.2.0`, assets: ALL_ASSETS, ...over });
 const reply = (json: unknown, status = 200) => async () => new Response(JSON.stringify(json), { status }) as Response;
@@ -67,7 +67,7 @@ describe("检查新版本", () => {
       current: "0.1.16",
       latest: "0.2.0",
       available: true,
-      downloadUrl: `${BASE}/download/v0.2.0/anymodel-bot-0.2.0-mac-arm64.dmg`,
+      downloadUrl: `${BASE}/download/v0.2.0/axzora-bot-0.2.0-mac-arm64.dmg`,
       releaseUrl: `${BASE}/tag/v0.2.0`,
     });
   });
@@ -77,7 +77,7 @@ describe("检查新版本", () => {
     await checker(send).check();
     const [url, init] = send.mock.calls[0] as unknown as [string, RequestInit];
     expect(url).toBe("https://api.github.com/repos/modelflare-ai/AnyModelBot/releases/latest");
-    expect(init.headers).toEqual({ Accept: "application/vnd.github+json", "User-Agent": "anymodel-bot/0.1.16" });
+    expect(init.headers).toEqual({ Accept: "application/vnd.github+json", "User-Agent": "axzora-bot/0.1.16" });
     expect(init.body).toBeUndefined();
   });
 
@@ -98,7 +98,7 @@ describe("检查新版本", () => {
 
   it("不是本仓库发布页的地址不会交给浏览器", async () => {
     const c = checker(
-      reply(release({ html_url: "https://evil.example/x", assets: [{ name: "anymodel-bot-0.2.0-win-x64.exe", browser_download_url: "https://evil.example/x.exe" }] })),
+      reply(release({ html_url: "https://evil.example/x", assets: [{ name: "axzora-bot-0.2.0-win-x64.exe", browser_download_url: "https://evil.example/x.exe" }] })),
     );
     await c.check();
     expect(c.status()).toMatchObject({ available: true, downloadUrl: `${BASE}/latest`, releaseUrl: `${BASE}/latest` });

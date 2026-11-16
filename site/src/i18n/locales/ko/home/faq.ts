@@ -15,7 +15,7 @@ export default {
     },
     {
       "q": "Grok Bot, OpenAI dots, Claude Duet과 무엇이 다른가요?",
-      "a": "모두 백그라운드에서 나를 대신해 일하고, 결정이 필요할 때 물어보는 AI입니다. AnyModelBot은 MIT 오픈 소스이며 내 컴퓨터나 서버에서 실행한다는 점이 다릅니다. GPT, Claude, Gemini, Grok 등을 지원하며 앱은 무료이고 모델은 사용한 만큼 결제합니다. 특정 업체의 구독에 묶이지 않습니다. GitHub README에 전체 비교표가 있습니다. Grok Bot, dots, Claude Duet은 각각 xAI, OpenAI, Anthropic의 제품이며 AnyModelBot과는 제휴 관계가 없습니다."
+      "a": "모두 백그라운드에서 나를 대신해 일하고, 결정이 필요할 때 물어보는 AI입니다. Axzora Bot은 MIT 오픈 소스이며 내 컴퓨터나 서버에서 실행한다는 점이 다릅니다. GPT, Claude, Gemini, Grok 등을 지원하며 앱은 무료이고 모델은 사용한 만큼 결제합니다. 특정 업체의 구독에 묶이지 않습니다. GitHub README에 전체 비교표가 있습니다. Grok Bot, dots, Claude Duet은 각각 xAI, OpenAI, Anthropic의 제품이며 Axzora Bot과는 제휴 관계가 없습니다."
     },
     {
       "q": "여섯 캐릭터는 어떤 차이가 있나요?",

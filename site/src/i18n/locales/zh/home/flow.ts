@@ -47,10 +47,10 @@ export default {
   "retentionLink": "Modelflare 文档《数据保留》",
   "retentionUrl": "https://docs.modelflare.dev/zh/guides/features/data-retention/?utm_source=anymodelbot&utm_campaign=amb_homepage",
   "compare": {
-    "caption": "AnyModelBot 与典型云端托管型助手的对照",
+    "caption": "Axzora Bot 与典型云端托管型助手的对照",
     "head": [
       "",
-      "AnyModelBot",
+      "Axzora Bot",
       "典型云端托管型助手"
     ],
     "rows": [

@@ -13,8 +13,8 @@ export default {
       links: ["プライバシー", "オープンソースライセンス"],
     },
   },
-  copyright: "© 2026 AnyModelBot · MIT",
-  art: "キャラクター画像 © AnyModelBot プロジェクト",
+  copyright: "© 2026 Axzora Bot · MIT",
+  art: "キャラクター画像 © Axzora Bot プロジェクト",
   tagline:
     "あなたのパソコンで動く AI ボットのチーム。Modelflare にログインすれば、キー1つで主要モデルを使えます。",
   featured: "掲載サイト",

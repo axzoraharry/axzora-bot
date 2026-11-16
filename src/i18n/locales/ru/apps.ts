@@ -29,7 +29,7 @@ export default {
   badEnv: "Неверный формат переменных окружения: в имени допустимы только латинские буквы, цифры и подчёркивание, и нужно значение.",
   badCommand: "Введите команду для запуска.",
   badMasked: "Введите значение для «{name}» ещё раз.",
-  channelConnect: "Откройте AnyModelBot на компьютере, чтобы подключить {app}.",
-  channelRepair: "Откройте AnyModelBot на компьютере, чтобы восстановить подключение {app}.",
+  channelConnect: "Откройте Axzora Bot на компьютере, чтобы подключить {app}.",
+  channelRepair: "Откройте Axzora Bot на компьютере, чтобы восстановить подключение {app}.",
   oauthDone: "Подключено",
 } satisfies TranslatedCatalog["apps"];

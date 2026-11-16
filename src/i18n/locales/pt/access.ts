@@ -8,7 +8,7 @@ export default {
   chWeb: "web",
   who: "usuário {name} ({channel})",
   ownerNotice:
-    "Alguém quer usar o bot “{bot}”: {who}{said}\nResponda “yes {code}” para permitir ou “no {code}” para negar, ou resolva isso no painel de informações do AnyModelBot.",
+    "Alguém quer usar o bot “{bot}”: {who}{said}\nResponda “yes {code}” para permitir ou “no {code}” para negar, ou resolva isso no painel de informações do Axzora Bot.",
   allowedAck: "✅ “{who}” agora pode usar este bot",
   deniedAck: "❌ Acesso negado a “{who}”",
   ownerOf: "proprietário ({channel}){who}",

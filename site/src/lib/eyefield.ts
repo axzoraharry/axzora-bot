@@ -8,9 +8,9 @@ export const MARK = {
   ampX: 0.11, ampY: 0.05, headX: 0.02, headY: 0.01,
 } as const;
 
-/** 字标的排法：画布够扁（宽高比 ≥ 3，CSS 在宽屏给的比例）排一行，否则三行。按画布比例判断，和 CSS 的断点永远一致 */
+/** 字标的排法：画布够扁（宽高比 ≥ 3，CSS 在宽屏给的比例）排一行，否则两行。按画布比例判断，和 CSS 的断点永远一致 */
 export function wordLines(width: number, height: number): string[] {
-  return height > 0 && width / height >= 3 ? ["AnyModelBot"] : ["Any", "Model", "Bot"];
+  return height > 0 && width / height >= 3 ? ["Axzora Bot"] : ["Axzora", "Bot"];
 }
 
 /** 格子边长：让字标高度方向大约有 rows 格，限制在 [min, max] 像素之间（太小看不出眼睛，太大字形太粗糙） */

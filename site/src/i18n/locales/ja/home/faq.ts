@@ -9,7 +9,7 @@ export default {
     {"q": "以前の会話を探すには？", "a": "サイドバーから履歴を検索するか、Ctrl/Cmd+Shift+F で全体検索、Ctrl/Cmd+F で現在のチャット内検索を開きます。ボット、会話、チャンネル、日付で絞り込み、結果を選ぶと元のメッセージに移動します。検索対象はこの端末に保存した記録で、モデルは呼び出しません。"},
     {
       q: "Grok Bot、OpenAI dots、Claude Duet とは何が違いますか？",
-      a: "どれも、バックグラウンドであなたの代わりに仕事を進め、判断が必要なときに確認してくれる AI です。AnyModelBot は MIT ライセンスのオープンソースで、自分のパソコンやサーバーで動く点が異なります。GPT、Claude、Gemini、Grok などに対応し、アプリは無料、モデルは従量課金。特定の提供元のサブスクリプションに縛られません。詳しい比較表は GitHub の README にあります。Grok Bot、dots、Claude Duet はそれぞれ xAI、OpenAI、Anthropic の製品で、AnyModelBot とは関係ありません。",
+      a: "どれも、バックグラウンドであなたの代わりに仕事を進め、判断が必要なときに確認してくれる AI です。Axzora Bot は MIT ライセンスのオープンソースで、自分のパソコンやサーバーで動く点が異なります。GPT、Claude、Gemini、Grok などに対応し、アプリは無料、モデルは従量課金。特定の提供元のサブスクリプションに縛られません。詳しい比較表は GitHub の README にあります。Grok Bot、dots、Claude Duet はそれぞれ xAI、OpenAI、Anthropic の製品で、Axzora Bot とは関係ありません。",
     },
     {
       q: "6種類のキャラクターにはどんな違いがありますか？",

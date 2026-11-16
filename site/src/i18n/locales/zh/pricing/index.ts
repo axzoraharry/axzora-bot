@@ -2,12 +2,12 @@ export default {
   "eyebrow": "价格 · 按量付费",
   "h2mark": "没有订阅费",
   "h2rest": "。用多少，付多少。",
-  "lead": "AnyModelBot 免费开源，没有订阅、没有档位。模型用量由 Modelflare 按 token 计费，价格表完全公开。",
+  "lead": "Axzora Bot 免费开源，没有订阅、没有档位。模型用量由 Modelflare 按 token 计费，价格表完全公开。",
   "source": "价格取自 modelflare.dev/pricing，数据抓取于 {fetchedAt}（UTC+8），版本 {pricingVersion}。",
   "stale": "价格快照日期：{snapshotDate}（暂未能更新，请以 modelflare.dev/pricing 为准）。",
   "cards": {
     "app": {
-      "tag": "AnyModelBot",
+      "tag": "Axzora Bot",
       "price": "$0",
       "unit": "/ 永久",
       "note": "免费开源（MIT）",
@@ -15,7 +15,7 @@ export default {
         "桌面（Windows / macOS / Linux）、Docker、CLI 都免费",
         "没有订阅，没有套餐档位",
         "机器人想建几个建几个，每个都由你定义",
-        "新用户注册 Modelflare 即送 $1 Bot 额度，只能在 AnyModelBot 里使用"
+        "新用户注册 Modelflare 即送 $1 Bot 额度，只能在 Axzora Bot 里使用"
       ]
     },
     "usage": {
@@ -46,7 +46,7 @@ export default {
     "caption": "按量付费与订阅制档位的通用对照",
     "head": [
       "",
-      "按量付费（AnyModelBot + Modelflare）",
+      "按量付费（Axzora Bot + Modelflare）",
       "订阅制档位（同类产品的通常做法）"
     ],
     "rows": [
@@ -136,7 +136,7 @@ export default {
     "official": "按官方价约 {amount}",
     "disclaimer": "估算值，不含缓存折扣与请求级倍率（如 priority 服务层）；超过该模型分档阈值的请求按更高档计价（已计入）；实际以 Modelflare 账单为准。",
     "copy": "复制估算",
-    "copyText": "AnyModelBot 用量估算：{model}（{route}），每天 {msgs} 条，每条 {inTok} 输入 + {outTok} 输出 tokens，约 {amount} / 月（按 30 天，价格抓取于 {fetchedAt}）",
+    "copyText": "Axzora Bot 用量估算：{model}（{route}），每天 {msgs} 条，每条 {inTok} 输入 + {outTok} 输出 tokens，约 {amount} / 月（按 30 天，价格抓取于 {fetchedAt}）",
     "full": "查看这个模型的完整价格 ↗",
     "expandBar": "展开"
   },
@@ -144,6 +144,6 @@ export default {
     "text": "已有 Modelflare 账号？在 App 里登录一次就能用，用量按价格表计费。",
     "cta": "打开 Modelflare ↗"
   },
-  "pageTitle": "AnyModelBot 价格｜按量付费，价格表公开",
-  "pageDescription": "AnyModelBot 免费开源、没有订阅。模型用量由 Modelflare 按 token 计费：公开价格表与每月费用计算器。"
+  "pageTitle": "Axzora Bot 价格｜按量付费，价格表公开",
+  "pageDescription": "Axzora Bot 免费开源、没有订阅。模型用量由 Modelflare 按 token 计费：公开价格表与每月费用计算器。"
 };

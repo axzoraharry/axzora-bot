@@ -27,6 +27,6 @@ export default {
   media_not_downloaded: "{label} (не удалось скачать: {error})",
   weixinExpiredSubject: "Срок входа в WeChat истёк",
   data_dir_locked:
-    "Другой процесс anymodel bot ({who}) использует папку данных {dir}. Закройте его или задайте другую папку данных (AMB_DATA_DIR).",
+    "Другой процесс Axzora Bot ({who}) использует папку данных {dir}. Закройте его или задайте другую папку данных (AMB_DATA_DIR).",
   data_dir_locked_remote: "pid {pid} на {host}",
 } satisfies TranslatedCatalog["app"];

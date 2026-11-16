@@ -13,8 +13,8 @@ export default {
       links: ["Приватность", "Лицензии открытого ПО"],
     },
   },
-  copyright: "© 2026 AnyModelBot · MIT",
-  art: "Персонажи © проект AnyModelBot",
+  copyright: "© 2026 Axzora Bot · MIT",
+  art: "Персонажи © проект Axzora Bot",
   tagline:
     "Команда ИИ-ботов на вашем компьютере. Войдите через Modelflare — один ключ для всех основных моделей.",
   featured: "О нас пишут",

@@ -24,7 +24,7 @@ export default {
     "unsupported": "Этот способ запуска не поддерживает обновление из приложения."
   },
   "whatsNew": {
-    "title": "AnyModelBot обновлён до {version}",
+    "title": "Axzora Bot обновлён до {version}",
     "availableTitle": "Что нового в {version}",
     "historyTitle": "История изменений",
     "earlier": "Предыдущие версии",

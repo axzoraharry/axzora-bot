@@ -12,7 +12,7 @@ set -u
 
 MAX_STEPS=20
 MAX_REPEATS=3
-UA='AnyModelBot support@anymodel.bot'
+UA='Axzora Bot support@anymodel.bot'
 
 die() {
   echo "error: $*" >&2

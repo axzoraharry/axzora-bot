@@ -106,7 +106,7 @@ export default {
   "replaceKey": "已连接 ••••{last4}。连接新的 Key 会替换它。",
   "keySuccess": "已连接 · {n} 个模型",
   "keyPrivacy": "Key 只保存在这台设备上，模型请求直接发给 {name}，不经过 Modelflare。",
-  "keyPrivacyServer": "Key 保存在运行 AnyModelBot 的服务器上，模型请求直接发给 {name}，不经过 Modelflare。",
+  "keyPrivacyServer": "Key 保存在运行 Axzora Bot 的服务器上，模型请求直接发给 {name}，不经过 Modelflare。",
   "jsonKept": "JSON 格式有误，已保留切换前的表单内容",
   "required": "必填",
   "accountFallback": "Modelflare 账号",

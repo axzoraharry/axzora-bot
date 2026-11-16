@@ -1,6 +1,6 @@
 export default {
-  "title": "Privacidad — AnyModelBot",
-  "description": "El sitio de AnyModelBot no usa cookies ni carga rastreadores de terceros.",
+  "title": "Privacidad — Axzora Bot",
+  "description": "El sitio de Axzora Bot no usa cookies ni carga rastreadores de terceros.",
   "h1": "Privacidad",
   "body": [
     "Este sitio no usa cookies ni carga rastreadores de terceros.",

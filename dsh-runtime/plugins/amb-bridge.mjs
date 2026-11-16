@@ -1,8 +1,8 @@
-// anymodel bot ⇄ DSH bridge plugin (MIT, part of anymodel bot).
+// Axzora Bot ⇄ DSH bridge plugin (MIT, part of Axzora Bot).
 //
 // Loaded into the dsh child via a profile patch. The npm 0.2.1-rc.4 SDK protocol does not forward
 // approval or ask-user requests to SDK clients, so this plugin answers the `approval/request` and
-// `user-questions/request` waterfalls by asking the anymodel bot main process over a loopback HTTP
+// `user-questions/request` waterfalls by asking the Axzora Bot main process over a loopback HTTP
 // bridge (URL + per-launch token in AMB_BRIDGE_URL / AMB_BRIDGE_TOKEN; DSH's shell-env does not pass
 // these to tool processes). Any bridge failure fails closed: approvals become 'unavailable'
 // (treated as rejection by DSH) and questions defer to the next answerer.

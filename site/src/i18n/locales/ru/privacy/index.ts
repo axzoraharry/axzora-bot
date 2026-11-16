@@ -1,7 +1,7 @@
 export default {
-  title: "Приватность — AnyModelBot",
+  title: "Приватность — Axzora Bot",
   description:
-    "Сайт AnyModelBot не использует cookie и не загружает сторонние трекеры.",
+    "Сайт Axzora Bot не использует cookie и не загружает сторонние трекеры.",
   h1: "Приватность",
   body: [
     "Этот сайт не использует cookie и не загружает сторонние трекеры.",

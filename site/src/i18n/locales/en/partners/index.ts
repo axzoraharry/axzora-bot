@@ -1,10 +1,10 @@
 export default {
-  "pageTitle": "Promote AnyModelBot and earn recurring commission — Partner Program",
-  "pageDescription": "Join the AnyModelBot partner program and share it with your students, readers and clients. When the users you bring pay, you earn recurring commission.",
+  "pageTitle": "Promote Axzora Bot and earn recurring commission — Partner Program",
+  "pageDescription": "Join the Axzora Bot partner program and share it with your students, readers and clients. When the users you bring pay, you earn recurring commission.",
   "footer": "Partners",
   "eyebrow": "Partner Program",
-  "h1": "Promote AnyModelBot,",
-  "lead": "Join the partner program and share AnyModelBot with your students, readers and clients. When the users you bring pay, you earn recurring commission. We'll settle the partnership and commission rate one-on-one.",
+  "h1": "Promote Axzora Bot,",
+  "lead": "Join the partner program and share Axzora Bot with your students, readers and clients. When the users you bring pay, you earn recurring commission. We'll settle the partnership and commission rate one-on-one.",
   "cta": "Join the partner program",
   "ctaProduct": "Learn about the product",
   "who": {
@@ -13,7 +13,7 @@ export default {
     "items": [
       {
         "title": "Training providers and instructors",
-        "body": "Build AnyModelBot into your courses and get your students using it.",
+        "body": "Build Axzora Bot into your courses and get your students using it.",
         "gain": "A new income stream for your courses"
       },
       {
@@ -63,7 +63,7 @@ export default {
       },
       {
         "title": "Share",
-        "body": "We'll settle the partnership with you and send product materials. Then share AnyModelBot with your students, readers and clients."
+        "body": "We'll settle the partnership with you and send product materials. Then share Axzora Bot with your students, readers and clients."
       },
       {
         "title": "Earn recurring commission",
@@ -81,7 +81,7 @@ export default {
       "action": "Fill in the application"
     },
     "mail": {
-      "subject": "AnyModelBot partner application"
+      "subject": "Axzora Bot partner application"
     },
     "dim": "we'll work with you one-on-one.",
     "points": [
@@ -105,7 +105,7 @@ export default {
   },
   "feed": {
     "items": [
-      "A new user started using AnyModelBot through your recommendation",
+      "A new user started using Axzora Bot through your recommendation",
       "That user completed a payment",
       "You earned a commission"
     ],

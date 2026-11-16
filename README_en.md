@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/modelflare-ai/AnyModelBot/releases">
-    <img src="docs/assets/brand/logo-eyes.webp" width="120" height="120" alt="AnyModelBot Eyes mark: two vertical pill-shaped eyes that glance left and right">
+    <img src="docs/assets/brand/logo-eyes.webp" width="120" height="120" alt="Axzora Bot Eyes mark: two vertical pill-shaped eyes that glance left and right">
   </a>
 </p>
 
 <h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/wordmark-dark.svg">
-    <img src="docs/assets/brand/wordmark-light.svg" height="40" alt="AnyModelBot">
+    <img src="docs/assets/brand/wordmark-light.svg" height="40" alt="Axzora Bot">
   </picture>
 </h1>
 
@@ -49,14 +49,14 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/hero/hero-demo.gif" alt="AnyModelBot in action: sign in to Modelflare, pick a model, ask a bot to tidy a folder, and approve a file move" width="100%">
+  <img src="docs/assets/hero/hero-demo.gif" alt="Axzora Bot in action: sign in to Modelflare, pick a model, ask a bot to tidy a folder, and approve a file move" width="100%">
 </p>
 
-# 🤖 AnyModelBot
+# 🤖 Axzora Bot
 
-AnyModelBot is a team of AI bots for Windows, macOS, and Linux, running on your computer. Each bot has its own persona, default model, workspace, and memory. You can chat in the app, or connect WeChat, Feishu, Telegram, Slack, or Discord. It can read and write files, run commands, and operate the desktop after you grant permission; it asks before writing outside its workspace.
+Axzora Bot is a team of AI bots for Windows, macOS, and Linux, running on your computer. Each bot has its own persona, default model, workspace, and memory. You can chat in the app, or connect WeChat, Feishu, Telegram, Slack, or Discord. It can read and write files, run commands, and operate the desktop after you grant permission; it asks before writing outside its workspace.
 
-Conversations, memory, files, and API keys stay on your device. Models can come from [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme) (sign in, pay as you go) or from your own official API keys, sent directly to the provider. AnyModelBot itself has no subscription fee.
+Conversations, memory, files, and API keys stay on your device. Models can come from [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme) (sign in, pay as you go) or from your own official API keys, sent directly to the provider. Axzora Bot itself has no subscription fee.
 
 Ready to use after install: background tasks, scheduled rules, and items waiting for your OK are built in.
 
@@ -64,7 +64,7 @@ Ready to use after install: background tasks, scheduled rules, and items waiting
 
 📥 [Download](#-download-and-run) · 🌠 [Screenshots](#-screenshots) · 🌟 [Features](#-key-features) · 🆚 [Compare](#-anymodelbot-vs-grok-bot-openai-dots-and-claude-duet) · 🔐 [Privacy](#-how-it-works--privacy)
 
-⭐ Like AnyModelBot? Star the repo to follow new releases.
+⭐ Like Axzora Bot? Star the repo to follow new releases.
 
 ---
 
@@ -74,7 +74,7 @@ Ready to use after install: background tasks, scheduled rules, and items waiting
 
 The easiest way to get models is **[Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)**: sign in and use models, with no separate key to request from each provider (to go straight to a provider, see [Any model](#-any-model-through-modelflare-or-official-apis)). Available models, prices, and current offers are on [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme) and the [price list](https://modelflare.dev/pricing?utm_source=anymodelbot&utm_campaign=amb_readme).
 
-**Bot credits**: new accounts get Bot credits when they sign up, and Modelflare subscriptions add Bot credits worth 10% of the plan; see Modelflare's site for the current terms. Bot credits are usable only in AnyModelBot. Requests from the app use them first, and Settings → Models shows how much is left.
+**Bot credits**: new accounts get Bot credits when they sign up, and Modelflare subscriptions add Bot credits worth 10% of the plan; see Modelflare's site for the current terms. Bot credits are usable only in Axzora Bot. Requests from the app use them first, and Settings → Models shows how much is left.
 
 **[Sign up for Modelflare →](https://modelflare.dev/sign-up?utm_source=anymodelbot&utm_campaign=amb_readme)** ·
 [Price list](https://modelflare.dev/pricing?utm_source=anymodelbot&utm_campaign=amb_readme) ·
@@ -82,7 +82,7 @@ The easiest way to get models is **[Modelflare](https://modelflare.dev/?utm_sour
 [Trust Center](https://modelflare.dev/trust?utm_source=anymodelbot&utm_campaign=amb_readme) ·
 [X](https://x.com/modelflare_dev)
 
-**How AnyModelBot uses Modelflare**
+**How Axzora Bot uses Modelflare**
 
 - **Sign in once.** The first launch opens your browser to sign in to (or sign up for) Modelflare. The app then connects this device itself, so there is no key to copy, and brings you back once you approve. If you have no default model yet, it picks a low-cost model that supports tools. Running in Docker or on a server? Sign in from a browser on any device, then paste the link you land on back into the app.
 - **Every model, one picker.** Your Modelflare models are listed automatically, with context length, capabilities and reference prices next to each one.
@@ -97,18 +97,18 @@ Pick your platform. Every release page lists all installers and a `SHA256SUMS` f
 
 | Platform | Architecture | Installer | |
 | :--- | :--- | :--- | :--- |
-| ![Windows][win-badge] | x64 | `anymodel-bot-<version>-win-x64.exe` | [Download][releases-link] |
-| ![Windows][win-badge] | arm64 | `anymodel-bot-<version>-win-arm64.exe` | [Download][releases-link] |
-| ![macOS][mac-badge] | Apple silicon | `anymodel-bot-<version>-mac-arm64.dmg` | [Download][releases-link] |
-| ![macOS][mac-badge] | Intel | `anymodel-bot-<version>-mac-x64.dmg` | [Download][releases-link] |
-| ![Linux][linux-badge] | x64 | `anymodel-bot-<version>-linux-x86_64.AppImage` | [Download][releases-link] |
-| ![Linux][linux-badge] | arm64 | `anymodel-bot-<version>-linux-arm64.AppImage` | [Download][releases-link] |
+| ![Windows][win-badge] | x64 | `axzora-bot-<version>-win-x64.exe` | [Download][releases-link] |
+| ![Windows][win-badge] | arm64 | `axzora-bot-<version>-win-arm64.exe` | [Download][releases-link] |
+| ![macOS][mac-badge] | Apple silicon | `axzora-bot-<version>-mac-arm64.dmg` | [Download][releases-link] |
+| ![macOS][mac-badge] | Intel | `axzora-bot-<version>-mac-x64.dmg` | [Download][releases-link] |
+| ![Linux][linux-badge] | x64 | `axzora-bot-<version>-linux-x86_64.AppImage` | [Download][releases-link] |
+| ![Linux][linux-badge] | arm64 | `axzora-bot-<version>-linux-arm64.AppImage` | [Download][releases-link] |
 
 <p align="center">
-  <img src="docs/assets/download/install-windows.gif" alt="Installing AnyModelBot on Windows: run the installer, open the app, and land on the Modelflare sign-in screen" width="100%">
+  <img src="docs/assets/download/install-windows.gif" alt="Installing Axzora Bot on Windows: run the installer, open the app, and land on the Modelflare sign-in screen" width="100%">
 </p>
 
-**First launch.** If Windows shows a security warning, choose *More info → Run anyway*. The macOS app is Developer ID signed and notarized by Apple: drag it to Applications, launch it, and choose Open if prompted to confirm an internet download. On Linux, mark the AppImage as executable (`chmod +x`) and run it. Closing the window hides AnyModelBot to the tray; quit from the tray menu or from Settings.
+**First launch.** If Windows shows a security warning, choose *More info → Run anyway*. The macOS app is Developer ID signed and notarized by Apple: drag it to Applications, launch it, and choose Open if prompted to confirm an internet download. On Linux, mark the AppImage as executable (`chmod +x`) and run it. Closing the window hides Axzora Bot to the tray; quit from the tray menu or from Settings.
 
 **Verify a download.**
 
@@ -121,7 +121,7 @@ On macOS use `shasum -a 256 <file>`; in Windows PowerShell use `Get-FileHash <fi
 **Run it in Docker on a NAS or server** (the image covers both x64 and arm64)
 
 ```bash
-docker run -d --name amb -p 3600:3600 -v amb-data:/data ghcr.io/modelflare-ai/anymodel-bot
+docker run -d --name amb -p 3600:3600 -v amb-data:/data ghcr.io/modelflare-ai/axzora-bot
 docker exec amb cat /data/ui-token   # then open http://<host>:3600/?token=<token>
 ```
 
@@ -131,7 +131,7 @@ Don't expose port 3600 directly to the internet.
 
 ```bash
 git clone https://github.com/modelflare-ai/AnyModelBot.git
-cd AnyModelBot
+cd Axzora Bot
 npm install
 npm run setup      # fetches and builds the bundled gateway
 npm start          # opens the local console at http://127.0.0.1:3600/
@@ -180,7 +180,7 @@ These screenshots show the Simplified Chinese interface. The app also supports E
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/screenshots/bots-dark.webp">
-  <img src="docs/assets/screenshots/bots-light.webp" alt="Six AnyModelBot characters in a row, each with its own color" width="100%">
+  <img src="docs/assets/screenshots/bots-light.webp" alt="Six Axzora Bot characters in a row, each with its own color" width="100%">
 </picture>
 
 <p align="center"><i>Six characters to tell your bots apart. Their eyes follow your pointer.</i></p>
@@ -218,7 +218,7 @@ Official bots include their UIs, samples, personas and skills in the installer. 
 - **Film Studio:** Short videos and serials: script, storyboard, voice, editing, and final cut.
 - **US Stock Research:** Research US-listed companies from SEC filings, with every number traceable.
 
-Film Studio requires AnyModelBot 0.1.23 or later, Python 3.10+ and FFmpeg (including ffprobe) on your device. AI images and videos use Modelflare and are billed by usage; projects and media stay on your device.
+Film Studio requires Axzora Bot 0.1.23 or later, Python 3.10+ and FFmpeg (including ffprobe) on your device. AI images and videos use Modelflare and are billed by usage; projects and media stay on your device.
 
 See the [bots page on our website](https://anymodel.bot/en/bots) for details.
 
@@ -233,7 +233,7 @@ See the [bots page on our website](https://anymodel.bot/en/bots) for details.
 - **Pause anytime.** One switch in bot settings › Proactive messages pauses background work; chat carries on.
 - **Cleans up after itself.** Tasks and run logs are kept for 30 days. A task folder unused for 30 days is deleted without asking; the task details show the date, and Keep holds on to it. Run logs export as Markdown.
 
-The runtime is built on [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), and the design draws on DeepSeek's [super-agent prototype](https://github.com/deepseek-ai/dsh-superagent-prototype). The full story, in Chinese: [AnyModelBot 超级智能体](./docs/blog/superagent.md).
+The runtime is built on [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), and the design draws on DeepSeek's [super-agent prototype](https://github.com/deepseek-ai/dsh-superagent-prototype). The full story, in Chinese: [Axzora Bot 超级智能体](./docs/blog/superagent.md).
 
 ## 🖥️ Operates your computer, and makes images and video
 
@@ -254,8 +254,8 @@ The runtime is built on [DeepSeek Harness](https://github.com/deepseek-ai/deepse
 - **Or bring your own official API keys.** OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Kimi, GLM, Qwen, MiniMax and Mistral are supported. Keys stay on your device, model requests go straight to the provider without passing through Modelflare, and the provider bills you. Image and video generation is only available through Modelflare for now.
 - **One picker for everything.** GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and more, each with context length, capability tags and a reference price.
 - **Switch per conversation** or set a default per bot. Background chores such as tidying memory and context hand-offs can use a separate model of their own.
-- **Three API domains.** Choose `modelflare.dev`, `origin.modelflare.dev` or `cf.modelflare.dev` and compare their response times in Settings; AnyModelBot never switches automatically.
-- **Pay per use.** Wallet balance, low-balance reminders, daily usage and per-bot budget keys are built in. AnyModelBot itself has no subscription fee.
+- **Three API domains.** Choose `modelflare.dev`, `origin.modelflare.dev` or `cf.modelflare.dev` and compare their response times in Settings; Axzora Bot never switches automatically.
+- **Pay per use.** Wallet balance, low-balance reminders, daily usage and per-bot budget keys are built in. Axzora Bot itself has no subscription fee.
 
 <p align="center">
   <img src="docs/assets/features/first-run.gif" alt="First launch: click Sign in to Modelflare, approve in the browser, return to the app with models listed, and send a first message" width="100%">
@@ -294,17 +294,17 @@ The runtime is built on [DeepSeek Harness](https://github.com/deepseek-ai/deepse
 - **Tray and autostart.** Close the window to hide to the tray; autostart is available on macOS and Windows.
 
 <p align="center">
-  <img src="docs/assets/features/characters-eyes.gif" alt="Six AnyModelBot characters in a row; their eyes follow the pointer as it moves across them" width="100%">
+  <img src="docs/assets/features/characters-eyes.gif" alt="Six Axzora Bot characters in a row; their eyes follow the pointer as it moves across them" width="100%">
 </p>
 
 > [!NOTE]
 > Features depend on the model you choose, your operating system and the permissions you grant. Computer use requires a desktop session, and macOS computer use is in Beta. Model requests go to the provider you pick (directly with your own official API key, otherwise through Modelflare); see [How it works & privacy](#-how-it-works--privacy).
 
-# 🆚 AnyModelBot vs Grok Bot, OpenAI dots and Claude Duet
+# 🆚 Axzora Bot vs Grok Bot, OpenAI dots and Claude Duet
 
-In the second half of 2026, xAI's [Grok Bot](https://x.ai/bot), OpenAI's [dots](https://openai.com/index/introducing-dots/) and Anthropic's Claude Duet launched one after another. They also work for you in the background, and check in when a decision is yours. AnyModelBot does the same kind of work, in a different way: it is open source, runs on your own device, and works with a wide range of models.
+In the second half of 2026, xAI's [Grok Bot](https://x.ai/bot), OpenAI's [dots](https://openai.com/index/introducing-dots/) and Anthropic's Claude Duet launched one after another. They also work for you in the background, and check in when a decision is yours. Axzora Bot does the same kind of work, in a different way: it is open source, runs on your own device, and works with a wide range of models.
 
-| | AnyModelBot | Grok Bot | OpenAI dots | Claude Duet |
+| | Axzora Bot | Grok Bot | OpenAI dots | Claude Duet |
 | :--- | :--- | :--- | :--- | :--- |
 | Open source | ✅ MIT | — | — | — |
 | Where it runs | Your own computer or server | xAI's cloud computer | OpenAI's cloud computer | Anthropic's cloud |
@@ -313,10 +313,10 @@ In the second half of 2026, xAI's [Grok Bot](https://x.ai/bot), OpenAI's [dots](
 | Where you reach it | Desktop app (Windows, macOS, Linux), Docker, WeChat, Feishu, Telegram, Slack, Discord | Desktop app, iPhone | ChatGPT, Slack, Teams | iOS, Android, claude.ai |
 | Availability | Download it now | Beta | Select markets | Research preview, US waitlist |
 
-AnyModelBot works in the background too: a task you hand over can finish in the background and send its result to your chat app, and anything that needs your approval or answer shows up under "Needs you" in the sidebar. Every step a bot takes is visible, and anything outside its workspace asks you first.
+Axzora Bot works in the background too: a task you hand over can finish in the background and send its result to your chat app, and anything that needs your approval or answer shows up under "Needs you" in the sidebar. Every step a bot takes is visible, and anything outside its workspace asks you first.
 
 > [!NOTE]
-> Details about the other products come from public reports as of October 2026 and may have changed; check each vendor's official information. Grok Bot, dots and Claude Duet are products and trademarks of xAI, OpenAI and Anthropic respectively. AnyModelBot is not affiliated with them.
+> Details about the other products come from public reports as of October 2026 and may have changed; check each vendor's official information. Grok Bot, dots and Claude Duet are products and trademarks of xAI, OpenAI and Anthropic respectively. Axzora Bot is not affiliated with them.
 
 # 🔐 How it works & privacy
 
@@ -391,7 +391,7 @@ Read the full [contributing guide](./CONTRIBUTING_en.md). To report a security p
 
 # 🔗 Related Projects
 
-- [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme): the AI API gateway behind AnyModelBot's models.
+- [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme): the AI API gateway behind Axzora Bot's models.
 - [magpie](https://github.com/yetone/magpie): the Go gateway bundled with the app (MIT).
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): the agent runtime (MIT).
 - [Cua](https://github.com/trycua/cua): the computer-use driver.
@@ -412,7 +412,7 @@ Full licenses and notices: [THIRD_PARTY_NOTICES_en.md](./THIRD_PARTY_NOTICES_en.
 # 🚀 Contributors
 
 <a href="https://github.com/modelflare-ai/AnyModelBot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=modelflare-ai/AnyModelBot" alt="Contributors to AnyModelBot" />
+  <img src="https://contrib.rocks/image?repo=modelflare-ai/AnyModelBot" alt="Contributors to Axzora Bot" />
 </a>
 
 # ⭐️ Star History
@@ -421,13 +421,13 @@ Full licenses and notices: [THIRD_PARTY_NOTICES_en.md](./THIRD_PARTY_NOTICES_en.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" />
-    <img alt="Star history chart for AnyModelBot" src="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" width="100%" />
+    <img alt="Star history chart for Axzora Bot" src="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" width="100%" />
   </picture>
 </a>
 
 # 📜 License
 
-AnyModelBot is released under the [MIT License](./LICENSE). Bundled third-party software keeps its own licenses; see [THIRD_PARTY_NOTICES_en.md](./THIRD_PARTY_NOTICES_en.md) and the [`LICENSES/`](./LICENSES) folder.
+Axzora Bot is released under the [MIT License](./LICENSE). Bundled third-party software keeps its own licenses; see [THIRD_PARTY_NOTICES_en.md](./THIRD_PARTY_NOTICES_en.md) and the [`LICENSES/`](./LICENSES) folder.
 
 <!-- link & badge references -->
 [release-shield]: https://img.shields.io/github/v/release/modelflare-ai/AnyModelBot?include_prereleases&label=release&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB4PSIzIiB5PSI5IiB3aWR0aD0iOTQiIGhlaWdodD0iODIiIHJ4PSIzNiIgZmlsbD0iI2Q3ZmYwMCIvPjxyZWN0IHg9IjI5IiB5PSIzNiIgd2lkdGg9IjEzIiBoZWlnaHQ9IjI4IiByeD0iNi41IiBmaWxsPSIjMTYxYTAwIi8+PHJlY3QgeD0iNTgiIHk9IjM2IiB3aWR0aD0iMTMiIGhlaWdodD0iMjgiIHJ4PSI2LjUiIGZpbGw9IiMxNjFhMDAiLz48L3N2Zz4=&style=flat-square&labelColor=161a00&color=d7ff00

@@ -31,7 +31,7 @@ export default {
   sandboxReadonly: "sandbox somente leitura",
   sandboxFull: "acesso total: sem sandbox",
   fullWarning:
-    "Atenção: com acesso total, os comandos rodam diretamente com o seu usuário e podem ler e alterar qualquer arquivo do computador (incluindo os dados do próprio AnyModelBot); só exclusões recursivas ainda pedem confirmação. Você pode voltar para “Gravação no espaço de trabalho” nas configurações do bot.",
+    "Atenção: com acesso total, os comandos rodam diretamente com o seu usuário e podem ler e alterar qualquer arquivo do computador (incluindo os dados do próprio Axzora Bot); só exclusões recursivas ainda pedem confirmação. Você pode voltar para “Gravação no espaço de trabalho” nas configurações do bot.",
   backgroundTasks: "Tarefas em segundo plano: {list}",
   backgroundTask: "“{title}” {stage}",
   modeChat: "modo somente chat",
@@ -64,7 +64,7 @@ export default {
   doneNoText: "(Concluído, sem resposta em texto)",
   agentFailed: "⚠️ A execução do agente falhou: {error}",
   localProxyRefused:
-    "O proxy de rede local em {address} recusou a conexão. Abra o app de proxy e verifique a porta dele, ou remova o proxy sem uso das configurações do sistema ou das variáveis de ambiente. Depois, encerre o AnyModelBot por completo e abra de novo para tentar outra vez.",
+    "O proxy de rede local em {address} recusou a conexão. Abra o app de proxy e verifique a porta dele, ou remova o proxy sem uso das configurações do sistema ou das variáveis de ambiente. Depois, encerre o Axzora Bot por completo e abra de novo para tentar outra vez.",
   resetDone: "✅ O contexto desta conversa foi limpo",
   newAgentOnly: "O modo agente está desativado, então não dá para iniciar uma nova conversa. Envie /reset para limpar o contexto.",
   alreadyNew: "Você já está em uma conversa nova.",
@@ -116,7 +116,7 @@ export default {
   stoppedLimit:
     "⚠️ Esta mensagem passou do limite de {d}, então foi interrompida{restart}. {where}Tente dividir a tarefa em partes menores.",
   stoppedPermission:
-    "⚠️ O uso do computador precisa de uma permissão do macOS ({missing}), então a tarefa não pôde continuar. Conceda a permissão como mostrado no AnyModelBot e envie a tarefa de novo.",
+    "⚠️ O uso do computador precisa de uma permissão do macOS ({missing}), então a tarefa não pôde continuar. Conceda a permissão como mostrado no Axzora Bot e envie a tarefa de novo.",
   permAccessibility: "Acessibilidade",
   permScreen: "Gravação de Tela",
   runtimeRestarted:

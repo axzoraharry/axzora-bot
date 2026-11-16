@@ -24,7 +24,7 @@ export default {
     "unsupported": "此运行方式不支持应用内更新。"
   },
   "whatsNew": {
-    "title": "AnyModelBot 已更新到 {version}",
+    "title": "Axzora Bot 已更新到 {version}",
     "availableTitle": "{version} 更新了什么",
     "historyTitle": "更新日志",
     "earlier": "更早的版本",

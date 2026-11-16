@@ -1,4 +1,4 @@
-// anymodel bot background tasks (MIT, part of anymodel bot).
+// Axzora Bot background tasks (MIT, part of Axzora Bot).
 //
 // The host creates one DSH session per background task over the SDK (`task-<id>`, its own folder as working
 // directory) and owns tasks, runs and delivery. This plugin decorates those sessions on agent/created, which also

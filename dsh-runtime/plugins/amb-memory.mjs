@@ -1,4 +1,4 @@
-// anymodel bot long-term memory tools + context-steward hook (MIT, part of anymodel bot).
+// Axzora Bot long-term memory tools + context-steward hook (MIT, part of Axzora Bot).
 //
 // Registers remember / forget / recall. The memory files live in the host data directory,
 // which the agent's file and shell tools cannot read; every operation goes through the host

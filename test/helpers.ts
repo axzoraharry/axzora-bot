@@ -376,7 +376,7 @@ export async function mockModelflare() {
     if (u.pathname === "/oauth/token" && req.method === "POST") {
       const f = Object.fromEntries(await readForm(req));
       s.tokenForms.push(f);
-      if (f.client_id !== "anymodel-bot" || f.client_secret) return json({ error: "invalid_client" }, 401);
+      if (f.client_id !== "axzora-bot" || f.client_secret) return json({ error: "invalid_client" }, 401);
       if (f.grant_type === "authorization_code") {
         const p = s.pending.get(f.code);
         s.pending.delete(f.code);

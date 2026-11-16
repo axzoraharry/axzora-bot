@@ -1,8 +1,8 @@
 export default {
-  "title": "Open-source licenses — AnyModelBot",
-  "description": "Third-party components used by AnyModelBot and this site, and their licenses.",
+  "title": "Open-source licenses — Axzora Bot",
+  "description": "Third-party components used by Axzora Bot and this site, and their licenses.",
   "h1": "Open-source licenses",
-  "lead": "AnyModelBot is released under the MIT license. Below are the third-party notices shipped with the app (synced from the repository's THIRD_PARTY_NOTICES.md), followed by the components this site uses.",
+  "lead": "Axzora Bot is released under the MIT license. Below are the third-party notices shipped with the app (synced from the repository's THIRD_PARTY_NOTICES.md), followed by the components this site uses.",
   "site": "Components used by this site",
   "siteItems": [
     "Geist / Geist Mono fonts (SIL Open Font License 1.1, see /fonts/OFL.txt)",

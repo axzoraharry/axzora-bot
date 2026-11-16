@@ -27,10 +27,10 @@ describe("回环 PKCE 登录", () => {
 
   it("授权地址带公共客户端参数；state 不对的回调被忽略，正确的回调换到令牌且不带客户端密钥", async () => {
     const ep = await discover(mf.url);
-    const attempt = await startLogin(ep, { clientId: "anymodel-bot", scope: "openid offline_access account api_keys", extra: { utm_source: "anymodelbot" } });
+    const attempt = await startLogin(ep, { clientId: "axzora-bot", scope: "openid offline_access account api_keys", extra: { utm_source: "anymodelbot" } });
     const u = new URL(attempt.url);
     expect(u.origin + u.pathname).toBe(`${mf.url}/oauth/authorize`);
-    expect(Object.fromEntries(u.searchParams)).toMatchObject({ response_type: "code", client_id: "anymodel-bot", code_challenge_method: "S256", prompt: "consent", utm_source: "anymodelbot" });
+    expect(Object.fromEntries(u.searchParams)).toMatchObject({ response_type: "code", client_id: "axzora-bot", code_challenge_method: "S256", prompt: "consent", utm_source: "anymodelbot" });
     expect(u.searchParams.get("redirect_uri")).toMatch(/^http:\/\/127\.0\.0\.1:\d+\/callback$/);
 
     // 别的网页带着伪造的 state 来敲回调：不结束这次登录
@@ -52,7 +52,7 @@ describe("回环 PKCE 登录", () => {
 
   it("登录成功页要等登录真正完成：finalize 失败时页面显示失败原因，不说成功", async () => {
     const attempt = await startLogin(await discover(mf.url), {
-      clientId: "anymodel-bot",
+      clientId: "axzora-bot",
       scope: "openid offline_access",
       finalize: async () => {
         throw new Error("网关没接上");
@@ -77,7 +77,7 @@ describe("回环 PKCE 登录", () => {
   it("finalize 成功后才是 done；只有这次成功页带的 nonce 才能确认\"已返回应用\"", async () => {
     let finalized = false;
     const attempt = await startLogin(await discover(mf.url), {
-      clientId: "anymodel-bot",
+      clientId: "axzora-bot",
       scope: "openid offline_access",
       appLink: "anymodelbot://login-complete",
       finalize: async () => {
@@ -106,7 +106,7 @@ describe("回环 PKCE 登录", () => {
     let release!: () => void;
     const gate = new Promise<void>((r) => (release = r));
     const attempt = await startLogin(await discover(mf.url), {
-      clientId: "anymodel-bot",
+      clientId: "axzora-bot",
       scope: "openid offline_access",
       finalize: async (_t, signal) => {
         seen = signal;
@@ -123,7 +123,7 @@ describe("回环 PKCE 登录", () => {
   });
 
   it("没有应用链接（命令行、Docker）时成功页不去唤起本机的客户端", async () => {
-    const attempt = await startLogin(await discover(mf.url), { clientId: "anymodel-bot", scope: "openid offline_access" });
+    const attempt = await startLogin(await discover(mf.url), { clientId: "axzora-bot", scope: "openid offline_access" });
     const html = await (await approveInBrowser(mf, attempt.url)).text();
     await attempt.result;
     expect(html).not.toContain("anymodelbot://");
@@ -131,14 +131,14 @@ describe("回环 PKCE 登录", () => {
   });
 
   it("用户在授权页拒绝：登录以 access_denied 结束", async () => {
-    const attempt = await startLogin(await discover(mf.url), { clientId: "anymodel-bot", scope: "openid offline_access" });
+    const attempt = await startLogin(await discover(mf.url), { clientId: "axzora-bot", scope: "openid offline_access" });
     const u = new URL(attempt.url);
     await fetch(`${u.searchParams.get("redirect_uri")}?error=access_denied&state=${u.searchParams.get("state")}`);
     await expect(attempt.result).rejects.toMatchObject({ code: "access_denied" });
   });
 
   it("手动交回链接：别的 state 报错但登录还在等；地址栏里的链接（没有协议头也行）换到令牌；之后再贴报已结束", async () => {
-    const attempt = await startLogin(await discover(mf.url), { clientId: "anymodel-bot", scope: "openid offline_access" });
+    const attempt = await startLogin(await discover(mf.url), { clientId: "axzora-bot", scope: "openid offline_access" });
     expect(() => attempt.complete("not a link")).toThrow(/不是这次登录/);
     expect(() => attempt.complete("http://127.0.0.1:1/callback?code=x&state=forged")).toThrow(/不是这次登录/);
     const link = callbackLink(mf, attempt.url);
@@ -148,7 +148,7 @@ describe("回环 PKCE 登录", () => {
   });
 
   it("手动交回的链接带着拒绝：登录结束", async () => {
-    const attempt = await startLogin(await discover(mf.url), { clientId: "anymodel-bot", scope: "openid offline_access" });
+    const attempt = await startLogin(await discover(mf.url), { clientId: "axzora-bot", scope: "openid offline_access" });
     const state = new URL(attempt.url).searchParams.get("state")!;
     attempt.complete(`http://127.0.0.1:1/callback?error=access_denied&state=${encodeURIComponent(state)}`);
     await expect(attempt.result).rejects.toMatchObject({ code: "access_denied" });
@@ -240,7 +240,7 @@ describe("AccountManager", () => {
   it("登录后签发本机 Key 并接到内置网关；refresh token 只存在 600 权限的账户文件里", async () => {
     await signIn();
     expect(calls).toEqual(["connect:sk-key-1"]);
-    expect(mf.s.keys[0].name).toBe("AnyModelBot · test-pc");
+    expect(mf.s.keys[0].name).toBe("Axzora Bot · test-pc");
     const st = manager.status();
     expect(st).toMatchObject({ state: "signed_in", name: "Ada", source: "account", balanceUsd: 12.5 });
     expect(JSON.stringify(st)).not.toMatch(/rt-|at-/);
@@ -338,7 +338,7 @@ describe("AccountManager", () => {
     await signIn();
     await manager.setBotBudget("b1", "写作助手", { enabled: true, limitUsd: 5 });
     expect(calls).toContain("bot:b1:sk-key-2");
-    expect(mf.s.keys.find((k) => k.id === 2)).toMatchObject({ name: "AnyModelBot · 写作助手", limit_usd: 5 });
+    expect(mf.s.keys.find((k) => k.id === 2)).toMatchObject({ name: "Axzora Bot · 写作助手", limit_usd: 5 });
     await manager.setBotBudget("b1", "写作助手", { enabled: true, limitUsd: 8 });
     expect(mf.s.keys).toHaveLength(2);
     expect(mf.s.keys.find((k) => k.id === 2)!.limit_usd).toBe(8);
@@ -398,7 +398,7 @@ describe("AccountManager", () => {
     mf.s.keys = [];
     expect(await manager.repairKeys()).toBe(true);
     expect(calls).toEqual(["connect:sk-key-1", "connect:sk-key-2"]);
-    expect(mf.s.keys).toMatchObject([{ id: 2, name: "AnyModelBot · test-pc" }]);
+    expect(mf.s.keys).toMatchObject([{ id: 2, name: "Axzora Bot · test-pc" }]);
     expect(AccountVault.at(dir).load()!.deviceKeyId).toBe(2);
     expect(alerts.filter((a) => a.includes("已自动重新签发"))).toHaveLength(1);
     // 刚换过：maxAgeMs 内再问得到“换过了”（失败的请求可以重试），过后重新核对，没再换
@@ -439,7 +439,7 @@ describe("AccountManager", () => {
     expect(await manager.repairKeys()).toBe(true);
     expect(calls).toContain("bot:b1:sk-key-4");
     expect(calls).toContain("unbot:b2");
-    expect(mf.s.keys.find((k) => k.id === 4)).toMatchObject({ name: "AnyModelBot · 写作助手", limit_usd: 5 });
+    expect(mf.s.keys.find((k) => k.id === 4)).toMatchObject({ name: "Axzora Bot · 写作助手", limit_usd: 5 });
     expect(alerts.filter((a) => a.includes("写作助手") && a.includes("$5"))).toHaveLength(1);
     expect(await manager.botBudgets()).toMatchObject({ b1: { limit_usd: 5 } });
     expect(Object.keys(await manager.botBudgets())).toEqual(["b1"]);
@@ -465,7 +465,7 @@ describe("AccountManager", () => {
   it("性价比：登录签发的 Key 带着均衡；Modelflare 回显了才算支持，核对时不再重复改", async () => {
     mf.s.routing = "echo";
     await signIn();
-    expect(posts()).toMatchObject([{ body: { name: "AnyModelBot · test-pc", routing_strategy: "balanced" } }]);
+    expect(posts()).toMatchObject([{ body: { name: "Axzora Bot · test-pc", routing_strategy: "balanced" } }]);
     expect(manager.status().keyQuality).toEqual({ strategy: "balanced", supported: true });
     await manager.repairKeys();
     expect(patches()).toEqual([]);
@@ -645,7 +645,7 @@ describe("模型路由与归因", () => {
   });
 
   it("归因头只接受纯数字版本号", () => {
-    expect(skillHeader("0.1.3")).toEqual({ "X-Modelflare-Skill": "anymodel-bot/0.1.3" });
+    expect(skillHeader("0.1.3")).toEqual({ "X-Modelflare-Skill": "axzora-bot/0.1.3" });
     expect(skillHeader("0.1.3-beta")).toEqual({});
   });
 });
@@ -748,7 +748,7 @@ describe("生图 / 生视频", () => {
       expect(text).toContain("present");
       const vtext = await media.run("b1", "video", { prompt: "海浪" });
       expect(fs.readFileSync(path.join(ws, vtext.match(/media\/video-[\w-]+\.mp4/)![0]), "utf8")).toBe("mp4");
-      expect(seen.every((x) => x.auth === "Bearer sk-bot" && x.skill === "anymodel-bot/0.1.3")).toBe(true);
+      expect(seen.every((x) => x.auth === "Bearer sk-bot" && x.skill === "axzora-bot/0.1.3")).toBe(true);
       await expect(media.run("b2", "image", { prompt: "x" })).rejects.toThrow(/还没有连接/);
       await expect(media.run("b1", "image", { prompt: "x", model: "nope" })).rejects.toThrow(/没有这个模型/);
     } finally {

@@ -13,7 +13,7 @@ export default {
   },
   release: {
     tag: "Новинка: v{version}",
-    text: "Вышел AnyModelBot {version}",
+    text: "Вышел Axzora Bot {version}",
     cta: "Скачать",
     link: "История изменений",
   },

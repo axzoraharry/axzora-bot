@@ -23,6 +23,6 @@ export default {
   media_not_downloaded: "{label} (não foi possível baixar: {error})",
   weixinExpiredSubject: "O login do WeChat expirou",
   data_dir_locked:
-    "Outro processo do anymodel bot ({who}) está usando a pasta de dados {dir}. Encerre esse processo ou use outra pasta de dados (AMB_DATA_DIR).",
+    "Outro processo do Axzora Bot ({who}) está usando a pasta de dados {dir}. Encerre esse processo ou use outra pasta de dados (AMB_DATA_DIR).",
   data_dir_locked_remote: "pid {pid} em {host}",
 } satisfies TranslatedCatalog["app"];

@@ -1,10 +1,10 @@
 export default {
-  "pageTitle": "AnyModelBot을 홍보하고 지속 수수료를 받으세요 — 파트너 프로그램",
-  "pageDescription": "AnyModelBot 파트너 프로그램에 참여해 수강생, 독자, 고객에게 소개하세요. 소개한 사용자가 결제하면 지속 수수료를 받습니다.",
+  "pageTitle": "Axzora Bot을 홍보하고 지속 수수료를 받으세요 — 파트너 프로그램",
+  "pageDescription": "Axzora Bot 파트너 프로그램에 참여해 수강생, 독자, 고객에게 소개하세요. 소개한 사용자가 결제하면 지속 수수료를 받습니다.",
   "footer": "파트너",
   "eyebrow": "파트너 프로그램",
-  "h1": "AnyModelBot을 홍보하고",
-  "lead": "파트너 프로그램에 참여해 수강생, 독자, 고객에게 AnyModelBot을 소개하세요. 소개한 사용자가 결제하면 지속 수수료를 받습니다. 협력 방식과 수수료율은 일대일로 논의합니다.",
+  "h1": "Axzora Bot을 홍보하고",
+  "lead": "파트너 프로그램에 참여해 수강생, 독자, 고객에게 Axzora Bot을 소개하세요. 소개한 사용자가 결제하면 지속 수수료를 받습니다. 협력 방식과 수수료율은 일대일로 논의합니다.",
   "cta": "파트너 프로그램 참여",
   "ctaProduct": "제품 알아보기",
   "who": {
@@ -13,7 +13,7 @@ export default {
     "items": [
       {
         "title": "교육 기관과 강사",
-        "body": "AnyModelBot을 강의에 넣어 수강생이 쓰도록 이끌어 주세요.",
+        "body": "Axzora Bot을 강의에 넣어 수강생이 쓰도록 이끌어 주세요.",
         "gain": "강의의 새로운 수입원"
       },
       {
@@ -63,7 +63,7 @@ export default {
       },
       {
         "title": "소개하기",
-        "body": "협력 방식을 정하고 제품 자료를 드립니다. 수강생, 독자, 고객에게 AnyModelBot을 소개해 주세요."
+        "body": "협력 방식을 정하고 제품 자료를 드립니다. 수강생, 독자, 고객에게 Axzora Bot을 소개해 주세요."
       },
       {
         "title": "지속 수수료 받기",
@@ -81,7 +81,7 @@ export default {
       "action": "신청서 작성하기"
     },
     "mail": {
-      "subject": "AnyModelBot 파트너 신청"
+      "subject": "Axzora Bot 파트너 신청"
     },
     "dim": "일대일로 함께합니다.",
     "points": [
@@ -105,7 +105,7 @@ export default {
   },
   "feed": {
     "items": [
-      "새 사용자가 회원님의 추천으로 AnyModelBot을 쓰기 시작했습니다",
+      "새 사용자가 회원님의 추천으로 Axzora Bot을 쓰기 시작했습니다",
       "그 사용자가 결제를 완료했습니다",
       "수수료가 발생했습니다"
     ],

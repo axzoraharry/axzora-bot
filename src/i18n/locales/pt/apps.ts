@@ -30,7 +30,7 @@ export default {
   badEnv: "Formato de variável de ambiente inválido: os nomes só podem ter letras, dígitos e sublinhados, e precisam de um valor.",
   badCommand: "Informe o comando a executar.",
   badMasked: "Informe de novo o valor de “{name}”.",
-  channelConnect: "Abra o AnyModelBot no seu computador para conectar {app}.",
-  channelRepair: "Abra o AnyModelBot no seu computador para corrigir a conexão com {app}.",
+  channelConnect: "Abra o Axzora Bot no seu computador para conectar {app}.",
+  channelRepair: "Abra o Axzora Bot no seu computador para corrigir a conexão com {app}.",
   oauthDone: "Conectado",
 } satisfies TranslatedCatalog["apps"];

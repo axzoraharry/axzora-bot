@@ -50,7 +50,7 @@ export default {
   "stage_now": "; 현재 단계: {stage}",
   "stage_now_output": "; 현재 단계: {stage}; 최근 출력: {line}",
   "timeout": "시간 초과",
-  "report_title": "anymodel bot 진단 · {at}",
+  "report_title": "Axzora Bot 진단 · {at}",
   "report_version": "버전 {version} · {platform} {arch} · {os}{electron} · Node {node} · 가동 시간 {uptime}초",
   "report_data_dir": "데이터 폴더 {dir}",
   "report_log_file": "로그 파일 {file}",

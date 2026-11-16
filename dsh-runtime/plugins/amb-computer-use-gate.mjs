@@ -1,4 +1,4 @@
-// anymodel bot: Computer Use gates (MIT, part of anymodel bot).
+// Axzora Bot: Computer Use gates (MIT, part of Axzora Bot).
 //
 // 1. macOS permission check (AMB_CU_PERMISSION_CHECK=1, desktop app on macOS): before any Computer Use
 //    tool runs, ask the host (bridge /dsh/cu-permission) whether the app has the system permissions the
@@ -49,7 +49,7 @@ export function apply(ctx) {
         const missing = (Array.isArray(p.missing) ? p.missing : []).map((k) => LABEL[k] || k).join(' and ')
         return {
           kind: 'deny',
-          reason: `macOS has not granted AnyModelBot the ${missing} permission needed for Computer Use. Do not call Computer Use tools again in this turn and do not retry. Tell the user that the task is waiting for this permission; AnyModelBot shows them how to grant it, and they can send the task again afterwards.`,
+          reason: `macOS has not granted Axzora Bot the ${missing} permission needed for Computer Use. Do not call Computer Use tools again in this turn and do not retry. Tell the user that the task is waiting for this permission; Axzora Bot shows them how to grant it, and they can send the task again afterwards.`,
         }
       }
     }

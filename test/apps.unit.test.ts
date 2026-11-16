@@ -489,7 +489,7 @@ describe("授权登录", () => {
     expect(r.app).toMatchObject({ state: "needs-login", enabled: false });
     expect(r.flow).toMatchObject({ state: "waiting" });
     expect(f.registered).toHaveLength(1);
-    expect(f.registered[0]).toMatchObject({ client_name: "AnyModelBot", redirect_uris: [REDIRECT], token_endpoint_auth_method: "none" });
+    expect(f.registered[0]).toMatchObject({ client_name: "Axzora Bot", redirect_uris: [REDIRECT], token_endpoint_auth_method: "none" });
     const a = approve(f, r.flow!.url);
     expect(a).toMatchObject({ redirect: REDIRECT, clientId: "client-1", scope: "docs" });
     expect(a.challenge).toBeTruthy();

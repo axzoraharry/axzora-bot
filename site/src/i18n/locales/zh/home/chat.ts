@@ -5,7 +5,7 @@ export default {
   "inputLabel": "给{name}发消息",
   "send": "发送",
   "typing": "正在输入…",
-  "more": "网页里我只能陪你聊到这儿。下载 AnyModelBot，在你的电脑上接着聊。",
+  "more": "网页里我只能陪你聊到这儿。下载 Axzora Bot，在你的电脑上接着聊。",
   "cta": {
     "title": "想让{name}真的动手？",
     "body": "网页里的回复是写好的示例。下载后，它在你的电脑上真的干活。"

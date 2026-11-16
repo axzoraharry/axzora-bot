@@ -1,10 +1,10 @@
 export default {
-  "pageTitle": "Recomienda AnyModelBot y gana comisiones recurrentes — Programa de socios",
-  "pageDescription": "Únete al programa de socios de AnyModelBot y compártelo con tus alumnos, lectores y clientes. Cuando los usuarios que traes pagan, ganas comisiones recurrentes.",
+  "pageTitle": "Recomienda Axzora Bot y gana comisiones recurrentes — Programa de socios",
+  "pageDescription": "Únete al programa de socios de Axzora Bot y compártelo con tus alumnos, lectores y clientes. Cuando los usuarios que traes pagan, ganas comisiones recurrentes.",
   "footer": "Socios",
   "eyebrow": "Programa de socios",
-  "h1": "Recomienda AnyModelBot",
-  "lead": "Únete al programa de socios y comparte AnyModelBot con tus alumnos, lectores y clientes. Cuando los usuarios que traes pagan, ganas comisiones recurrentes. Acordamos contigo la colaboración y el porcentaje de comisión de forma personalizada.",
+  "h1": "Recomienda Axzora Bot",
+  "lead": "Únete al programa de socios y comparte Axzora Bot con tus alumnos, lectores y clientes. Cuando los usuarios que traes pagan, ganas comisiones recurrentes. Acordamos contigo la colaboración y el porcentaje de comisión de forma personalizada.",
   "cta": "Unirme al programa de socios",
   "ctaProduct": "Conocer el producto",
   "who": {
@@ -13,7 +13,7 @@ export default {
     "items": [
       {
         "title": "Centros de formación e instructores",
-        "body": "Integra AnyModelBot en tus cursos y haz que tus alumnos lo usen.",
+        "body": "Integra Axzora Bot en tus cursos y haz que tus alumnos lo usen.",
         "gain": "Una nueva fuente de ingresos para tus cursos"
       },
       {
@@ -63,7 +63,7 @@ export default {
       },
       {
         "title": "Comparte",
-        "body": "Acordamos contigo la colaboración y te enviamos materiales del producto. Después, comparte AnyModelBot con tus alumnos, lectores y clientes."
+        "body": "Acordamos contigo la colaboración y te enviamos materiales del producto. Después, comparte Axzora Bot con tus alumnos, lectores y clientes."
       },
       {
         "title": "Gana comisiones recurrentes",
@@ -81,7 +81,7 @@ export default {
       "action": "Completar la solicitud"
     },
     "mail": {
-      "subject": "Solicitud de socio de AnyModelBot"
+      "subject": "Solicitud de socio de Axzora Bot"
     },
     "dim": "trabajaremos contigo de forma personalizada.",
     "points": [
@@ -105,7 +105,7 @@ export default {
   },
   "feed": {
     "items": [
-      "Un nuevo usuario empezó a usar AnyModelBot por tu recomendación",
+      "Un nuevo usuario empezó a usar Axzora Bot por tu recomendación",
       "Ese usuario completó un pago",
       "Ganaste una comisión"
     ],

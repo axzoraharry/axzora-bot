@@ -1,4 +1,4 @@
-// anymodel bot: keep every session on the bot's configured permission preset (MIT, part of anymodel bot).
+// Axzora Bot: keep every session on the bot's configured permission preset (MIT, part of Axzora Bot).
 //
 // DSH pins a preset into each session when it is created and keeps it on resume, so changing the
 // bot's preset in the web UI (DSH_PERMISSION_MODE) would only affect new conversations. Before any

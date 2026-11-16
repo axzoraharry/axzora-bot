@@ -1,10 +1,10 @@
 export default {
-  "pageTitle": "Divulgue o AnyModelBot e ganhe comissão recorrente — Programa de parceiros",
-  "pageDescription": "Participe do programa de parceiros do AnyModelBot e indique o produto para seus alunos, leitores e clientes. Quando os usuários que você trouxer pagarem, você ganha comissão recorrente.",
+  "pageTitle": "Divulgue o Axzora Bot e ganhe comissão recorrente — Programa de parceiros",
+  "pageDescription": "Participe do programa de parceiros do Axzora Bot e indique o produto para seus alunos, leitores e clientes. Quando os usuários que você trouxer pagarem, você ganha comissão recorrente.",
   "footer": "Parceiros",
   "eyebrow": "Programa de parceiros",
-  "h1": "Divulgue o AnyModelBot,",
-  "lead": "Participe do programa de parceiros e indique o AnyModelBot para seus alunos, leitores e clientes. Quando os usuários que você trouxer pagarem, você ganha comissão recorrente. A parceria e a taxa de comissão são combinadas individualmente com você.",
+  "h1": "Divulgue o Axzora Bot,",
+  "lead": "Participe do programa de parceiros e indique o Axzora Bot para seus alunos, leitores e clientes. Quando os usuários que você trouxer pagarem, você ganha comissão recorrente. A parceria e a taxa de comissão são combinadas individualmente com você.",
   "cta": "Participar do programa de parceiros",
   "ctaProduct": "Conhecer o produto",
   "who": {
@@ -13,7 +13,7 @@ export default {
     "items": [
       {
         "title": "Empresas de treinamento e instrutores",
-        "body": "Inclua o AnyModelBot nos seus cursos e coloque seus alunos para usá-lo.",
+        "body": "Inclua o Axzora Bot nos seus cursos e coloque seus alunos para usá-lo.",
         "gain": "Uma nova fonte de renda para seus cursos"
       },
       {
@@ -63,7 +63,7 @@ export default {
       },
       {
         "title": "Indique",
-        "body": "Combinamos a parceria com você e enviamos materiais sobre o produto. Depois, é só indicar o AnyModelBot para seus alunos, leitores e clientes."
+        "body": "Combinamos a parceria com você e enviamos materiais sobre o produto. Depois, é só indicar o Axzora Bot para seus alunos, leitores e clientes."
       },
       {
         "title": "Ganhe comissão recorrente",
@@ -81,7 +81,7 @@ export default {
       "action": "Preencher a inscrição"
     },
     "mail": {
-      "subject": "Inscrição no programa de parceiros do AnyModelBot"
+      "subject": "Inscrição no programa de parceiros do Axzora Bot"
     },
     "dim": "e trabalhamos com você individualmente.",
     "points": [
@@ -105,7 +105,7 @@ export default {
   },
   "feed": {
     "items": [
-      "Um novo usuário começou a usar o AnyModelBot por indicação sua",
+      "Um novo usuário começou a usar o Axzora Bot por indicação sua",
       "Esse usuário concluiu um pagamento",
       "Você ganhou uma comissão"
     ],

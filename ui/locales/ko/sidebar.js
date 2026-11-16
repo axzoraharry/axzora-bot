@@ -11,7 +11,7 @@ export default {
   "belowLine": "알림 기준 {amount} 미만",
   "botQuota": "Bot 크레딧",
   "botLeft": "{percent}% 남음",
-  "botQuotaScope": "Bot 크레딧은 AnyModelBot에서만 사용할 수 있습니다",
+  "botQuotaScope": "Bot 크레딧은 Axzora Bot에서만 사용할 수 있습니다",
   "quotaTip": "Bot 크레딧 {percent}% 남음",
   "balanceTip": "잔액 {amount}",
   "subscribeBonus": "구독하면 플랜 크레딧의 10%를 Bot 크레딧으로 추가 증정",

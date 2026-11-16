@@ -1,5 +1,5 @@
 export default {
-  "title": "Demonstração do AnyModelBot",
+  "title": "Demonstração do Axzora Bot",
   "note": "Demonstração animada; a interface é ilustrativa.",
   "prev": "Passo anterior",
   "next": "Próximo passo",
@@ -35,15 +35,15 @@ export default {
     }
   ],
   "ui": {
-    "installing": "Instalando o AnyModelBot…",
+    "installing": "Instalando o Axzora Bot…",
     "slogan": "Qualquer modelo, um só assistente",
     "login": "Entrar / Criar conta com Modelflare",
     "loginWait": "Termine de entrar no navegador — você volta para cá logo em seguida",
     "loginReopen": "Reabrir a página de login ↗",
     "loginCopy": "Copiar link",
     "loginCancel": "Cancelar",
-    "authTitle": "Autorizar o AnyModelBot a usar sua conta",
-    "authSub": "Isso cria neste computador uma chave que só o AnyModelBot usa.",
+    "authTitle": "Autorizar o Axzora Bot a usar sua conta",
+    "authSub": "Isso cria neste computador uma chave que só o Axzora Bot usa.",
     "authBtn": "Autorizar e voltar",
     "connected": "Conectado · {n} modelos encontrados",
     "pickHint": "Escolha um modelo padrão; você pode trocar quando quiser no chat.",

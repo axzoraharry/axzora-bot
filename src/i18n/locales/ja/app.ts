@@ -21,6 +21,6 @@ export default {
   "media_voice": "[音声]",
   "media_not_downloaded": "{label}（ダウンロードできませんでした：{error}）",
   "weixinExpiredSubject": "WeChat のログイン期限切れ",
-  "data_dir_locked": "別の anymodel bot プロセス（{who}）がデータディレクトリ {dir} を使用しています。そのプロセスを終了するか、別のデータディレクトリ（AMB_DATA_DIR）を使用してください。",
+  "data_dir_locked": "別の Axzora Bot プロセス（{who}）がデータディレクトリ {dir} を使用しています。そのプロセスを終了するか、別のデータディレクトリ（AMB_DATA_DIR）を使用してください。",
   "data_dir_locked_remote": "{host} 上の PID {pid}"
 } satisfies TranslatedCatalog["app"];

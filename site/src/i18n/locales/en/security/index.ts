@@ -1,6 +1,6 @@
 export default {
-  "title": "Security — AnyModelBot",
-  "description": "Where AnyModelBot's data goes, the local safeguards, and the known limits: what stays on your device and what has to leave.",
+  "title": "Security — Axzora Bot",
+  "description": "Where Axzora Bot's data goes, the local safeguards, and the known limits: what stays on your device and what has to leave.",
   "h1": "Security",
   "lead": "The long version of the homepage data-flow diagram: what stays on your device, what has to leave, the safeguards you can verify in the code, and the promises we don't make.",
   "stays": "Stays on your device",

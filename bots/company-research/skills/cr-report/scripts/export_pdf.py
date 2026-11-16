@@ -197,7 +197,7 @@ def build(markdown, output, title):
         canvas.restoreState()
 
     tmp = f"{output}.{os.getpid()}.tmp"
-    doc = SimpleDocTemplate(tmp, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=20 * mm, bottomMargin=20 * mm, title=title or "Report", author="AnyModelBot")
+    doc = SimpleDocTemplate(tmp, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=20 * mm, bottomMargin=20 * mm, title=title or "Report", author="Axzora Bot")
     try:
         doc.build(story, onFirstPage=footer, onLaterPages=footer)
         with open(tmp, "rb") as f:

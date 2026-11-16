@@ -50,7 +50,7 @@ export default {
   "stage_now": "。現在の段階：{stage}",
   "stage_now_output": "。現在の段階：{stage}。最新の出力：{line}",
   "timeout": "タイムアウト",
-  "report_title": "anymodel bot 診断情報 · {at}",
+  "report_title": "Axzora Bot 診断情報 · {at}",
   "report_version": "バージョン {version} · {platform} {arch} · {os}{electron} · Node {node} · 稼働 {uptime} 秒",
   "report_data_dir": "データディレクトリ {dir}",
   "report_log_file": "ログファイル {file}",

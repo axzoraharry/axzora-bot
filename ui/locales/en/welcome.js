@@ -106,7 +106,7 @@ export default {
   "replaceKey": "Connected ••••{last4}. Connecting a new key replaces it.",
   "keySuccess": "Connected · {n} models",
   "keyPrivacy": "The key stays on this device. Model requests go straight to {name}, not through Modelflare.",
-  "keyPrivacyServer": "The key is stored on the server running AnyModelBot. Model requests go straight to {name}, not through Modelflare.",
+  "keyPrivacyServer": "The key is stored on the server running Axzora Bot. Model requests go straight to {name}, not through Modelflare.",
   "jsonKept": "The JSON couldn't be read. Your previous form entries were kept.",
   "required": "Required",
   "accountFallback": "Modelflare account",

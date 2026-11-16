@@ -54,8 +54,8 @@ export default {
     licenseNote: "Licencia: {license}. Aquí solo mostramos el enlace. Revisa los términos en el repositorio de origen.",
   },
   notice: {
-    page: "Estas son habilidades de código abierto de terceros. AnyModelBot no tiene ninguna alianza ni relación comercial con sus autores, y no aloja ni distribuye los archivos. Abre «GitHub ↗» para ver el repositorio de origen o copia la instrucción de instalación y envíala a un bot, que descargará la habilidad del repositorio de origen después de que confirmes. El repositorio de origen es la referencia sobre contenido, licencia y seguridad. Revísalo antes de instalar.",
-    detail: "Habilidad de código abierto de terceros. AnyModelBot no tiene ninguna alianza ni relación comercial con el autor y no la aloja. El repositorio de origen es la referencia sobre contenido y licencia.",
+    page: "Estas son habilidades de código abierto de terceros. Axzora Bot no tiene ninguna alianza ni relación comercial con sus autores, y no aloja ni distribuye los archivos. Abre «GitHub ↗» para ver el repositorio de origen o copia la instrucción de instalación y envíala a un bot, que descargará la habilidad del repositorio de origen después de que confirmes. El repositorio de origen es la referencia sobre contenido, licencia y seguridad. Revísalo antes de instalar.",
+    detail: "Habilidad de código abierto de terceros. Axzora Bot no tiene ninguna alianza ni relación comercial con el autor y no la aloja. El repositorio de origen es la referencia sobre contenido y licencia.",
   },
   toast: {
     copied: "Copiado. Envíala a cualquier bot para instalarla",

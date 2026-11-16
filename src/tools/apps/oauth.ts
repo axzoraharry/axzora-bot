@@ -149,7 +149,7 @@ export class OAuthManager {
         method: "POST",
         headers: { "content-type": "application/json", accept: "application/json" },
         body: JSON.stringify({
-          client_name: "AnyModelBot",
+          client_name: "Axzora Bot",
           redirect_uris: [redirectUri],
           grant_types: ["authorization_code", "refresh_token"],
           response_types: ["code"],

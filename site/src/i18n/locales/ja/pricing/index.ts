@@ -2,14 +2,14 @@ export default {
   eyebrow: "料金 · 従量課金",
   h2mark: "サブスクリプション不要",
   h2rest: "。使った分だけお支払い。",
-  lead: "AnyModelBot は無料のオープンソース。サブスクリプションもプラン分けもありません。モデルの利用料は Modelflare がトークン単位で請求し、料金表はすべて公開しています。",
+  lead: "Axzora Bot は無料のオープンソース。サブスクリプションもプラン分けもありません。モデルの利用料は Modelflare がトークン単位で請求し、料金表はすべて公開しています。",
   source:
     "料金は modelflare.dev/pricing から取得。取得日時：{fetchedAt}（UTC+8）、料金バージョン：{pricingVersion}。",
   stale:
     "{snapshotDate} 時点の料金です。更新できなかったため、最新の料金は modelflare.dev/pricing をご確認ください。",
   cards: {
     app: {
-      tag: "AnyModelBot",
+      tag: "Axzora Bot",
       price: "$0",
       unit: "/ ずっと無料",
       note: "無料・オープンソース（MIT）",
@@ -17,7 +17,7 @@ export default {
         "デスクトップ、Docker、CLI はすべて無料",
         "サブスクリプションもプラン分けもなし",
         "自分で役割を決めたボットを、好きなだけ作成",
-        "Modelflare に新規登録すると Bot クレジット $1 をプレゼント（AnyModelBot 専用）",
+        "Modelflare に新規登録すると Bot クレジット $1 をプレゼント（Axzora Bot 専用）",
       ],
     },
     usage: {
@@ -48,7 +48,7 @@ export default {
     caption: "従量課金とサブスクリプションプランの比較",
     head: [
       "",
-      "従量課金（AnyModelBot + Modelflare）",
+      "従量課金（Axzora Bot + Modelflare）",
       "サブスクリプションプラン（一般的な方式）",
     ],
     rows: [
@@ -144,7 +144,7 @@ export default {
       "概算です。キャッシュ割引や優先サービスなどのリクエスト固有の倍率は含みません。モデルのトークン閾値を超えた場合の上位単価は反映しています。実際の請求額は Modelflare の明細をご確認ください。",
     copy: "計算結果をコピー",
     copyText:
-      "AnyModelBot の利用料概算：{model}（{route}）、1日{msgs}メッセージ、1件あたり入力{inTok}・出力{outTok}トークン — 月額約{amount}（30日間、料金取得日：{fetchedAt}）",
+      "Axzora Bot の利用料概算：{model}（{route}）、1日{msgs}メッセージ、1件あたり入力{inTok}・出力{outTok}トークン — 月額約{amount}（30日間、料金取得日：{fetchedAt}）",
     full: "このモデルの詳しい料金を見る ↗",
     expandBar: "詳細",
   },
@@ -152,7 +152,7 @@ export default {
     text: "Modelflare のアカウントをお持ちなら、アプリで一度ログインするだけ。利用料は公開料金表に従って計算されます。",
     cta: "Modelflare を開く ↗",
   },
-  pageTitle: "AnyModelBot の料金 — 従量課金と公開料金表",
+  pageTitle: "Axzora Bot の料金 — 従量課金と公開料金表",
   pageDescription:
-    "AnyModelBot は無料のオープンソースで、サブスクリプションは不要です。Modelflare のトークン単位の料金表と、月額費用の計算機をご覧いただけます。",
+    "Axzora Bot は無料のオープンソースで、サブスクリプションは不要です。Modelflare のトークン単位の料金表と、月額費用の計算機をご覧いただけます。",
 };

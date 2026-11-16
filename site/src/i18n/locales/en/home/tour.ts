@@ -1,5 +1,5 @@
 export default {
-  "title": "AnyModelBot demo",
+  "title": "Axzora Bot demo",
   "note": "Animated walkthrough; the UI is illustrative.",
   "prev": "Previous step",
   "next": "Next step",
@@ -35,15 +35,15 @@ export default {
     }
   ],
   "ui": {
-    "installing": "Installing AnyModelBot…",
+    "installing": "Installing Axzora Bot…",
     "slogan": "Any model, one assistant",
     "login": "Sign in / Sign up with Modelflare",
     "loginWait": "Finish signing in in your browser — you'll come right back here",
     "loginReopen": "Reopen sign-in page ↗",
     "loginCopy": "Copy link",
     "loginCancel": "Cancel",
-    "authTitle": "Authorize AnyModelBot to use your account",
-    "authSub": "This creates a key on this computer that only AnyModelBot uses.",
+    "authTitle": "Authorize Axzora Bot to use your account",
+    "authSub": "This creates a key on this computer that only Axzora Bot uses.",
     "authBtn": "Authorize and return",
     "connected": "Connected · {n} models found",
     "pickHint": "Pick a default model; you can switch any time in the chat.",

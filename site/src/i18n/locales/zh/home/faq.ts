@@ -15,7 +15,7 @@ export default {
     },
     {
       "q": "和 Grok Bot、OpenAI dots、Claude Duet 有什么不同？",
-      "a": "它们也是常驻后台、替你干活的 AI，需要你拍板时再来问你。不同的是，AnyModelBot 开源（MIT），跑在你自己的电脑或服务器上；GPT、Claude、Gemini、Grok 等模型都能用，App 免费，模型按用量付费，不绑定某一家的订阅。GitHub 上的 README 有详细对比表。Grok Bot、dots、Claude Duet 分别是 xAI、OpenAI、Anthropic 的产品，AnyModelBot 与它们没有关联。"
+      "a": "它们也是常驻后台、替你干活的 AI，需要你拍板时再来问你。不同的是，Axzora Bot 开源（MIT），跑在你自己的电脑或服务器上；GPT、Claude、Gemini、Grok 等模型都能用，App 免费，模型按用量付费，不绑定某一家的订阅。GitHub 上的 README 有详细对比表。Grok Bot、dots、Claude Duet 分别是 xAI、OpenAI、Anthropic 的产品，Axzora Bot 与它们没有关联。"
     },
     {
       "q": "六个角色有什么区别？分别负责什么？",

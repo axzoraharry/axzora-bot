@@ -80,7 +80,7 @@ export interface AccountStatus {
   source: "account" | "none";
   balanceUsd: number | null;
   /**
-   * bot 额度（只能在 AnyModelBot 里用，本机签发的 Key 先扣它）：balanceUsd 是金额，remainingPercent 是相对最近一次发放的
+   * bot 额度（只能在 Axzora Bot 里用，本机签发的 Key 先扣它）：balanceUsd 是金额，remainingPercent 是相对最近一次发放的
    * 剩余百分比（0–100 的整数）。没有 bot 额度、企业托管成员、服务端还没有这个字段、读取失败时为 null，界面照旧只显示余额。
    */
   bot: BotQuota | null;
@@ -135,7 +135,7 @@ export class AccountManager {
   private session: AccountSession | undefined;
   private endpoints: OidcEndpoints | undefined;
   private login: LoginAttempt | undefined;
-  /** 最近一次已经完成的登录：成功页唤起应用后，用它确认"已返回 AnyModelBot" */
+  /** 最近一次已经完成的登录：成功页唤起应用后，用它确认"已返回 Axzora Bot" */
   private finishedLogin: LoginAttempt | undefined;
   /** 正在完成登录时读到的余额（还没写进快照）：首用模型按它算体验额度 */
   private loginBalanceUsd: number | null = null;
@@ -561,7 +561,7 @@ export class AccountManager {
   // ---------- Key 核对 ----------
 
   private deviceKeyName(): string {
-    return `AnyModelBot · ${this.o.hostname ?? os.hostname()}`.slice(0, 50);
+    return `Axzora Bot · ${this.o.hostname ?? os.hostname()}`.slice(0, 50);
   }
 
   /**
@@ -808,7 +808,7 @@ export class AccountManager {
 }
 
 function keyName(botName: string): string {
-  return `AnyModelBot · ${botName}`.slice(0, 50);
+  return `Axzora Bot · ${botName}`.slice(0, 50);
 }
 
 export function startOfLocalDay(ms: number): number {

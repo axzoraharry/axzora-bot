@@ -10,7 +10,7 @@ export default {
     "cf": "cf.modelflare.dev",
     "test": "ドメインをテスト",
     "testing": "テスト中…",
-    "testNote": "AnyModelBot を実行している端末からテストし、応答時間の中央値と 3 回中の成功回数を表示します。API キーやモデルの呼び出しは使用しません。生成速度を測るものではありません。",
+    "testNote": "Axzora Bot を実行している端末からテストし、応答時間の中央値と 3 回中の成功回数を表示します。API キーやモデルの呼び出しは使用しません。生成速度を測るものではありません。",
     "result": "{ms} ミリ秒 · {count}/{total} 回成功",
     "timeout": "タイムアウト",
     "unreachable": "接続できません"

@@ -5,7 +5,7 @@ export default {
   "docs": "문서",
   "partners": "파트너",
   "skip": "본문으로 건너뛰기",
-  "home": "AnyModelBot 홈",
+  "home": "Axzora Bot 홈",
   "menu": "메뉴",
   "close": "닫기",
   "github": "GitHub",

@@ -5,7 +5,7 @@ export default {
   "tabsLabel": "Choose a character",
   "cost": "≈ {amount} / mo",
   "badge": {
-    "org": "AnyModelBot",
+    "org": "Axzora Bot",
     "staff": "Job is up to you",
     "no": "ID",
     "persona": "Persona",

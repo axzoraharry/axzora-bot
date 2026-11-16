@@ -1,6 +1,6 @@
 export default {
-  "title": "Seguridad — AnyModelBot",
-  "description": "A dónde van los datos de AnyModelBot, las protecciones locales y los límites conocidos: qué se queda en tu dispositivo y qué tiene que salir de él.",
+  "title": "Seguridad — Axzora Bot",
+  "description": "A dónde van los datos de Axzora Bot, las protecciones locales y los límites conocidos: qué se queda en tu dispositivo y qué tiene que salir de él.",
   "h1": "Seguridad",
   "lead": "La versión extendida del diagrama de flujo de datos de la página de inicio: qué se queda en tu dispositivo, qué tiene que salir, las protecciones que puedes verificar en el código y las promesas que no hacemos.",
   "stays": "Se queda en tu dispositivo",

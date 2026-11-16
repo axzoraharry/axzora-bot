@@ -27,8 +27,8 @@ export default {
       ]
     }
   },
-  "copyright": "© 2026 AnyModelBot · MIT",
-  "art": "Ilustraciones de los personajes © el proyecto AnyModelBot",
+  "copyright": "© 2026 Axzora Bot · MIT",
+  "art": "Ilustraciones de los personajes © el proyecto Axzora Bot",
   "tagline": "Un equipo de bots de IA que funciona en tu computadora. Inicia sesión con Modelflare: una sola clave para los modelos líderes.",
   "featured": "Destacado en",
   "featuredMore": "Ver todos ({count})",

@@ -6,7 +6,7 @@ export default {
   docs: "ドキュメント",
   partners: "パートナー",
   skip: "本文へ移動",
-  home: "AnyModelBot ホーム",
+  home: "Axzora Bot ホーム",
   menu: "メニュー",
   close: "閉じる",
   github: "GitHub",

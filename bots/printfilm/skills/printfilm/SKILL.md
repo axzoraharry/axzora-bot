@@ -3,7 +3,7 @@ name: printfilm
 description: Create and edit short videos, episodic dramas, visual assets and free-canvas productions in the PRINTFILM directory bot, using its imported directing rules, local project runner and host media tools.
 ---
 
-# PRINTFILM in AnyModelBot
+# PRINTFILM in Axzora Bot
 
 This bot ports PRINTFILM's creative workflows. Its upstream Python composition, shot timing, asset-design and writing rules are bundled under `scripts/printfilm_core/` and `references/`. `UPSTREAM.json` records the source commit and adaptations; preserve `LICENSE` when reusing them.
 

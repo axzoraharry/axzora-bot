@@ -50,7 +50,7 @@ export default {
   stage_now: "; etapa actual: {stage}",
   stage_now_output: "; etapa actual: {stage}; última salida: {line}",
   timeout: "Se agotó el tiempo de espera",
-  report_title: "Diagnóstico de anymodel bot · {at}",
+  report_title: "Diagnóstico de Axzora Bot · {at}",
   report_version: "Versión {version} · {platform} {arch} · {os}{electron} · Node {node} · tiempo activo: {uptime} s",
   report_data_dir: "Directorio de datos {dir}",
   report_log_file: "Archivo de registro {file}",

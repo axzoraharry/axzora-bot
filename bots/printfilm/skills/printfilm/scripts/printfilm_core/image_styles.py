@@ -145,7 +145,7 @@ def resolve_image_style_prompt(style_id: str | None = None) -> str:
         return ""
     return IMAGE_STYLE_PROMPTS.get(style_id, "")
 
-# AnyModelBot: the four public short-video templates share the style selector.
+# Axzora Bot: the four public short-video templates share the style selector.
 import json
 SHORT_TEMPLATES = json.loads((Path(__file__).resolve().parents[2] / "references/short-styles.json").read_text(encoding="utf-8"))
 IMAGE_STYLE_LABELS.update({k: v["name"] for k, v in SHORT_TEMPLATES.items()})

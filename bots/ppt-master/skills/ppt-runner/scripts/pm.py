@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PPT Master on AnyModelBot: the runtime, upstream script runner, export check and app/state.json updates.
+"""PPT Master on Axzora Bot: the runtime, upstream script runner, export check and app/state.json updates.
 
 Standard library only: this has to work before anything is installed. Commands:
 

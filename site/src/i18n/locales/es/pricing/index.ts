@@ -2,12 +2,12 @@ export default {
   "eyebrow": "PRECIOS · PAGO POR USO",
   "h2mark": "Sin suscripción",
   "h2rest": ". Paga solo por lo que usas.",
-  "lead": "AnyModelBot es gratis y de código abierto: sin suscripción ni niveles. Modelflare cobra el uso de los modelos por token, y la lista de precios es totalmente pública.",
+  "lead": "Axzora Bot es gratis y de código abierto: sin suscripción ni niveles. Modelflare cobra el uso de los modelos por token, y la lista de precios es totalmente pública.",
   "source": "Precios tomados de modelflare.dev/pricing el {fetchedAt} (UTC+8), versión {pricingVersion}.",
   "stale": "Precios del {snapshotDate} (no se pudieron actualizar; modelflare.dev/pricing es la referencia oficial).",
   "cards": {
     "app": {
-      "tag": "AnyModelBot",
+      "tag": "Axzora Bot",
       "price": "$0",
       "unit": "/ para siempre",
       "note": "Gratis y de código abierto (MIT)",
@@ -15,7 +15,7 @@ export default {
         "Escritorio, Docker y CLI: todo gratis",
         "Sin suscripción ni niveles de plan",
         "Crea todos los bots que quieras, cada uno definido por ti",
-        "Las cuentas nuevas de Modelflare reciben $1 en créditos de Bot, que solo se pueden usar en AnyModelBot"
+        "Las cuentas nuevas de Modelflare reciben $1 en créditos de Bot, que solo se pueden usar en Axzora Bot"
       ]
     },
     "usage": {
@@ -46,7 +46,7 @@ export default {
     "caption": "Pago por uso frente a niveles de suscripción",
     "head": [
       "",
-      "Pago por uso (AnyModelBot + Modelflare)",
+      "Pago por uso (Axzora Bot + Modelflare)",
       "Niveles de suscripción (lo habitual)"
     ],
     "rows": [
@@ -136,7 +136,7 @@ export default {
     "official": "unos {amount} a precios oficiales",
     "disclaimer": "Solo es una estimación. No incluye descuentos por caché ni multiplicadores por solicitud (p. ej., el nivel de servicio prioritario); las solicitudes que superan el umbral de nivel de un modelo se cobran al nivel superior (ya incluido); la factura de Modelflare es la referencia oficial.",
     "copy": "Copiar estimación",
-    "copyText": "Estimación de uso de AnyModelBot: {model} ({route}), {msgs} mensajes al día, {inTok} tokens de entrada + {outTok} de salida cada uno: unos {amount} al mes (30 días, precios del {fetchedAt})",
+    "copyText": "Estimación de uso de Axzora Bot: {model} ({route}), {msgs} mensajes al día, {inTok} tokens de entrada + {outTok} de salida cada uno: unos {amount} al mes (30 días, precios del {fetchedAt})",
     "full": "Ver todos los precios de este modelo ↗",
     "expandBar": "Detalles"
   },
@@ -144,6 +144,6 @@ export default {
     "text": "¿Ya tienes una cuenta de Modelflare? Inicia sesión una vez en la app y listo: el uso se cobra según la lista de precios.",
     "cta": "Abrir Modelflare ↗"
   },
-  "pageTitle": "Precios de AnyModelBot: pago por uso, lista de precios pública",
-  "pageDescription": "AnyModelBot es gratis y de código abierto, sin suscripción. Modelflare cobra el uso de los modelos por token: lista de precios pública y calculadora de costo mensual."
+  "pageTitle": "Precios de Axzora Bot: pago por uso, lista de precios pública",
+  "pageDescription": "Axzora Bot es gratis y de código abierto, sin suscripción. Modelflare cobra el uso de los modelos por token: lista de precios pública y calculadora de costo mensual."
 };

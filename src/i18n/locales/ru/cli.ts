@@ -2,7 +2,7 @@ import type { TranslatedCatalog } from "../../index.js";
 export default {
   entered: "(введено)",
   done: "Готово. Для запуска выполните npm start. Чтобы подключить WeChat, отсканируйте QR-код в разделе «Настройки > Подключения» или выполните npm run weixin:login.",
-  title: "Первоначальная настройка anymodel bot (папка данных: {dir})",
+  title: "Первоначальная настройка Axzora Bot (папка данных: {dir})",
   noMagpie:
     "Исполняемый файл magpie не найден. Сначала выполните npm run setup",
   alreadyConnected:

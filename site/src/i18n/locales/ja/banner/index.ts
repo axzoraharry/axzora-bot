@@ -13,7 +13,7 @@ export default {
   },
   release: {
     tag: "新バージョン v{version}",
-    text: "AnyModelBot {version} を公開しました",
+    text: "Axzora Bot {version} を公開しました",
     cta: "ダウンロード",
     link: "変更履歴",
   },

@@ -106,7 +106,7 @@ export default {
   "replaceKey": "Conectada ••••{last4}. Uma nova chave a substitui.",
   "keySuccess": "Conectada · {n} modelos",
   "keyPrivacy": "A chave fica neste dispositivo. As solicitações vão direto para {name}, sem passar pelo Modelflare.",
-  "keyPrivacyServer": "A chave fica no servidor do AnyModelBot. As solicitações vão para {name}, sem passar pelo Modelflare.",
+  "keyPrivacyServer": "A chave fica no servidor do Axzora Bot. As solicitações vão para {name}, sem passar pelo Modelflare.",
   "jsonKept": "Não foi possível ler o JSON. Os dados anteriores do formulário foram mantidos.",
   "required": "Obrigatório",
   "accountFallback": "Conta Modelflare",

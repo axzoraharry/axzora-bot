@@ -68,7 +68,7 @@ export default {
   stage_now: "; текущий этап: {stage}",
   stage_now_output: "; текущий этап: {stage}; последний вывод: {line}",
   timeout: "Время истекло",
-  report_title: "Диагностика anymodel bot · {at}",
+  report_title: "Диагностика Axzora Bot · {at}",
   report_version:
     "Версия {version} · {platform} {arch} · {os}{electron} · Node {node} · работает {uptime} с",
   report_data_dir: "Папка данных: {dir}",

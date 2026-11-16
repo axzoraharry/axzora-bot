@@ -1,4 +1,4 @@
-// AnyModelBot 界面：Preact + htm，无构建步骤（原生 ES 模块）。
+// Axzora Bot 界面：Preact + htm，无构建步骤（原生 ES 模块）。
 // 没有任何模型来源（Modelflare 或官方 API Key）→ 整页引导；已连接 → 侧栏 + 对话（信息面板按需），设置与机器人设置占满主区。
 import { render } from "preact";
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "preact/hooks";

@@ -29,7 +29,7 @@ export default {
   badEnv: "環境変数の形式が正しくありません：名前に使えるのは英数字とアンダースコアのみで、値が必要です。",
   badCommand: "実行するコマンドを入力してください。",
   badMasked: "「{name}」の値をもう一度入力してください。",
-  channelConnect: "パソコンの AnyModelBot で {app} を接続してください。",
-  channelRepair: "パソコンの AnyModelBot で {app} の接続を修復してください。",
+  channelConnect: "パソコンの Axzora Bot で {app} を接続してください。",
+  channelRepair: "パソコンの Axzora Bot で {app} の接続を修復してください。",
   oauthDone: "接続しました",
 } satisfies TranslatedCatalog["apps"];

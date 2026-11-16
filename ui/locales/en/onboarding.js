@@ -11,7 +11,7 @@ export default {
     "cf": "cf.modelflare.dev",
     "test": "Test domains",
     "testing": "Testing…",
-    "testNote": "Tests run from the device running AnyModelBot: median response time and successful probes out of 3. No API key or model calls; this does not measure generation speed.",
+    "testNote": "Tests run from the device running Axzora Bot: median response time and successful probes out of 3. No API key or model calls; this does not measure generation speed.",
     "result": "{ms} ms · {count}/{total} succeeded",
     "timeout": "Timed out",
     "unreachable": "Unreachable"

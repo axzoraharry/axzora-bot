@@ -19,7 +19,7 @@ $ProgressPreference = 'SilentlyContinue'
 
 $MaxSteps = 20
 $MaxRepeats = 3
-$UA = 'AnyModelBot support@anymodel.bot'
+$UA = 'Axzora Bot support@anymodel.bot'
 $Utf8 = New-Object Text.UTF8Encoding($false)
 $Args2 = @($Rest)
 

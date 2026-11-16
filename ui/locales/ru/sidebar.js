@@ -12,7 +12,7 @@ export default {
   belowLine: "Ниже порога {amount}",
   botQuota: "Кредиты Bot",
   botLeft: "Осталось {percent}%",
-  botQuotaScope: "Кредиты Bot можно тратить только в AnyModelBot",
+  botQuotaScope: "Кредиты Bot можно тратить только в Axzora Bot",
   quotaTip: "Кредиты Bot: осталось {percent}%",
   balanceTip: "Баланс: {amount}",
   subscribeBonus: "С подпиской — ещё 10% от объёма тарифа в кредитах Bot",

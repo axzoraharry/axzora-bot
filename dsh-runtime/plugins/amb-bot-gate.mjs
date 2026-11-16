@@ -1,4 +1,4 @@
-// anymodel bot: permission gate for catalog bots (MIT, part of anymodel bot).
+// Axzora Bot: permission gate for catalog bots (MIT, part of Axzora Bot).
 //
 // A catalog bot only gets what its bot.json declares. The host loads this plugin only for catalog bots;
 // a bot the user made never sees it.

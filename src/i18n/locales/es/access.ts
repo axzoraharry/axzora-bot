@@ -6,7 +6,7 @@ export default {
   chFeishu: "Feishu",
   chWeb: "web",
   who: "usuario de {channel} {name}",
-  ownerNotice: "Alguien quiere usar el bot “{bot}”: {who}{said}\nResponde “yes {code}” para permitirlo o “no {code}” para denegarlo, o gestiónalo en el panel de información de AnyModelBot.",
+  ownerNotice: "Alguien quiere usar el bot “{bot}”: {who}{said}\nResponde “yes {code}” para permitirlo o “no {code}” para denegarlo, o gestiónalo en el panel de información de Axzora Bot.",
   allowedAck: "✅ Se permitió que “{who}” use este bot",
   deniedAck: "❌ Se denegó el acceso a “{who}”",
   ownerOf: "propietario en {channel}:{who}",

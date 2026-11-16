@@ -6,7 +6,7 @@ export default {
   readonlyNote: "No puede modificar archivos; los comandos se ejecutan en un sandbox de solo lectura",
   full: "Acceso total",
   fullNote: "Los comandos se ejecutan sin sandbox y pueden leer y modificar todos tus archivos; los borrados recursivos siguen pidiendo confirmación",
-  fullWarning: "Los comandos se ejecutan sin sandbox, directamente con tu usuario: pueden leer y modificar cualquier archivo de tu computadora, incluidos los datos de AnyModelBot (historial de conversaciones, tokens de canales y claves). Las acciones fuera de los límites ya no piden aprobación; solo los borrados recursivos (rm -r, Remove-Item -Recurse y similares) siguen pidiendo confirmación. Actívalo solo si confías en el modelo y la tarea actuales.",
+  fullWarning: "Los comandos se ejecutan sin sandbox, directamente con tu usuario: pueden leer y modificar cualquier archivo de tu computadora, incluidos los datos de Axzora Bot (historial de conversaciones, tokens de canales y claves). Las acciones fuera de los límites ya no piden aprobación; solo los borrados recursivos (rm -r, Remove-Item -Recurse y similares) siguen pidiendo confirmación. Actívalo solo si confías en el modelo y la tarea actuales.",
   confirmTitle: "¿Activar el acceso total?",
   confirmLabel: "Activar acceso total",
 };

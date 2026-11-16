@@ -1,6 +1,6 @@
 export default {
   "login": "ログイン / 登録",
-  "accountHint": "Modelflare アカウントで AnyModelBot にログイン",
+  "accountHint": "Modelflare アカウントで Axzora Bot にログイン",
   "signupHint": "アカウントがない場合は次の画面で登録できます",
   "signupGift": "新規登録で Bot クレジット $1 をプレゼント",
   "noKey": "API キーを設定せずに使いますか？",
@@ -94,10 +94,10 @@ export default {
     "screenWhy": "画面の内容を見て、次の操作を判断するために使います。",
     "request": "許可をリクエスト",
     "openSettings": "システム設定を開く",
-    "steps": "手動でも設定できます：「システム設定 → プライバシーとセキュリティ」を開き、「{items}」で AnyModelBot をオンにしてください。",
+    "steps": "手動でも設定できます：「システム設定 → プライバシーとセキュリティ」を開き、「{items}」で Axzora Bot をオンにしてください。",
     "sep": "、",
-    "restart": "システム設定で画面収録をすでにオンにした場合は、AnyModelBot を開き直すと有効になります。チャット、タスク、入力中の下書きは保持され、開き直した後に続行または再送信できます。",
-    "relaunch": "AnyModelBot を開き直す",
+    "restart": "システム設定で画面収録をすでにオンにした場合は、Axzora Bot を開き直すと有効になります。チャット、タスク、入力中の下書きは保持され、開き直した後に続行または再送信できます。",
+    "relaunch": "Axzora Bot を開き直す",
     "recheck": "オンにしました。再確認",
     "retry": "タスクを再送信",
     "later": "後で"

@@ -1,6 +1,6 @@
 export default {
-  "title": "安全说明｜AnyModelBot",
-  "description": "AnyModelBot 的数据去向、本机防护与已知边界：哪些留在你的设备上，哪些必须出网。",
+  "title": "安全说明｜Axzora Bot",
+  "description": "Axzora Bot 的数据去向、本机防护与已知边界：哪些留在你的设备上，哪些必须出网。",
   "h1": "安全说明",
   "lead": "这一页是首页“数据去向图”的长版：哪些数据留在你的设备上，哪些必须出网，以及代码里能验证的防护和我们没有做的承诺。",
   "stays": "留在你的设备上",

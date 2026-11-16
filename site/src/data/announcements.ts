@@ -49,7 +49,7 @@ export const RELEASE = {
   enabled: true,
   /** 发布后显示多少天；releases.json 里没有有效发布日期时一直显示 */
   days: 30,
-  /** 各版本的一句话亮点（可选），没有就显示"AnyModelBot {version} 已发布" */
+  /** 各版本的一句话亮点（可选），没有就显示"Axzora Bot {version} 已发布" */
   highlights: {
     "0.1.41": {
       "zh": "新增土耳其语",

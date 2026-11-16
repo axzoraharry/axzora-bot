@@ -51,7 +51,7 @@ class ComposeOptions:
     ratio: str = "16:9"
     mode: str = "full"  # full | image_text
     resolution_mode: str = "preview"  # preview | hd
-    # AnyModelBot: explicit output resolution; absent preserves upstream behavior.
+    # Axzora Bot: explicit output resolution; absent preserves upstream behavior.
     resolution: str = ""
     # One continuous TTS track for the whole film (preferred over per-shot audio)
     full_audio_path: Path | None = None

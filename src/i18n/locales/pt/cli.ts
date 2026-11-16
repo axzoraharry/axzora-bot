@@ -2,7 +2,7 @@ import type { TranslatedCatalog } from "../../index.js";
 export default {
   entered: "(digitado)",
   done: "Pronto. Execute npm start para iniciar. Para o WeChat, escaneie o QR code na interface de gerenciamento, em Configurações > Canais de chat, ou execute npm run weixin:login.",
-  title: "Configuração inicial do anymodel bot (pasta de dados: {dir})",
+  title: "Configuração inicial do Axzora Bot (pasta de dados: {dir})",
   noMagpie: "executável do magpie não encontrado; execute npm run setup primeiro",
   alreadyConnected:
     "O Modelflare já está conectado (chave terminada em {tail}{account}); a conexão atual será mantida.",

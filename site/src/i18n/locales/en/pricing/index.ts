@@ -2,12 +2,12 @@ export default {
   "eyebrow": "PRICING · PAY PER USE",
   "h2mark": "No subscription",
   "h2rest": ". Pay only for what you use.",
-  "lead": "AnyModelBot is free and open source — no subscription, no tiers. Model usage is billed by Modelflare per token, and the price list is fully public.",
+  "lead": "Axzora Bot is free and open source — no subscription, no tiers. Model usage is billed by Modelflare per token, and the price list is fully public.",
   "source": "Prices come from modelflare.dev/pricing, fetched {fetchedAt} (UTC+8), version {pricingVersion}.",
   "stale": "Price snapshot dated {snapshotDate} (couldn't refresh; modelflare.dev/pricing is the source of truth).",
   "cards": {
     "app": {
-      "tag": "AnyModelBot",
+      "tag": "Axzora Bot",
       "price": "$0",
       "unit": "/ forever",
       "note": "Free and open source (MIT)",
@@ -15,7 +15,7 @@ export default {
         "Desktop, Docker and CLI are all free",
         "No subscription, no plan tiers",
         "Create as many bots as you like, each one defined by you",
-        "New Modelflare accounts get $1 in Bot credits, usable only in AnyModelBot"
+        "New Modelflare accounts get $1 in Bot credits, usable only in Axzora Bot"
       ]
     },
     "usage": {
@@ -46,7 +46,7 @@ export default {
     "caption": "Pay per use compared with subscription tiers",
     "head": [
       "",
-      "Pay per use (AnyModelBot + Modelflare)",
+      "Pay per use (Axzora Bot + Modelflare)",
       "Subscription tiers (common approach)"
     ],
     "rows": [
@@ -136,7 +136,7 @@ export default {
     "official": "about {amount} at official prices",
     "disclaimer": "Estimate only. Excludes cache discounts and request-level multipliers (e.g. the priority service tier); requests above a model's tier threshold are priced at the higher tier (included); Modelflare's bill is the source of truth.",
     "copy": "Copy estimate",
-    "copyText": "AnyModelBot usage estimate: {model} ({route}), {msgs} messages/day, {inTok} input + {outTok} output tokens each — about {amount}/month (30 days, prices fetched {fetchedAt})",
+    "copyText": "Axzora Bot usage estimate: {model} ({route}), {msgs} messages/day, {inTok} input + {outTok} output tokens each — about {amount}/month (30 days, prices fetched {fetchedAt})",
     "full": "See this model's full pricing ↗",
     "expandBar": "Details"
   },
@@ -144,6 +144,6 @@ export default {
     "text": "Already have a Modelflare account? Sign in once in the app and go — usage is billed per the price list.",
     "cta": "Open Modelflare ↗"
   },
-  "pageTitle": "AnyModelBot pricing — pay per use, public price list",
-  "pageDescription": "AnyModelBot is free and open source with no subscription. Model usage is billed per token by Modelflare: the public price list and a monthly cost calculator."
+  "pageTitle": "Axzora Bot pricing — pay per use, public price list",
+  "pageDescription": "Axzora Bot is free and open source with no subscription. Model usage is billed per token by Modelflare: the public price list and a monthly cost calculator."
 };

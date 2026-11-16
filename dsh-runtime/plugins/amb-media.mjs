@@ -1,4 +1,4 @@
-// anymodel bot image / video generation tools (MIT, part of anymodel bot).
+// Axzora Bot image / video generation tools (MIT, part of Axzora Bot).
 //
 // Registers media_models, media_docs, generate_image and generate_video. The agent never holds a
 // Modelflare key: each call goes to the host over the loopback bridge (AMB_BRIDGE_URL / AMB_BRIDGE_TOKEN),

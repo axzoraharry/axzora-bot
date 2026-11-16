@@ -5,7 +5,7 @@ export default {
   tabsLabel: "Выбрать персонажа",
   cost: "≈ {amount} / мес.",
   badge: {
-    org: "AnyModelBot",
+    org: "Axzora Bot",
     staff: "Роль задаёте вы",
     no: "ID",
     persona: "Характер",

@@ -12,7 +12,7 @@ export default {
   "belowLine": "通知ライン {amount} を下回っています",
   "botQuota": "Bot クレジット",
   "botLeft": "残り {percent}%",
-  "botQuotaScope": "Bot クレジットは AnyModelBot でのみ使用できます",
+  "botQuotaScope": "Bot クレジットは Axzora Bot でのみ使用できます",
   "quotaTip": "Bot クレジット残り {percent}%",
   "balanceTip": "残高 {amount}",
   "subscribeBonus": "サブスクリプションなら、プランのクレジットの 10% を Bot クレジットとして追加",

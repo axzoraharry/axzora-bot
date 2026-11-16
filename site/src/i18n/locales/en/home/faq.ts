@@ -15,7 +15,7 @@ export default {
     },
     {
       "q": "How is it different from Grok Bot, OpenAI dots or Claude Duet?",
-      "a": "They also work for you in the background, and check in when a decision is yours. The difference: AnyModelBot is open source (MIT) and runs on your own computer or server. It works with GPT, Claude, Gemini, Grok and more; the app is free and models are billed per use, with no single vendor's subscription. The README on GitHub has a full comparison table. Grok Bot, dots and Claude Duet are products of xAI, OpenAI and Anthropic respectively; AnyModelBot is not affiliated with them."
+      "a": "They also work for you in the background, and check in when a decision is yours. The difference: Axzora Bot is open source (MIT) and runs on your own computer or server. It works with GPT, Claude, Gemini, Grok and more; the app is free and models are billed per use, with no single vendor's subscription. The README on GitHub has a full comparison table. Grok Bot, dots and Claude Duet are products of xAI, OpenAI and Anthropic respectively; Axzora Bot is not affiliated with them."
     },
     {
       "q": "What's the difference between the six characters?",

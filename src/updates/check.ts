@@ -117,7 +117,7 @@ export class UpdateChecker {
     try {
       const send = this.o.fetch?.() ?? fetch;
       const res = await send(LATEST_API, {
-        headers: { Accept: "application/vnd.github+json", "User-Agent": `anymodel-bot/${this.o.current}` },
+        headers: { Accept: "application/vnd.github+json", "User-Agent": `axzora-bot/${this.o.current}` },
         signal: AbortSignal.timeout(TIMEOUT_MS),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

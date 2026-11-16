@@ -24,7 +24,7 @@ export const MODELFLARE_WEB = "https://modelflare.dev";
  * 账户登录（OIDC 授权码 + PKCE，RFC 8252 原生应用）。client_id 是公开值：本程序是公共客户端，
  * 没有也不需要客户端密钥；回调到本机 127.0.0.1 的临时端口。
  */
-export const MODELFLARE_CLIENT_ID = "anymodel-bot";
+export const MODELFLARE_CLIENT_ID = "axzora-bot";
 export const MODELFLARE_SCOPES = "openid profile offline_access account api_keys";
 
 /**
@@ -56,7 +56,7 @@ export const CONSOLE_URL = webUrl("/dashboard/overview", "amb_console");
  * 用来统计各集成的调用量）。版本必须是纯数字的 1–3 段。
  */
 export function skillHeader(version: string): Record<string, string> {
-  return /^\d{1,4}(\.\d{1,4}){0,2}$/.test(version) ? { "X-Modelflare-Skill": `anymodel-bot/${version}` } : {};
+  return /^\d{1,4}(\.\d{1,4}){0,2}$/.test(version) ? { "X-Modelflare-Skill": `axzora-bot/${version}` } : {};
 }
 
 /** 每个开启了预算的机器人有自己的内置网关 provider（自己的 API Key） */

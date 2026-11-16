@@ -6,7 +6,7 @@ export default {
   "docs": "Documentación",
   "partners": "Socios",
   "skip": "Ir al contenido principal",
-  "home": "Inicio de AnyModelBot",
+  "home": "Inicio de Axzora Bot",
   "menu": "Menú",
   "close": "Cerrar",
   "github": "GitHub",

@@ -47,10 +47,10 @@ export default {
   "retentionLink": "Modelflare’s “Data retention” doc",
   "retentionUrl": "https://docs.modelflare.dev/guides/features/data-retention/?utm_source=anymodelbot&utm_campaign=amb_homepage",
   "compare": {
-    "caption": "AnyModelBot compared with typical cloud-hosted assistants",
+    "caption": "Axzora Bot compared with typical cloud-hosted assistants",
     "head": [
       "",
-      "AnyModelBot",
+      "Axzora Bot",
       "Typical cloud-hosted assistants"
     ],
     "rows": [

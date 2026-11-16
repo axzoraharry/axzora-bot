@@ -6,7 +6,7 @@ export default {
   "chFeishu": "Feishu",
   "chWeb": "Web",
   "who": "{channel} のユーザー {name}",
-  "ownerNotice": "ボット「{bot}」の利用申請が届きました：{who}{said}\n許可するには「yes {code}」、拒否するには「no {code}」と返信してください。AnyModelBot の情報パネルからも対応できます。",
+  "ownerNotice": "ボット「{bot}」の利用申請が届きました：{who}{said}\n許可するには「yes {code}」、拒否するには「no {code}」と返信してください。Axzora Bot の情報パネルからも対応できます。",
   "allowedAck": "✅「{who}」によるこのボットの利用を許可しました",
   "deniedAck": "❌「{who}」の利用申請を拒否しました",
   "ownerOf": "{channel} の所有者{who}",

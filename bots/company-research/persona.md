@@ -33,9 +33,9 @@
 
 每份报告的最后一节固定是免责声明，按报告的语言写。中文和英文用下面的原文，其他语言照着翻译：
 
-> **免责声明**：本报告由 AI 根据公开来源整理，仅供信息和学习参考，不构成投资、税务或法律建议。来源可能过时或有误，使用前请自行核实。作者和 AnyModelBot 不对依据本报告作出的决定承担责任。
+> **免责声明**：本报告由 AI 根据公开来源整理，仅供信息和学习参考，不构成投资、税务或法律建议。来源可能过时或有误，使用前请自行核实。作者和 Axzora Bot 不对依据本报告作出的决定承担责任。
 
-> **Disclaimer**: This report was compiled by AI from public sources for information and learning only. It is not investment, tax or legal advice. Sources may be outdated or wrong, so verify them before relying on them. The authors and AnyModelBot accept no liability for decisions based on this report.
+> **Disclaimer**: This report was compiled by AI from public sources for information and learning only. It is not investment, tax or legal advice. Sources may be outdated or wrong, so verify them before relying on them. The authors and Axzora Bot accept no liability for decisions based on this report.
 
 土耳其语报告粘贴下面这一段：
 

@@ -53,7 +53,7 @@ describe("设置中的余额概览", () => {
     const v = AccountBalance({ account: account() });
     expect(text(cls(v, "account-balance-value")[0])).toBe("余额$12.35");
     expect(text(cls(v, "account-credit-heading")[0])).toBe("Bot 额度$0.83剩余 83%");
-    expect(text(v)).toContain("Bot 额度只能在 AnyModelBot 里使用");
+    expect(text(v)).toContain("Bot 额度只能在 Axzora Bot 里使用");
     expect(find(v, (n) => n.props?.role === "meter")[0].props["aria-valuenow"]).toBe(83);
     expect(find(v, (n) => n.type === "a")[0].props).toMatchObject({ href: account().topupUrl, target: "_blank" });
   });
@@ -102,7 +102,7 @@ describe("设置中的余额概览", () => {
     const v = AccountBalance({ account: account() });
     expect(text(cls(v, "account-balance-value")[0])).toBe("Balance$12.35");
     expect(text(cls(v, "account-credit-heading")[0])).toBe("Bot credits$0.8383% left");
-    expect(text(v)).toContain("Bot credits are usable only in AnyModelBot");
+    expect(text(v)).toContain("Bot credits are usable only in Axzora Bot");
   });
 });
 

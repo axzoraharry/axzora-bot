@@ -106,7 +106,7 @@ export default {
   "replaceKey": "Подключено ••••{last4}. Новый ключ заменит его.",
   "keySuccess": "Подключено · моделей: {n}",
   "keyPrivacy": "Ключ хранится только на этом устройстве. Запросы идут прямо в {name}, минуя Modelflare.",
-  "keyPrivacyServer": "Ключ хранится на сервере AnyModelBot. Запросы идут прямо в {name}, минуя Modelflare.",
+  "keyPrivacyServer": "Ключ хранится на сервере Axzora Bot. Запросы идут прямо в {name}, минуя Modelflare.",
   "jsonKept": "Не удалось прочитать JSON. Предыдущие поля формы сохранены.",
   "required": "Обязательно",
   "accountFallback": "Аккаунт Modelflare",

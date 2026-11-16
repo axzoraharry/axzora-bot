@@ -178,7 +178,7 @@ export class McpSession {
   }
 
   private static newClient(): Client {
-    return new Client({ name: "AnyModelBot", version: "1" }, { capabilities: {} });
+    return new Client({ name: "Axzora Bot", version: "1" }, { capabilities: {} });
   }
 
   private static async openHttp(target: HttpTarget, timeoutMs: number): Promise<McpSession> {

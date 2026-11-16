@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/modelflare-ai/AnyModelBot/releases">
-    <img src="docs/assets/brand/logo-eyes.webp" width="120" height="120" alt="AnyModelBot 的 Eyes 标志：两只竖向胶囊形的眼睛，会左右张望">
+    <img src="docs/assets/brand/logo-eyes.webp" width="120" height="120" alt="Axzora Bot 的 Eyes 标志：两只竖向胶囊形的眼睛，会左右张望">
   </a>
 </p>
 
 <h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/wordmark-dark.svg">
-    <img src="docs/assets/brand/wordmark-light.svg" height="40" alt="AnyModelBot">
+    <img src="docs/assets/brand/wordmark-light.svg" height="40" alt="Axzora Bot">
   </picture>
 </h1>
 
@@ -52,14 +52,14 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/hero/hero-demo.gif" alt="AnyModelBot 演示：登录 Modelflare、选择模型、让机器人整理一个文件夹，并批准一次文件移动" width="100%">
+  <img src="docs/assets/hero/hero-demo.gif" alt="Axzora Bot 演示：登录 Modelflare、选择模型、让机器人整理一个文件夹，并批准一次文件移动" width="100%">
 </p>
 
-# 🤖 AnyModelBot
+# 🤖 Axzora Bot
 
-AnyModelBot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个机器人有自己的人设、默认模型、工作区和记忆；可在应用内聊天，也可接入微信、飞书、Telegram、Slack、Discord。它能读写文件、执行命令、在授权后操作桌面；要写到工作区以外，会先问你。
+Axzora Bot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个机器人有自己的人设、默认模型、工作区和记忆；可在应用内聊天，也可接入微信、飞书、Telegram、Slack、Discord。它能读写文件、执行命令、在授权后操作桌面；要写到工作区以外，会先问你。
 
-对话、记忆、文件和 API Key 留在你的设备上。模型可走 [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)（登录后按用量付费），或使用自己的官方 API Key 直连厂商。AnyModelBot 本身没有订阅费。
+对话、记忆、文件和 API Key 留在你的设备上。模型可走 [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)（登录后按用量付费），或使用自己的官方 API Key 直连厂商。Axzora Bot 本身没有订阅费。
 
 装好即可用：后台任务、定时规则和待你确认的事项都已内置。
 
@@ -67,7 +67,7 @@ AnyModelBot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个
 
 📥 [下载](#-下载与运行) · 🌠 [截图](#-截图) · 🌟 [核心功能](#-核心功能) · 🆚 [对比](#-对比-grok-bot--openai-dots--claude-duet) · 🔐 [工作原理与隐私](#-工作原理与隐私)
 
-⭐ 喜欢 AnyModelBot？点个 Star，第一时间收到新版本。
+⭐ 喜欢 Axzora Bot？点个 Star，第一时间收到新版本。
 
 ---
 
@@ -77,7 +77,7 @@ AnyModelBot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个
 
 最省事的用法是 **[Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)**：登录即可使用模型，不用分别申请各家的 Key（想直连厂商，见[任意模型](#-任意模型通过-modelflare-或官方-api)）。可用模型、价格和当前活动以 [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme) 和 [价格表](https://modelflare.dev/pricing?utm_source=anymodelbot&utm_campaign=amb_readme) 为准。
 
-**Bot 额度**：新用户注册即送 Bot 额度，订阅 Modelflare 套餐另送套餐额度 10% 的 Bot 额度，具体以 Modelflare 页面为准。Bot 额度只能在 AnyModelBot 里使用，应用里的请求会先用它，剩余额度可在「设置 → 模型」查看。
+**Bot 额度**：新用户注册即送 Bot 额度，订阅 Modelflare 套餐另送套餐额度 10% 的 Bot 额度，具体以 Modelflare 页面为准。Bot 额度只能在 Axzora Bot 里使用，应用里的请求会先用它，剩余额度可在「设置 → 模型」查看。
 
 **[注册 Modelflare →](https://modelflare.dev/sign-up?utm_source=anymodelbot&utm_campaign=amb_readme)** ·
 [价格表](https://modelflare.dev/pricing?utm_source=anymodelbot&utm_campaign=amb_readme) ·
@@ -85,7 +85,7 @@ AnyModelBot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个
 [信任中心](https://modelflare.dev/trust?utm_source=anymodelbot&utm_campaign=amb_readme) ·
 [X](https://x.com/modelflare_dev)
 
-**AnyModelBot 怎么用 Modelflare**
+**Axzora Bot 怎么用 Modelflare**
 
 - **登录一次就行。** 首次启动会打开浏览器，登录（或注册）Modelflare。之后应用自己把这台设备连上，不用复制 Key，授权完成后会自动回到应用；还没有默认模型时，会先选好一个支持工具、花费低的模型。在 Docker 或服务器上运行？在任意设备的浏览器里登录，再把登录后的链接贴回应用。
 - **所有模型，一个选择器。** 你的 Modelflare 模型会自动列出，每个模型旁边都有上下文长度、能力标记和参考价。
@@ -100,18 +100,18 @@ AnyModelBot 是跑在 Windows / macOS / Linux 上的 AI 机器人团队。每个
 
 | 平台 | 架构 | 安装包 | |
 | :--- | :--- | :--- | :--- |
-| ![Windows][win-badge] | x64 | `anymodel-bot-<version>-win-x64.exe` | [下载][releases-link] |
-| ![Windows][win-badge] | arm64 | `anymodel-bot-<version>-win-arm64.exe` | [下载][releases-link] |
-| ![macOS][mac-badge] | Apple 芯片 | `anymodel-bot-<version>-mac-arm64.dmg` | [下载][releases-link] |
-| ![macOS][mac-badge] | Intel | `anymodel-bot-<version>-mac-x64.dmg` | [下载][releases-link] |
-| ![Linux][linux-badge] | x64 | `anymodel-bot-<version>-linux-x86_64.AppImage` | [下载][releases-link] |
-| ![Linux][linux-badge] | arm64 | `anymodel-bot-<version>-linux-arm64.AppImage` | [下载][releases-link] |
+| ![Windows][win-badge] | x64 | `axzora-bot-<version>-win-x64.exe` | [下载][releases-link] |
+| ![Windows][win-badge] | arm64 | `axzora-bot-<version>-win-arm64.exe` | [下载][releases-link] |
+| ![macOS][mac-badge] | Apple 芯片 | `axzora-bot-<version>-mac-arm64.dmg` | [下载][releases-link] |
+| ![macOS][mac-badge] | Intel | `axzora-bot-<version>-mac-x64.dmg` | [下载][releases-link] |
+| ![Linux][linux-badge] | x64 | `axzora-bot-<version>-linux-x86_64.AppImage` | [下载][releases-link] |
+| ![Linux][linux-badge] | arm64 | `axzora-bot-<version>-linux-arm64.AppImage` | [下载][releases-link] |
 
 <p align="center">
-  <img src="docs/assets/download/install-windows.gif" alt="在 Windows 上安装 AnyModelBot：运行安装程序、打开应用，来到 Modelflare 登录页" width="100%">
+  <img src="docs/assets/download/install-windows.gif" alt="在 Windows 上安装 Axzora Bot：运行安装程序、打开应用，来到 Modelflare 登录页" width="100%">
 </p>
 
-**首次打开。** Windows 出现系统风险提示时，点「更多信息 → 仍要运行」。macOS 版已完成 Developer ID 签名和苹果公证，将应用拖入「应用程序」后打开；首次出现下载确认时点「打开」。Linux 先给 AppImage 加可执行权限（`chmod +x`）再运行。关闭窗口会把 AnyModelBot 收到托盘，要退出请用托盘菜单或设置里的选项。
+**首次打开。** Windows 出现系统风险提示时，点「更多信息 → 仍要运行」。macOS 版已完成 Developer ID 签名和苹果公证，将应用拖入「应用程序」后打开；首次出现下载确认时点「打开」。Linux 先给 AppImage 加可执行权限（`chmod +x`）再运行。关闭窗口会把 Axzora Bot 收到托盘，要退出请用托盘菜单或设置里的选项。
 
 **校验下载文件。**
 
@@ -124,7 +124,7 @@ macOS 用 `shasum -a 256 <文件名>`，Windows PowerShell 用 `Get-FileHash <�
 **用 Docker 部署到 NAS 或服务器**（镜像同时支持 x64 和 arm64）
 
 ```bash
-docker run -d --name amb -p 3600:3600 -v amb-data:/data ghcr.io/modelflare-ai/anymodel-bot
+docker run -d --name amb -p 3600:3600 -v amb-data:/data ghcr.io/modelflare-ai/axzora-bot
 docker exec amb cat /data/ui-token   # 然后打开 http://<主机>:3600/?token=<令牌>
 ```
 
@@ -134,7 +134,7 @@ docker exec amb cat /data/ui-token   # 然后打开 http://<主机>:3600/?token=
 
 ```bash
 git clone https://github.com/modelflare-ai/AnyModelBot.git
-cd AnyModelBot
+cd Axzora Bot
 npm install
 npm run setup      # 拉取并编译内置网关
 npm start          # 本地管理界面：http://127.0.0.1:3600/
@@ -183,7 +183,7 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/screenshots/bots-dark.webp">
-  <img src="docs/assets/screenshots/bots-light.webp" alt="六个 AnyModelBot 角色排成一排，每个有自己的颜色" width="100%">
+  <img src="docs/assets/screenshots/bots-light.webp" alt="六个 Axzora Bot 角色排成一排，每个有自己的颜色" width="100%">
 </picture>
 
 <p align="center"><i>六个角色，帮你分清不同的机器人。它们的眼睛会跟着你的鼠标转。</i></p>
@@ -221,7 +221,7 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 - **影视创作室：** 做短视频和分集短剧，从剧本、分镜到配音、剪辑和成片。
 - **美股研报：** 查阅美股财报和申报文件，写出数据可追溯的研究报告。
 
-影视创作室需要 AnyModelBot 0.1.23 及以上版本、本机 Python 3.10+ 和 FFmpeg（含 ffprobe）。AI 图片和视频通过 Modelflare 按用量计费；项目与素材保存在你的设备上。
+影视创作室需要 Axzora Bot 0.1.23 及以上版本、本机 Python 3.10+ 和 FFmpeg（含 ffprobe）。AI 图片和视频通过 Modelflare 按用量计费；项目与素材保存在你的设备上。
 
 完整介绍见[官网的 Bot 页面](https://anymodel.bot/bots)。
 
@@ -236,7 +236,7 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 - **随时暂停。** 机器人设置 › 主动消息里一个开关暂停后台工作，聊天照常。
 - **用完会清理。** 任务和运行记录留 30 天；任务文件夹 30 天没动过会自动删除，不来问你，任务详情里写着哪天删，想留就点保留。运行记录能导出成 Markdown。
 
-运行时基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)，设计参考了 DeepSeek 的 [Super Agent 原型](https://github.com/deepseek-ai/dsh-superagent-prototype)。完整介绍见[《AnyModelBot 超级智能体》](./docs/blog/superagent.md)。
+运行时基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)，设计参考了 DeepSeek 的 [Super Agent 原型](https://github.com/deepseek-ai/dsh-superagent-prototype)。完整介绍见[《Axzora Bot 超级智能体》](./docs/blog/superagent.md)。
 
 ## 🖥️ 操作你的电脑，生成图片和视频
 
@@ -257,8 +257,8 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 - **或者用自己的官方 API Key。** 支持 OpenAI、Anthropic、Google Gemini、xAI、DeepSeek、Kimi、GLM、Qwen、MiniMax 和 Mistral。Key 只存在你的设备上，模型请求直接发给厂商，不经过 Modelflare，费用由厂商收取。生图和生视频目前只能通过 Modelflare 使用。
 - **一个选择器，覆盖所有模型。** GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等，每个都标出上下文长度、能力和参考价。
 - **按对话切换**，也可以给每个机器人设默认模型；记忆整理、上下文交接这类后台小任务，还能单独指定一个模型。
-- **三个 API 域名。** `modelflare.dev`、`origin.modelflare.dev` 和 `cf.modelflare.dev` 均可选择；可在设置中测速，AnyModelBot 不会自动切换。
-- **按量付费。** 钱包余额、低余额提醒、每日用量、每个机器人的预算 Key 都内置。AnyModelBot 本身没有订阅费。
+- **三个 API 域名。** `modelflare.dev`、`origin.modelflare.dev` 和 `cf.modelflare.dev` 均可选择；可在设置中测速，Axzora Bot 不会自动切换。
+- **按量付费。** 钱包余额、低余额提醒、每日用量、每个机器人的预算 Key 都内置。Axzora Bot 本身没有订阅费。
 
 <p align="center">
   <img src="docs/assets/features/first-run.gif" alt="首次启动：点「登录 Modelflare」，在浏览器里授权，回到应用后模型已列出，发出第一条消息" width="100%">
@@ -297,7 +297,7 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 - **托盘与开机自启。** 关闭窗口会收到托盘；macOS 和 Windows 支持开机自启。
 
 <p align="center">
-  <img src="docs/assets/features/characters-eyes.gif" alt="六个 AnyModelBot 角色排成一排，鼠标从它们上方移过时，眼睛会跟着转" width="100%">
+  <img src="docs/assets/features/characters-eyes.gif" alt="六个 Axzora Bot 角色排成一排，鼠标从它们上方移过时，眼睛会跟着转" width="100%">
 </p>
 
 > [!NOTE]
@@ -305,9 +305,9 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 
 # 🆚 对比 Grok Bot / OpenAI dots / Claude Duet
 
-2026 年下半年，xAI 的 [Grok Bot](https://x.ai/bot)、OpenAI 的 [dots](https://openai.com/index/introducing-dots/) 和 Anthropic 的 Claude Duet 接连发布。它们也是常驻后台、替你干活的 AI，需要你拍板时再来问你。AnyModelBot 做的是同一类事，换了一种做法：开源、跑在你自己的设备上、任意模型都能用。
+2026 年下半年，xAI 的 [Grok Bot](https://x.ai/bot)、OpenAI 的 [dots](https://openai.com/index/introducing-dots/) 和 Anthropic 的 Claude Duet 接连发布。它们也是常驻后台、替你干活的 AI，需要你拍板时再来问你。Axzora Bot 做的是同一类事，换了一种做法：开源、跑在你自己的设备上、任意模型都能用。
 
-| | AnyModelBot | Grok Bot | OpenAI dots | Claude Duet |
+| | Axzora Bot | Grok Bot | OpenAI dots | Claude Duet |
 | :--- | :--- | :--- | :--- | :--- |
 | 开源 | ✅ MIT | — | — | — |
 | 运行位置 | 你自己的电脑或服务器 | xAI 的云端电脑 | OpenAI 的云端电脑 | Anthropic 的云端 |
@@ -316,10 +316,10 @@ npm start          # 本地管理界面：http://127.0.0.1:3600/
 | 在哪找它 | 桌面应用（Windows、macOS、Linux）、Docker、微信、飞书、Telegram、Slack、Discord | 桌面应用、iPhone | ChatGPT、Slack、Teams | iOS、Android、claude.ai |
 | 现在能用吗 | 直接下载 | 测试版 | 部分地区开放 | 研究预览，美国候补名单 |
 
-AnyModelBot 同样能在后台干活：交代的任务可以在后台跑完，再把结果发到你用的聊天渠道；需要你批准或回答时，它会出现在侧栏的「需要你」里。机器人做的每一步都看得见，越出工作区的操作先问你。
+Axzora Bot 同样能在后台干活：交代的任务可以在后台跑完，再把结果发到你用的聊天渠道；需要你批准或回答时，它会出现在侧栏的「需要你」里。机器人做的每一步都看得见，越出工作区的操作先问你。
 
 > [!NOTE]
-> 其他产品的信息来自 2026 年 10 月的公开报道，可能已有变化，以各家官方说明为准。Grok Bot、dots、Claude Duet 分别是 xAI、OpenAI、Anthropic 的产品和商标，AnyModelBot 与它们没有关联。
+> 其他产品的信息来自 2026 年 10 月的公开报道，可能已有变化，以各家官方说明为准。Grok Bot、dots、Claude Duet 分别是 xAI、OpenAI、Anthropic 的产品和商标，Axzora Bot 与它们没有关联。
 
 # 🔐 工作原理与隐私
 
@@ -394,7 +394,7 @@ Modelflare 会保留请求日志；保留什么、保留多久，见它的[信�
 
 # 🔗 相关项目
 
-- [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)：AnyModelBot 模型背后的 AI API 网关。
+- [Modelflare](https://modelflare.dev/?utm_source=anymodelbot&utm_campaign=amb_readme)：Axzora Bot 模型背后的 AI API 网关。
 - [magpie](https://github.com/yetone/magpie)：随应用打包的 Go 网关（MIT）。
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)：智能体运行时（MIT）。
 - [Cua](https://github.com/trycua/cua)：电脑操作驱动。
@@ -415,7 +415,7 @@ Modelflare 会保留请求日志；保留什么、保留多久，见它的[信�
 # 🚀 贡献者
 
 <a href="https://github.com/modelflare-ai/AnyModelBot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=modelflare-ai/AnyModelBot" alt="AnyModelBot 的贡献者" />
+  <img src="https://contrib.rocks/image?repo=modelflare-ai/AnyModelBot" alt="Axzora Bot 的贡献者" />
 </a>
 
 # ⭐️ Star 趋势
@@ -424,13 +424,13 @@ Modelflare 会保留请求日志；保留什么、保留多久，见它的[信�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" />
-    <img alt="AnyModelBot 的 Star 趋势图" src="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" width="100%" />
+    <img alt="Axzora Bot 的 Star 趋势图" src="https://api.star-history.com/svg?repos=modelflare-ai/AnyModelBot&type=Date" width="100%" />
   </picture>
 </a>
 
 # 📜 许可证
 
-AnyModelBot 以 [MIT 许可证](./LICENSE)发布。随附的第三方软件保留各自的许可证，见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) 和 [`LICENSES/`](./LICENSES) 目录。
+Axzora Bot 以 [MIT 许可证](./LICENSE)发布。随附的第三方软件保留各自的许可证，见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) 和 [`LICENSES/`](./LICENSES) 目录。
 
 <!-- link & badge references -->
 [release-shield]: https://img.shields.io/github/v/release/modelflare-ai/AnyModelBot?include_prereleases&label=release&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB4PSIzIiB5PSI5IiB3aWR0aD0iOTQiIGhlaWdodD0iODIiIHJ4PSIzNiIgZmlsbD0iI2Q3ZmYwMCIvPjxyZWN0IHg9IjI5IiB5PSIzNiIgd2lkdGg9IjEzIiBoZWlnaHQ9IjI4IiByeD0iNi41IiBmaWxsPSIjMTYxYTAwIi8+PHJlY3QgeD0iNTgiIHk9IjM2IiB3aWR0aD0iMTMiIGhlaWdodD0iMjgiIHJ4PSI2LjUiIGZpbGw9IiMxNjFhMDAiLz48L3N2Zz4=&style=flat-square&labelColor=161a00&color=d7ff00

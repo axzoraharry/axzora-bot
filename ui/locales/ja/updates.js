@@ -24,7 +24,7 @@ export default {
     "unsupported": "この起動方法ではアプリ内更新を利用できません。"
   },
   "whatsNew": {
-    "title": "AnyModelBot を {version} に更新しました",
+    "title": "Axzora Bot を {version} に更新しました",
     "availableTitle": "{version} の更新内容",
     "historyTitle": "更新履歴",
     "earlier": "以前のバージョン",
